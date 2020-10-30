@@ -4,7 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Child Selector</title>
-    <style></style>
+    <style>
+        /* Any article element which a direct child of a session element, i.e., any article
+        element whose immediate parent is a section element. */
+        section > article {
+            color: green;
+            font-size: 24px;
+        }
+        /* Any h2 element which is a direct child of a section element, i.e., any h2 element
+        whose immediate parent is a section element */
+        section > h2 {
+            color: red;
+        }
+    </style>
 </head>
 <body>
     <h1>Child Selector</h1>
