@@ -7,15 +7,28 @@
     <style>
         body > div, span {
             background-color: blue;
+            color: wheat;
         }
         a:hover div:nth-child(5){
             background-color: rgb(255, 0, 0);
         }
+        div:nth-child(5) {
+            cursor: pointer;
+        }
+        div:nth-child(4){
+            cursor: progress;
+            display: inline;
+            background-color: coral;
+        }
+        div:nth-child(4):hover{
+            background-color: darkblue;
+            color: white;
+        }
     </style>
 </head>
 <body>
-    <div>Hello</div>
-    <span>World</span>
+    <div>Hello [div]</div>
+    <span>World [span]</span>
     <a>
         <div>Div 1</div>
         <div>Div 2</div>
