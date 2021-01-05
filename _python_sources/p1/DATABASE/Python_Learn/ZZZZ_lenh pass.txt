@@ -1,0 +1,25 @@
+Trong bài trước bạn đã biết cách dùng lệnh continue và lệnh break trong Python để thay đổi vòng lặp. Trong phần này chúng ta sẽ tiếp tục một lệnh khác, lệnh pass trong Python, dùng như một placeholder (trình giữ chỗ) cho việc thực thi các hàm, vòng lặp,... trong tương lai.
+
+Trong Python, pass là một lệnh trống. Nói nôm na thì lệnh pass không làm gì cả, nó chỉ giữ chỗ cho các hàm, vòng lặp mà bạn đã thêm vào, nhưng chưa dùng đến trong hiện tại mà để "dành cho con cháu" mở rộng trong tương lai.
+
+Vậy lệnh pass với chú thích, bình luận có giống nhau không? Không nhé, trình biên dịch code sẽ bỏ qua comment hoàn toàn, nhưng pass thì không bị bỏ qua.
+
+Cấu trúc của lệnh pass trong Python
+pass
+Chúng ta thường sử dụng lệnh này như một placeholder. Giả sử, bạn có một vòng lặp, hoặc một hàm, nhưng chưa biết nên xây dựng nó như thế nào, chưa biết nên code sao cho tối ưu và muốn để lại làm sau. Nhưng hàm, lệnh đó không thể có một khối lệnh rỗng, trình biên dịch sẽ báo lỗi, vì thế, chỉ cần sử dụng lệnh pass để xây dựng một khối lệnh rỗng, lúc này trình biên dịch sẽ hiểu và không "phàn nàn" gì bạn nữa.
+
+Ví dụ về lệnh pass
+# pass chỉ giữ chỗ cho for
+# hàm sẽ được thêm vào sau.
+sequence = {'p', 'a', 's', 's'}
+for val in sequence:
+    pass
+Trong đoạn code trên, pass đã tạo nên một khối lệnh rỗng cho vòng lặp for. Khi bạn chạy khối lệnh sẽ thấy chẳng có gì xảy ra cả, với một lệnh pass như thế là thành công rồi đấy.
+
+Với các hàm hay class bạn muốn để dành cũng có thể làm tương tự:
+
+def function(args): pass
+hay:
+
+class example: pass
+Trong bài tiếp theo bạn sẽ biết về các kỹ thuật lặp trong Python với rất nhiều ví dụ minh họa, đừng bỏ lỡ nhé.

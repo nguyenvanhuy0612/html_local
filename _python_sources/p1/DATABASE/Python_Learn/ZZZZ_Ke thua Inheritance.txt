@@ -1,0 +1,92 @@
+Kế thừa trong lập trình hướng đối tượng cho phép chúng ta khai báo lớp mới sử dụng lại các hàm và thuộc tính của lớp cha cùng các chức năng mở rộng thêm. Trong bài viết này, Quantrimang sẽ cùng bạn học cách sử dụng tính kế thừa trong Python.
+
+Kế thừa là gì?
+Kế thừa (Inheritance) cho phép một lớp (class) có thể kế thừa các thuộc tính và phương thức từ các lớp khác đã được định nghĩa. Lớp đã có gọi là lớp cha (base class hoặc parent class), lớp mới phát sinh gọi là lớp con (child class hoặc derived class). Lớp con kế thừa tất cả thành phần của lớp cha, có thể mở rộng các thành phần kế thừa và bổ sung thêm các thành phần mới.
+
+Cú pháp của kế thừa
+
+class BaseClass:
+     Body of base class
+
+class DerivedClass(BaseClass):
+     Body of derived class
+Để rõ hơn về việc sử dụng kế thừa, chúng ta hãy lấy một ví dụ.
+
+Đa giác là một hình khép kín có 3 cạnh trở lên. Chúng ta có một lớp gọi là DaGiac được định nghĩa như sau.
+
+class DaGiac:
+
+     def __init__(self, socanh):
+        self.n = socanh
+        self.canh = [0 for i in range(socanh)]
+
+     def nhapcanh(self):
+        self.canh = [float(input("Bạn hãy nhập giá trị cạnh "+str(i+1)+" : ")) for i in range(self.n)]
+
+     def hienthicanh(self):
+        for i in range(self.n):
+        print("Giá trị cạnh",i+1,"là",self.canh[i])
+Class DaGiac có thuộc tính n để định nghĩa số cạnh và canh để lưu giá trị mỗi cạnh. Hàm nhapcanh() lấy độ lớn các cạnh và hienthicanh() sẽ hiện thị danh sách các cạnh của đa giác.
+
+Hình tam giác là đa giác có ba cạnh, nên ta sẽ tạo một lớp TamGiac kế thừa từ DaGiac. Class mới này sẽ thừa kế tất cả các thuộc tính sẵn có trong lớp cha nên bạn sẽ không cần khai báo lại (khả năng sử dụng lại code). TamGiac này được khai báo như sau:
+
+class TamGiac(DaGiac):
+
+     def __init__(self):
+        DaGiac.__init__(self,3)
+
+     def dientich(self):
+        a, b, c = self.canh
+        # Tính nửa chu vi
+        s = (a + b + c) / 2
+        area = (s*(s-a)*(s-b)*(s-c)) ** 0.5
+        print('Diện tích của hình tam giác là %0.2f' %area)
+Lớp TamGiac không chỉ kế thừa mà còn định nghĩa thêm một hàm mới là hàm dientich.
+
+>>> t = TamGiac()
+>>> t.nhapcanh()
+Bạn hãy nhập giá trị cạnh 1 : 3
+Bạn hãy nhập giá trị cạnh 2 : 5
+Bạn hãy nhập giá trị cạnh 3 : 4
+
+>>> t.hienthicanh()
+Giá trị cạnh 1 là 3.0
+Giá trị cạnh 2 là 5.0
+Giá trị cạnh 3 là 4.0
+
+>>> t.dientich()
+Diện tích của hình tam giác là 6.00
+Ta có thể thấy, các hàm nhapcanh(), hienthicanh() đều không có trong class TamGiac, nhưng chúng ta vẫn sử dụng được chúng
+
+Overriding (Ghi đè) trong Python
+Python cho phép ghi đè lên các phương thức của lớp cha. Bạn có thể thực hiện việc ghi đè phương thức của lớp cha nếu muốn có tính năng khác biệt hoặc đặc biệt trong lớp con.
+
+Trong ví dụ trên ta thấy class TamGiac sử dụng lại hàm __init__() từ class DaGiac, nếu bạn muốn override (ghi đè) lại định nghĩa của hàm __init__() trong class cha, ta dùng hàm super().
+
+super () .__ init __ (3) tương đương với DaGiac.__ init __ (self, 3)
+
+Ngoài ra Python có hai hàm isinstance() và issubclass() được dùng để kiểm tra mối quan hệ của hai lớp và instance.
+
+Hàm issubclass(classA, classB) trả về True nếu class A là lớp con của class B.
+
+>>> issubclass(DaGiac,TamGiac)
+False
+
+>>> issubclass(TamGiac,DaGiac)
+True
+
+>>> issubclass(bool,int)
+True
+Hàm isinstance(obj, Class) trả về True nếu obj là một instance của lớp Class hoặc là một instance của lớp con của Class.
+
+>>> isinstance(t,TamGiac)
+True
+
+>>> isinstance(t,DaGiac)
+True
+
+>>> isinstance(t,int)
+False
+
+>>> isinstance(t,object)
+True

@@ -1,0 +1,19 @@
+Standard Libraries
+
+BuiiltIn
+Collections
+DateTime
+Dialogs
+OperatingSystem
+Process
+Remote
+Screenshot
+String
+Telnet
+XML
+
+
+https://github.com/robotframework/SeleniumLibrary/issues/1531
+https://www.google.com/search?q=share+the+WebDriver+instance&rlz=1C1CHWL_viVN892VN892&oq=share+the+WebDriver+instance&aqs=chrome..69i57&sourceid=chrome&ie=UTF-8
+https://github.com/qxf2/qxf2-page-object-model
+https://stackoverflow.com/questions/31661189/robot-framework-reuse-existing-browser-window-between-tests

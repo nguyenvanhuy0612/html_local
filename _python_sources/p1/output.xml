@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2.2 (Python 3.7.9 on win32)" generated="20201228 23:10:57.723" rpa="false">
+<suite id="s1" name="Project1 1" source="C:\Users\NGUYENHUY\Documents\ideaIC-2020.3.win\Projects\PYTHON\test\p1\Project1\project1_1.robot">
+<test id="s1-t1" name="Base Keyword">
+<kw name="Open Browser" library="Selenium2Library">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>https://google.com</arg>
+<arg>chrome</arg>
+</arguments>
+<msg timestamp="20201228 23:10:57.946" level="INFO">Opening browser 'chrome' to base url 'https://google.com'.</msg>
+<status status="PASS" starttime="20201228 23:10:57.945" endtime="20201228 23:11:03.423"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>5</arg>
+</arguments>
+<msg timestamp="20201228 23:11:08.424" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20201228 23:11:03.423" endtime="20201228 23:11:08.424"></status>
+</kw>
+<kw name="Get WebElement" library="Selenium2Library">
+<doc>Returns the first WebElement matching the given ``locator``.</doc>
+<arguments>
+<arg>name:q</arg>
+</arguments>
+<assign>
+<var>${search}</var>
+</assign>
+<msg timestamp="20201228 23:11:08.456" level="INFO">${search} = &lt;selenium.webdriver.remote.webelement.WebElement (session="f7c8ee12e92751a8103afe99495900cb", element="340d2a09-0219-4867-a8c1-e112f3a5c065")&gt;</msg>
+<status status="PASS" starttime="20201228 23:11:08.425" endtime="20201228 23:11:08.457"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${search}</arg>
+</arguments>
+<status status="PASS" starttime="20201228 23:11:08.457" endtime="20201228 23:11:08.458"></status>
+</kw>
+<kw name="Highlight Element" library="BaseKeyword">
+<doc>Highlights (blinks) a Selenium Webdriver element</doc>
+<arguments>
+<arg>${search}</arg>
+</arguments>
+<status status="PASS" starttime="20201228 23:11:08.458" endtime="20201228 23:11:09.491"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>5</arg>
+</arguments>
+<msg timestamp="20201228 23:11:14.492" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20201228 23:11:09.492" endtime="20201228 23:11:14.492"></status>
+</kw>
+<kw name="Get Current Web Driver" library="BaseKeyword">
+<assign>
+<var>${btnSearch}</var>
+</assign>
+<msg timestamp="20201228 23:11:14.494" level="INFO">${btnSearch} = &lt;selenium.webdriver.chrome.webdriver.WebDriver (session="f7c8ee12e92751a8103afe99495900cb")&gt;</msg>
+<status status="PASS" starttime="20201228 23:11:14.493" endtime="20201228 23:11:14.494"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${btnSearch}</arg>
+</arguments>
+<status status="PASS" starttime="20201228 23:11:14.494" endtime="20201228 23:11:14.495"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>5</arg>
+</arguments>
+<msg timestamp="20201228 23:11:19.497" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20201228 23:11:14.496" endtime="20201228 23:11:19.497"></status>
+</kw>
+<status status="PASS" starttime="20201228 23:10:57.944" endtime="20201228 23:11:19.498" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20201228 23:10:57.725" endtime="20201228 23:11:19.500"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0">Critical Tests</stat>
+<stat pass="1" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" id="s1" name="Project1 1">Project1 1</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

@@ -1,0 +1,245 @@
+Package trong python
+
+
+Dẫn nhập
+Trong bài trước, Kteam đã giới thiệu với bạn MODULE TRONG PYTHON. Ở bài này chúng ra sẽ cùng tìm hiểu về Package trong Python.
+
+Nội dung
+Để đọc hiểu bài này tốt nhất bạn cần:
+
+Cài đặt sẵn MÔI TRƯỜNG PHÁT TRIỂN CỦA PYTHON.
+Xem qua bài CÁCH CHẠY CHƯƠNG TRÌNH PYTHON.
+Các kiểu dữ liệu SỐ, CHUỖI, LIST, TUPLE , .... được giới thiệu trong Python.
+Xem qua bài MODULE TRONG PYTHON
+HƯỚNG ĐỘI TƯỢNG PYTHON (có là một lợi thế)
+Bạn và Kteam sẽ cùng tìm hiểu những nội dung sau đây
+
+Giới thiệu package trong Python
+Package import cơ bản
+File __init__.py (initialization)
+Biến __all__
+Giới thiệu package trong Python
+Ở bài trước, bạn đã biết về việc import các module. Và dĩ nhiên bạn cũng đã biết rằng các module phải nằm cùng một folder với file Python mà chúng ta chạy lệnh import các module đó. Tuy nhiên, ta thử đặt một câu hỏi như thế này
+Chúng ta sẽ xử lí thế nào nếu như có vài trăm module thậm chí lên tới cả nghìn?
+Bỏ tất cả các module vào một folder? Có vẻ không hay cho lắm khi việc này ảnh hưởng khá nhiều tới việc tìm kiếm các module nếu như chúng ta cần chỉnh sửa, thay đổi và đôi khi những module có thể trùng tên nhau.
+Giải pháp ở đây là ta phân nhóm các module, mỗi nhóm module ta tạo cho nó một folder. Rõ ràng, việc này đã giúp chúng ta dễ dàng xử lí các module hơn.
+Nhưng điều này lại nảy sinh vấn đề. Làm sao ta có thể import các module này khi file a bên folder A muốn module b bên file B và file d nằm trong folder D và folder D nằm trong folder C?
+Dễ thôi, chúng ta sẽ sử dụng đường dẫn của các module. Trong Python, việc chỉ cho con trăn này đường dẫn các module có hơi một chút thông qua khái niệm Package.
+Nôm na, Package là một folder chứa các module, package con (sub package) và bên cạnh đó là file __init__.py.
+
+Package import cơ bản
+Chúng ta sẽ đến với những thứ cơ bản của package import. Đầu tiên ta tạo một thư mục như sau:
+
+main.py
+kteam_package\
+    __init__.py
+    module_1.py
+    module_2.py
+
+Và giống như bài trước, main.py chính là file mà chúng ta sẽ chạy. File __init__.py tạm thời ta sẽ đụng đến.
+
+# module_a.py
+
+a_var = 123
+
+def func():
+    print("func in module a")
+
+# module_b.py
+
+b_var = 456
+
+def func():
+    print("func in module b")
+
+Đầu tiên, ta sẽ chạy file main.py với nội dung sau đây và xem cách mà chúng ta import một module nằm ở trong môt folder.
+
+# main.py
+
+import kteam_package.module_a, kteam_package.module_b as mod_b
+
+kteam_package.module_a.func()
+print(kteam_package.module_a.a_var)
+
+mod_b.func()
+print(mod_b.b_var)
+
+Kết quả:
+
+func in module a
+123
+func in module b
+456
+a.func_module_a()
+print(a.local_var)
+
+Như bạn đã thấy, thay vì truy xuất đường dẫn file một cách thông thường folder\file thì Python sử dụng folder.file. Và dĩ nhiên, bạn hoàn toàn có thể truy xuất file nằm trong folder nằm trong một folder folder\sub_folder\file bằng cách folder.sub_folder.file. Nó tương tự như là package.sub_package.module.
+
+Bạn cũng có thể sử dụng from nếu như thấy cái phần tên của kteam_package quá dài dòng.
+
+# main.py
+
+from kteam_package import module_a as mod_a, module_b as mod_b
+
+mod_a.func()
+print(mod_a.a_var)
+
+mod_b.func()
+print(mod_b.b_var)
+
+Kết quả:
+
+func in module a
+123
+func in module b
+456
+
+Và đây cũng là cách mà mọi người thường làm và bạn cũng nên theo.
+
+Bạn cũng hoàn toàn có thể import một package. Tuy nhiên, điều này là không nên
+
+# main.py
+
+import kteam_package
+
+print(kteam_package.module_a)
+kteam_package.module_a.func()
+
+Bạn không thể truy xuất các module thông qua package kiểu này.
+
+File __init__.py (initialization)
+Mỗi package đều phải chứa file này. Nhìn chung, file này sẽ được tự động chạy khi bạn package được import.
+
+# __init__.py
+
+print("package is imported")
+
+# main.py
+
+import kteam_package
+
+Kết quả:
+
+package is imported
+1
+Một điều thú vị nữa là, các biến khởi tạo trong file __init__.py cũng được khởi tạo đồng thời.
+
+# __init__.py
+
+print("package is imported")
+kteam_init = "Free Education"
+
+# main.py
+
+import kteam_package
+
+print(kteam_package.kteam_init)
+
+ Kết quả:
+
+package is imported
+Free Education
+
+Nhìn rộng ra, file __init__.py này nhằm mục đích khởi tạo những thứ cần thiết cho package trong trường hợp bạn import package này. Điển hình là bạn có thể làm một số thứ như thế này
+
+Một điều thú vị nữa là, các biến khởi tạo trong file __init__.py cũng được khởi tạo đồng thời.
+
+# __init__.py
+
+print("package is imported")
+
+from kteam_package import module_a, module_b as mod_b
+
+# main.py
+
+import kteam_package
+
+kteam_package.module_a.func()
+kteam_package.mod_b.func()
+
+Kết quả:
+
+package is imported
+func in module a
+func in module b
+
+Nếu như lúc nãy khi ta chỉ import mỗi package, ta sẽ không sử dụng được các module. Tuy nhiên bằng một vài xử lí ở file __init__.py, ta có thể sử dụng được các module khi import package.
+
+Bạn để ý ở file __init__.py, tuy nằm cùng với các folder với module_a, module_b, nhưng khi import lại sử dụng package import. Nếu bạn thử chạy file __init__.py chắc chắn sẽ có lỗi xảy ra. Tại sao lại xảy ra điều này thì mình sẽ để lại cho các bạn tự nghiền ngẫm vì nó không quá khó.
+
+Biến __all__
+Ở bài trước, nếu muốn import tất nội dung của một module thì ta sử dụng cú pháp from module import *. Bây giờ ta muốn import tất cả các module của một package thì làm sao? Điều này cũng tương tự, tuy nhiên có một chút khác biệt.
+Với module, khi bạn import tất cả có nghĩa là tất cả các biến, hàm, lớp,… nói chung là toàn bộ nội dung của module đó (một số trường hợp ngoại lệ, tuy nhiên ta sẽ không đề cập ở đây vì nó rất hiếm gặp). Còn với package ta có thể quy định “tất cả” ở đây là gồm những gì. Mặc định khi bạn không quy ước thì “tất cả” thì “tất cả” bằng không có gì.
+Việc quy ước tất cả này liên quan tới biến __all__, và dĩ nhiên, để dễ dàng thì nó thường sẽ nằm trong file __init__.py.
+Ta sẽ đến với từng trường hợp một để thấy rõ điều này.
+Trường hợp đầu tiên là ta không quy định gì cho “tất cả”
+
+# __init__.py
+
+print("package is imported")
+
+# không tác động gì tới biến __all__
+
+# main.py
+
+from kteam_package import *
+
+module_a.func()
+module_b.func()
+
+Kết quả:
+
+package is imported
+NameError: name 'module_a' is not defined
+
+Quy định “tất cả” gồm module_a
+
+# __init__.py
+
+print("package is imported")
+
+__all__ = [
+        'module_a',
+]
+
+# main.py
+
+from kteam_package import *
+
+module_a.func()
+module_b.func()
+
+Kết quả:
+
+package is imported
+func in module a
+NameError: name 'module_b' is not defined
+
+Còn đây là khi “tất cả” thực sự là tất cả
+
+# __init__.py
+
+print("package is imported")
+
+__all__ = [
+        'module_a',
+        'module_b',
+]
+
+# main.py
+
+from kteam_package import *
+
+module_a.func()
+module_b.func()
+
+Kết quả:
+
+package is imported
+func in module a
+func in module b
+
+Kết luận
+Qua bài viết này, Bạn đã biết sơ lược về việc import các package trong Python.
+
+Ở bài viết tiếp theo, ta sẽ tiếp tục tìm hiểu về một số thứ liên quan tới việc import này thông qua một số biến đặc biệt.
