@@ -1,0 +1,162 @@
+
+C:\Users\NGUYENHUY\Documents\Projects\_batch_scripts>ECHO OFF 
+
+Windows IP Configuration
+
+   Host Name . . . . . . . . . . . . : HUYNGUYEN
+   Primary Dns Suffix  . . . . . . . : 
+   Node Type . . . . . . . . . . . . : Hybrid
+   IP Routing Enabled. . . . . . . . : No
+   WINS Proxy Enabled. . . . . . . . : No
+
+Ethernet adapter Local Area Connection 4:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : Fortinet SSL VPN Virtual Ethernet Adapter
+   Physical Address. . . . . . . . . : 00-09-0F-AA-00-01
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+
+Ethernet adapter Local Area Connection 2:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : Fortinet virtual adapter
+   Physical Address. . . . . . . . . : 00-09-0F-FE-00-01
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+
+Ethernet adapter Local Area Connection:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : Realtek PCIe GbE Family Controller
+   Physical Address. . . . . . . . . : B4-B5-2F-84-57-72
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+
+Wireless LAN adapter Wireless Network Connection:
+
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : Atheros AR5B93 Wireless Network Adapter
+   Physical Address. . . . . . . . . : 00-22-5F-99-27-E4
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+   IPv4 Address. . . . . . . . . . . : 192.168.1.229(Preferred) 
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Lease Obtained. . . . . . . . . . : Friday, January 15, 2021 10:06:42 PM
+   Lease Expires . . . . . . . . . . : Saturday, January 16, 2021 10:06:40 PM
+   Default Gateway . . . . . . . . . : 192.168.1.1
+   DHCP Server . . . . . . . . . . . : 192.168.1.1
+   DNS Servers . . . . . . . . . . . : 192.168.1.1
+   NetBIOS over Tcpip. . . . . . . . : Enabled
+
+Ethernet adapter VMware Network Adapter VMnet1:
+
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : VMware Virtual Ethernet Adapter for VMnet1
+   Physical Address. . . . . . . . . : 00-50-56-C0-00-01
+   DHCP Enabled. . . . . . . . . . . : No
+   Autoconfiguration Enabled . . . . : Yes
+   Link-local IPv6 Address . . . . . : fe80::45cb:4a52:9732:7bad%16(Preferred) 
+   IPv4 Address. . . . . . . . . . . : 192.168.232.1(Preferred) 
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . : 
+   DHCPv6 IAID . . . . . . . . . . . : 268456022
+   DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-27-09-F6-EF-00-22-5F-99-27-E4
+   DNS Servers . . . . . . . . . . . : fec0:0:0:ffff::1%1
+                                       fec0:0:0:ffff::2%1
+                                       fec0:0:0:ffff::3%1
+   NetBIOS over Tcpip. . . . . . . . : Enabled
+
+Ethernet adapter VMware Network Adapter VMnet8:
+
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : VMware Virtual Ethernet Adapter for VMnet8
+   Physical Address. . . . . . . . . : 00-50-56-C0-00-08
+   DHCP Enabled. . . . . . . . . . . : No
+   Autoconfiguration Enabled . . . . : Yes
+   Link-local IPv6 Address . . . . . : fe80::954e:e30c:cff0:4482%17(Preferred) 
+   IPv4 Address. . . . . . . . . . . : 192.168.130.1(Preferred) 
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . : 
+   DHCPv6 IAID . . . . . . . . . . . : 285233238
+   DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-27-09-F6-EF-00-22-5F-99-27-E4
+   DNS Servers . . . . . . . . . . . : fec0:0:0:ffff::1%1
+                                       fec0:0:0:ffff::2%1
+                                       fec0:0:0:ffff::3%1
+   NetBIOS over Tcpip. . . . . . . . : Enabled
+
+Tunnel adapter isatap.{AB5785C8-904C-421A-811F-211A5945361F}:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : Microsoft ISATAP Adapter
+   Physical Address. . . . . . . . . : 00-00-00-00-00-00-00-E0
+   DHCP Enabled. . . . . . . . . . . : No
+   Autoconfiguration Enabled . . . . : Yes
+
+Tunnel adapter isatap.{427EA11C-82BE-4D45-9F53-082569EB75AA}:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : Microsoft ISATAP Adapter #2
+   Physical Address. . . . . . . . . : 00-00-00-00-00-00-00-E0
+   DHCP Enabled. . . . . . . . . . . : No
+   Autoconfiguration Enabled . . . . : Yes
+
+Tunnel adapter isatap.{9D7EB721-518A-4669-9C1D-36EF2DCEE67F}:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : Microsoft ISATAP Adapter #3
+   Physical Address. . . . . . . . . : 00-00-00-00-00-00-00-E0
+   DHCP Enabled. . . . . . . . . . . : No
+   Autoconfiguration Enabled . . . . : Yes
+
+Pinging geeksforgeeks.org [34.218.62.116] with 32 bytes of data:
+Request timed out.
+Request timed out.
+Request timed out.
+Request timed out.
+
+Ping statistics for 34.218.62.116:
+    Packets: Sent = 4, Received = 0, Lost = 4 (100% loss),
+
+Tracing route to geeksforgeeks.org [34.218.62.116]
+over a maximum of 30 hops:
+
+  1    55 ms    11 ms    46 ms  gateway [192.168.1.1] 
+  2   385 ms   132 ms    93 ms  100.123.1.91 
+  3     4 ms     4 ms     3 ms  118.69.253.168 
+  4     4 ms     3 ms     3 ms  100.123.0.251 
+  5    66 ms    64 ms    32 ms  118.69.241.177 
+  6    31 ms    30 ms    28 ms  42.117.11.158 
+  7    10 ms    17 ms    11 ms  42.117.11.157 
+  8     3 ms     3 ms     3 ms  118.69.189.30 
+  9    38 ms    37 ms    39 ms  118.69.132.171 
+ 10   182 ms   183 ms   182 ms  42.112.1.29 
+ 11   206 ms   187 ms   186 ms  99.83.66.244 
+ 12     *        *        *     Request timed out.
+ 13     *        *        *     Request timed out.
+ 14   214 ms   207 ms   216 ms  54.239.42.196 
+ 15     *        *        *     Request timed out.
+ 16     *        *        *     Request timed out.
+ 17     *        *        *     Request timed out.
+ 18     *        *        *     Request timed out.
+ 19     *        *        *     Request timed out.
+ 20     *        *        *     Request timed out.
+ 21     *        *        *     Request timed out.
+ 22     *        *        *     Request timed out.
+ 23     *        *        *     Request timed out.
+ 24     *        *        *     Request timed out.
+ 25     *        *        *     Request timed out.
+ 26     *        *        *     Request timed out.
+ 27     *        *        *     Request timed out.
+ 28     *        *        *     Request timed out.
+ 29     *        *        *     Request timed out.
+ 30     *        *        *     Request timed out.
+
+Trace complete.
+Press any key to continue . . . 

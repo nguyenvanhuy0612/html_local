@@ -1,0 +1,44 @@
+ Volume in drive C has no label.
+ Volume Serial Number is 90CF-EB36
+
+ Directory of C:\Program Files
+
+01/08/2021  09:45 PM    <DIR>          .
+01/08/2021  09:45 PM    <DIR>          ..
+10/03/2020  11:23 PM    <DIR>          7-Zip
+11/07/2020  09:11 AM    <DIR>          APKCombo VPN
+01/08/2021  09:58 PM    <DIR>          Common Files
+10/03/2020  11:13 PM    <DIR>          DIFX
+11/16/2018  04:43 AM    <DIR>          DVD Maker
+10/12/2020  05:16 PM    <DIR>          Fortinet
+10/11/2020  04:48 PM    <DIR>          Git
+10/03/2020  11:09 PM    <DIR>          Google
+10/03/2020  11:24 PM    <DIR>          Intel
+11/16/2018  04:43 AM    <DIR>          Internet Explorer
+12/07/2020  09:23 PM    <DIR>          Java
+11/11/2020  11:53 PM    <DIR>          MegaDownloader
+10/04/2020  12:23 AM    <DIR>          Microsoft Office
+01/05/2021  10:52 PM    <DIR>          Microsoft VS Code
+12/23/2020  10:23 PM    <DIR>          Mozilla Firefox
+07/14/2009  12:32 PM    <DIR>          MSBuild
+10/03/2020  11:23 PM    <DIR>          Notepad++
+12/03/2020  08:19 PM    <DIR>          OpenSSL-Win64
+12/16/2020  11:25 PM    <DIR>          Python37
+07/14/2009  12:32 PM    <DIR>          Reference Assemblies
+10/02/2020  12:43 PM    <DIR>          sonar-scanner
+10/22/2020  06:33 PM    <DIR>          sonarqube
+10/04/2020  04:12 PM    <DIR>          UltraISO
+10/03/2020  11:31 PM    <DIR>          VideoLAN
+11/16/2018  03:50 AM    <DIR>          Windows Defender
+11/21/2010  02:06 PM    <DIR>          Windows Mail
+11/16/2018  04:43 AM    <DIR>          Windows Media Player
+07/14/2009  12:32 PM    <DIR>          Windows NT
+11/21/2010  02:06 PM    <DIR>          Windows Photo Viewer
+11/21/2010  10:31 AM    <DIR>          Windows Portable Devices
+11/21/2010  02:06 PM    <DIR>          Windows Sidebar
+10/04/2020  09:55 PM    <DIR>          WindowsPowerShell
+12/22/2020  11:08 PM    <DIR>          WinPcap
+10/03/2020  11:30 PM    <DIR>          WinRAR
+12/03/2020  08:25 PM    <DIR>          wkhtmltopdf
+               0 File(s)              0 bytes
+              37 Dir(s)  91,512,324,096 bytes free
