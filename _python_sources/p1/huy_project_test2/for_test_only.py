@@ -120,7 +120,7 @@ def loops_csv():
               {'branch': 'EP', 'cgpa': '9.1', 'name': 'Sahil', 'year': '2'}]
     cur_data = {'branch': 'AAA', 'cgpa': '8.1', 'name': 'NNNNNN', 'year': '2'}
     print(cur_data, type(cur_data))
-    mydict.append(cur_data)
+    mydict.append(cur_data.copy())
     filename = "csv/university_records_dict.csv"
     with open(filename, 'a', newline='') as csvfile:
         # creating a csv dict writer object

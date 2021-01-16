@@ -1,5 +1,8 @@
 from handling import *
-import data
+from data import *
+if not driver.current_url == url_power:
+    driver.get(url_power)
 
-driver.get(data.url_power)
-
+collect_data_power()
+print(csv_data_dict)
+print(csv_data_list)
