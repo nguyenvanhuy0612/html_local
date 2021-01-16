@@ -1,3 +1,4 @@
+import csv
 import time
 
 import setup
@@ -27,5 +28,20 @@ def collect_data_power():
 
 
 def go_page(i: int = 0):
+    print("Go page " + str(i + 1) + " and sleep 1 sec")
     driver.execute_script('javascript:NextPage(' + str(i) + ')')
     time.sleep(1)
+
+
+def write_dictionary_to_csv():
+    product_type = csv_data_list[0]['product'].lower()
+    if 'power' in product_type:
+        fields = ['product', 'date', 'id', 'num1', 'num2', 'num3', 'num4', 'num5', 'num6', 'num7']
+        with open(csv_filename_power, 'a', newline='') as csv_file:
+            writer = csv.DictWriter(csv_file, fieldnames=fields)
+            writer.writerows(csv_data_list)
+    if 'mega' in product_type:
+        fields = ['product', 'date', 'id', 'num1', 'num2', 'num3', 'num4', 'num5', 'num6']
+        with open(csv_filename_mega, 'a', newline='') as csv_file:
+            writer = csv.DictWriter(csv_file, fieldnames=fields)
+            writer.writerows(csv_data_list)
