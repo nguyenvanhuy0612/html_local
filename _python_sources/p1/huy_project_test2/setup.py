@@ -10,15 +10,17 @@ def get_driver():
     check = 0
     for line in outputs:
         if "remote-debugging-port" in line:
-            print("Found: remote-debugging-port")
+            print("get_driver(): Found: remote-debugging-port\nadd_experimental_option: debuggerAddress", "127.0.0.1:9223")
             chrome_options.add_experimental_option("debuggerAddress", "127.0.0.1:9223")
             check = 1
             break
     if check == 0:
-        print("Not found: remote-debugging-port")
+        print("get_driver(): Not found: remote-debugging-port\nadd_argument: --remote-debugging-port=9223")
         chrome_options.add_argument("--remote-debugging-port=9223")
     driver = webdriver.Chrome(executable_path=chrome_driver, chrome_options=chrome_options)
+    print("get_driver(): implicitly_wait = 60")
     driver.implicitly_wait(60)
+    print("get_driver(): set_page_load_timeout = 120")
     driver.set_page_load_timeout(120)
     return driver
 
