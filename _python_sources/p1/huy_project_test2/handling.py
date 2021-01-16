@@ -33,8 +33,6 @@ def go_page(i: int = 0):
 
 
 def write_dictionary_to_csv():
-    if len(csv_data_list):
-        return None
     product_type = csv_data_list[0]['product'].lower()
     if 'power' in product_type:
         fields = ['product', 'date', 'id', 'num1', 'num2', 'num3', 'num4', 'num5', 'num6', 'num7']
