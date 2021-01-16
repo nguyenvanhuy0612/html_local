@@ -5,7 +5,7 @@ import csv
 # csv.writer(csvfile, dialect='excel', **fmtparams
 def write_to_csv():
     import csv
-    with open('eggs.csv', 'w', newline='') as csvfile:
+    with open('csv/eggs.csv', 'w', newline='') as csvfile:
         spamwriter = csv.writer(csvfile, delimiter=' ',
                                 quotechar='|', quoting=csv.QUOTE_MINIMAL)
         spamwriter.writerow(['Spam'] * 5 + ['Baked Beans'])
@@ -18,7 +18,7 @@ def temp():
 
 def reading_to_a_csv_file_python():
     # csv file name
-    filename = "university_records_dict.csv"
+    filename = "csv/university_records_dict.csv"
 
     # initializing the titles and rows list
     fields = []
@@ -70,7 +70,7 @@ def writing_to_a_csv_file_python():
             ['Sahil', 'EP', '2', '9.6']]
 
     # name of csv file
-    filename = "university_records.csv"
+    filename = "csv/university_records.csv"
 
     # writing to csv file
     with open(filename, 'w') as csvfile:
@@ -97,10 +97,10 @@ def writing_a_dictionary_to_a_csv_file_python():
     fields = ['name', 'branch', 'year', 'cgpa']
 
     # name of csv file
-    filename = "university_records_dict.csv"
+    filename = "csv/university_records_dict.csv"
 
     # writing to csv file
-    with open(filename, 'a') as csvfile:
+    with open(filename, 'w') as csvfile:
         # creating a csv dict writer object
         writer = csv.DictWriter(csvfile, fieldnames=fields)
 
@@ -111,5 +111,26 @@ def writing_a_dictionary_to_a_csv_file_python():
         writer.writerows(mydict)
 
 
-# writing_a_dictionary_to_a_csv_file_python()
-reading_to_a_csv_file_python()
+def loops_csv():
+    mydict = [{'branch': 'COE', 'cgpa': '9.0', 'name': 'Nikhil', 'year': '2'},
+              {'branch': 'COE', 'cgpa': '9.1', 'name': 'Sanchit', 'year': '2'},
+              {'branch': 'IT', 'cgpa': '9.3', 'name': 'Aditya', 'year': '2'},
+              {'branch': 'SE', 'cgpa': '9.5', 'name': 'Sagar', 'year': '1'},
+              {'branch': 'MCE', 'cgpa': '7.8', 'name': 'Prateek', 'year': '3'},
+              {'branch': 'EP', 'cgpa': '9.1', 'name': 'Sahil', 'year': '2'}]
+    cur_data = {'branch': 'AAA', 'cgpa': '8.1', 'name': 'NNNNNN', 'year': '2'}
+    print(cur_data, type(cur_data))
+    mydict.append(cur_data)
+    filename = "csv/university_records_dict.csv"
+    with open(filename, 'a', newline='') as csvfile:
+        # creating a csv dict writer object
+        writer = csv.DictWriter(csvfile, fieldnames=[*mydict[0]])
+
+        # writing headers (field names)
+        # writer.writeheader()
+
+        # writing data rows
+        writer.writerows(mydict)
+
+
+loops_csv()
