@@ -9,11 +9,10 @@ driver = setup.get_driver()
 
 def collect_data_power():
     csv_data_dict['product'] = driver.find_element_by_xpath('//option[@selected]').text
-    try:
-        number_row = driver.find_elements_by_xpath('//tbody/tr')
-    except:
-        print("Cannot find any row")
-        return None
+    number_row = driver.find_elements_by_xpath('//tbody/tr')
+    if len(number_row) == 0:
+        print("number row = ", len(number_row))
+        exit(1)
     for i in range(len(number_row)):
         csv_data_dict['date'] = number_row[i].text[0:10]
         csv_data_dict['id'] = number_row[i].text[11:16]
@@ -28,12 +27,14 @@ def collect_data_power():
 
 
 def go_page(i: int = 0):
-    print("Go page " + str(i + 1) + " and sleep 1 sec")
+    print("Go page " + str(i) + " and sleep 1 sec")
     driver.execute_script('javascript:NextPage(' + str(i) + ')')
     time.sleep(1)
 
 
 def write_dictionary_to_csv():
+    if len(csv_data_list):
+        return None
     product_type = csv_data_list[0]['product'].lower()
     if 'power' in product_type:
         fields = ['product', 'date', 'id', 'num1', 'num2', 'num3', 'num4', 'num5', 'num6', 'num7']
