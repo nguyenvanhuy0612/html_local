@@ -2,7 +2,7 @@ import csv
 import time
 
 import setup
-from data import *
+from data import csv_data_dict, csv_data_list, csv_filename_power, csv_filename_mega
 
 driver = setup.get_driver()
 
@@ -10,9 +10,11 @@ driver = setup.get_driver()
 def collect_data_power():
     csv_data_dict['product'] = driver.find_element_by_xpath('//option[@selected]').text
     number_row = driver.find_elements_by_xpath('//tbody/tr')
+    yield len(number_row)
     if len(number_row) == 0:
         print("number row = ", len(number_row))
-        exit(1)
+        return None
+        # exit(1)
     for i in range(len(number_row)):
         csv_data_dict['date'] = number_row[i].text[0:10]
         csv_data_dict['id'] = number_row[i].text[11:16]

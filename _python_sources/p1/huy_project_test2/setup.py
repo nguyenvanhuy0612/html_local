@@ -24,16 +24,3 @@ def get_driver():
     driver.set_page_load_timeout(set_page_load_timeout)
     return driver
 
-
-def driver_get_url(text_to_scan: str = 'vietlott.vn',
-                   url: str = 'https://vietlott.vn/vi/trung-thuong/ket-qua-trung-thuong/so-ket-qua?gameid=3&nocatche=1'):
-    driver = get_driver()
-    print('Window handles:', driver.window_handles)
-    print('current URL:', driver.current_url)
-    print('current session id:', driver.session_id)
-    for win_handle in driver.window_handles:
-        driver.switch_to.window(win_handle)
-        if text_to_scan in driver.current_url:
-            print('Found ' + text_to_scan + ' in background process, do not get url')
-            return None
-    return driver.get(url)
