@@ -2,7 +2,7 @@ import csv
 import time
 
 import setup
-from data import csv_data_dict, csv_data_list, csv_filename_power, csv_filename_mega
+from data import *
 
 driver = setup.get_driver()
 
@@ -10,12 +10,8 @@ driver = setup.get_driver()
 def collect_data_power():
     csv_data_dict['product'] = driver.find_element_by_xpath('//option[@selected]').text
     number_row = driver.find_elements_by_xpath('//tbody/tr')
-    yield len(number_row)
-    if len(number_row) == 0:
-        print("number row = ", len(number_row))
-        return None
-        # exit(1)
-    for i in range(len(number_row)):
+    rows = len(number_row)
+    for i in range(rows):
         csv_data_dict['date'] = number_row[i].text[0:10]
         csv_data_dict['id'] = number_row[i].text[11:16]
         csv_data_dict['num1'] = number_row[i].text[17:19]
@@ -26,12 +22,13 @@ def collect_data_power():
         csv_data_dict['num6'] = number_row[i].text[27:29]
         csv_data_dict['num7'] = number_row[i].text[31:]
         csv_data_list.append(csv_data_dict.copy())
+    print('number of rows in current page is', rows)
 
 
 def go_page(i: int = 0):
-    print("Go page " + str(i) + " and sleep 1 sec")
+    print("Go to page " + str(i) + " and sleep 1.5 secs", end=', ')
     driver.execute_script('javascript:NextPage(' + str(i) + ')')
-    time.sleep(1)
+    time.sleep(1.5)
 
 
 def write_dictionary_to_csv():
