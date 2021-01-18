@@ -9,38 +9,37 @@ driver = setup.get_driver()
 
 def collect_data_power():
     csv_data_dict['product'] = driver.find_element_by_xpath('//option[@selected]').text
-    number_row = driver.find_elements_by_xpath('//tbody/tr')
-    rows = len(number_row)
-    for i in range(rows):
-        csv_data_dict['date'] = number_row[i].text[0:10]
-        csv_data_dict['id'] = number_row[i].text[11:16]
-        csv_data_dict['num1'] = number_row[i].text[17:19]
-        csv_data_dict['num2'] = number_row[i].text[19:21]
-        csv_data_dict['num3'] = number_row[i].text[21:23]
-        csv_data_dict['num4'] = number_row[i].text[23:25]
-        csv_data_dict['num5'] = number_row[i].text[25:27]
-        csv_data_dict['num6'] = number_row[i].text[27:29]
-        csv_data_dict['num7'] = number_row[i].text[31:]
+    number_rows = driver.find_elements_by_xpath('//tbody/tr')
+    for number_row in number_rows:
+        data = number_row.text
+        csv_data_dict['date'] = data[0:10]
+        csv_data_dict['id'] = data[11:16]
+        csv_data_dict['num1'] = data[17:19]
+        csv_data_dict['num2'] = data[19:21]
+        csv_data_dict['num3'] = data[21:23]
+        csv_data_dict['num4'] = data[23:25]
+        csv_data_dict['num5'] = data[25:27]
+        csv_data_dict['num6'] = data[27:29]
+        csv_data_dict['num7'] = data[31:]
         csv_data_list.append(csv_data_dict.copy())
-    print('number of rows in current page is', rows)
+    print('number of rows in current page is', len(number_rows))
 
 
 def collect_data_mega():
     csv_data_dict['product'] = driver.find_element_by_xpath('//option[@selected]').text
-    number_row = driver.find_elements_by_xpath('//tbody/tr')
-    rows = len(number_row)
-    for i in range(rows):
-        csv_data_dict['date'] = number_row[i].text[0:10]
-        csv_data_dict['id'] = number_row[i].text[11:16]
-        csv_data_dict['num1'] = number_row[i].text[17:19]
-        csv_data_dict['num2'] = number_row[i].text[19:21]
-        csv_data_dict['num3'] = number_row[i].text[21:23]
-        csv_data_dict['num4'] = number_row[i].text[23:25]
-        csv_data_dict['num5'] = number_row[i].text[25:27]
-        csv_data_dict['num6'] = number_row[i].text[27:29]
+    number_rows = driver.find_elements_by_xpath('//tbody/tr')
+    for number_row in number_rows:
+        data = number_row.text
+        csv_data_dict['date'] = data[0:10]
+        csv_data_dict['id'] = data[11:16]
+        csv_data_dict['num1'] = data[17:19]
+        csv_data_dict['num2'] = data[19:21]
+        csv_data_dict['num3'] = data[21:23]
+        csv_data_dict['num4'] = data[23:25]
+        csv_data_dict['num5'] = data[25:27]
+        csv_data_dict['num6'] = data[27:29]
         csv_data_list.append(csv_data_dict.copy())
-        time.sleep(1)
-    print('number of rows in current page is', rows)
+    print('number of rows in current page is', len(number_rows))
 
 
 def go_page(i: int = 0):
@@ -62,3 +61,7 @@ def write_dictionary_to_csv():
             writer = csv.DictWriter(csv_file, fieldnames=fields)
             writer.writerows(csv_data_list)
     csv_data_list.clear()
+
+
+def close_browser():
+    driver.close()
