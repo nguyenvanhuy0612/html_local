@@ -19,6 +19,10 @@ def get_driver():
     if check == 0:
         print("get_driver(): Not found: remote-debugging-port, add_argument: --remote-debugging-port=9223")
         chrome_options.add_argument("--remote-debugging-port=9223")
+    # remove image
+    chrome_options.add_experimental_option("prefs", {"profile.managed_default_content_settings.images": 2})
+    # set developer mode
+    chrome_options.add_experimental_option('excludeSwitches', ['enable-automation'])
     driver = webdriver.Chrome(executable_path=chrome_driver, chrome_options=chrome_options)
     driver.implicitly_wait(implicitly_wait)
     driver.set_page_load_timeout(set_page_load_timeout)
