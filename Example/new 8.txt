@@ -1,0 +1,6 @@
+C:\Users\NGUYENHUY\Documents\ideaIC-2020.3.win\DATA\Python379\python.exe C:\Users\NGUYENHUY\Documents\Projects\_python_sources\p1\huy_project_test2\run_test_mega.py
+
+
+C:\Users\NGUYENHUY\Documents\pypy3.7-v7.3.3-win32\pypy3.exe
+01234567890123456789012345678
+20/05/2020 00588 010815232539

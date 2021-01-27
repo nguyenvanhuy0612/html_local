@@ -1,0 +1,55 @@
+Interview Candies
+
+Để tìm hiểu về thuật toán Kadane trước hết chúng ta cùng xem xét bài toán dưới đây: 
+Cho mảng A gồm n số nguyên, tìm mảng con trong A (mảng con là mảng có các phần tử nằm kề nhau kích thước nhỏ hơn hoặc bằng n và khác 0) có tổng các phần tử là lớn nhất.
+Ví dụ : A = [3, -5, -2, 7, -1, 3]. Mảng con có tổng các phần tử lớn nhất là: A[3..5] = [7, -1, 3] với tổng là 9. (Lưu ý: [3, 7, 3] không phải là mảng con của A nên không phải là kết quả của bài toán)  
+Pause và Think về bài toán trước khi tiếp tục nhé. Thử xem bạn có thể nghĩ ra bất kỳ hướng giải quyết nào không nhé!  
+1. Hướng giải Duyệt trâu(Brute force)
+Mảng con thì đều bắt đầu và kết thúc ở hai vị trí i và j bất kỳ trong mảng A. Vậy ta có thể thăm tất cả các mảng con của A bằng hai vòng lặp lồng nhau với vòng lặp i đầu tiên đại diện cho vị trí bắt đầu và vòng lặp j thứ hai đại diện cho vị trí kết thúc của mảng con A[i..j]. Mỗi lần đến thăm lấy max tổng của mảng con hiện tại với một biến lưu giữ kết quả của chương trình.Ví dụ: ans = max(ans, sum(A[i..j])). 
+Time Complexity:  O(n^2) - Space Complexity: O(1) 
+2. Hướng giải quy hoạch động với thuật toán Kadane
+Gọi dp[i] là tổng lớn nhất thu được khi xét tất cả mảng con của A kết thúc tại i (A[?,..,i]). Thuật toán Kadane được trình bày qua công thức sau: 
+dp[i] = max(dp[i-1]+A[i], A[i]);
+và kết quả bài toán là dp cho giá trị lớn nhất.
+Giải thích: 
+Tất cả các mảng con kết thúc tại i đều phải đi qua i-1(A[?,..,i-1,i]), ngoại trừ mảng con A[i] (hay A[i..i]). Vì vậy mảng con cho tổng lớn nhất kết thúc tại i sẽ chỉ còn phụ thuộc vào hai mảng con: A[i] và mảng con cho tổng lớn nhất kết thúc tại i-1 (không cần kiểm tra tổng tại tất cả vị trí trước i vì cuối cùng thì nó cũng phải đi qua vị trí i-1 thôi). Suy ra, dp[i] sẽ là giá trị lớn nhất của A[i] (là tổng của mảng con A[i..i]) và dp[i-1] + A[i] (kết nạp A[i] vào tổng lớn nhất tại i-1, vì dp[i] là tổng của một mảng con kết thúc tại i). 
+Xét trên ví dụ: A = [3, -5, -2, 7, -1, 3, -4 , 5, -1]
+
+Please help add the following list items to SOA December 2020:....
+
+Sorry for the delay response
+
+
+
+
+
+
+
+
+dp[0] = A[0] = 3  (Không tồn tại mảng con nào trước vị trí 0)
+dp[1] = max(dp[0] + A[1], A[1]) = max(3 - 5, -5) = -2
+dp[2] = max(dp[1] + A[2], A[2]) = max(-2 -2, -2) = -2
+dp[3] = max(dp[2] + A[3], A[3]) = max(-2+7, 7) = 7
+dp[4] = max(dp[4] + A[4], A[4]) = max(7-1, -1) = 6
+dp[5] = max(dp[5] + A[5], A[5]) = max(6+3, 3) = 9
+globalMax = max(dp[0], dp[1], dp[2], dp[3], dp[4], dp[5]) = max(-2, -2, 7, 6, 9) = 9  
+Time Complexity:  O(n) - Space Complexity: O(n)    
+3. Ta có thể cải tiến hướng giải trên bằng cách loại bỏ việc sử dụng mảng dp. Để ý ở thuật toán trên, dp[i] chỉ phụ thuộc duy nhất vào dp[i-1] và A[i]. Vì vậy ta có thể sử dụng một biến localMax để tượng trưng cho dp[i-1]. Thuật toán Kadane có thể viết lại như sau:
+localMax(tại i) = max(localMax(tại i-1) + A[i], A[i]) 
+Và mỗi khi duyệt tới vị trí i thì cập nhật kết quả. globalMax = max(globalMax, localMax(tại i))
+Time Complexity:  O(n) - Space Complexity: O(1)    
+Đây chỉ là một trong những bài toán sử dụng thuật toán Kadane. Các bạn có thể tham khảo các bài toán khác tại đây:
+https://leetcode.com/problems/gas-station/
+https://www.spoj.com/problems/HOTELS/
+https://acm.timus.ru/problem.aspx?space=1&num=1146
+Hi vọng bài viết trên mang lại một ít kiến thức bổ ích đến cho bạn và những người xung quanh bạn! 
+====================
+Nguồn tham khảo:
+https://l.facebook.com/l.php?u=https%3A%2F%2Fmedium.com%2F%40rsinghal757%2Fkadanes-algorithm-dynamic-programming-how-and-why-does-it-work-3fd8849ed73d%3Ffbclid%3DIwAR3a6bF6B00f8pFBgqf4jbyT6FirZWEbB0l68GdcCsGNifD5SjkNRR-SPaY&h=AT0j1mh9d38YrSvXvmGmDlY0G4RwJoY5_OnLm2TkMbrPp3-nnwSdrIgWyKXND9HrSKlN8M71RMtoGeB31s0F8j1VCYGfl0qwcQdam_Hg94KNI5v5I47S_nVtOvKR2gTjDBQ&__tn__=-UK-R&c[0]=AT0pFc086kbqcXxVV9YUtkLfO-vYB5h2hpnwbqXARR-Plx_IWPGpwXDuPsksPxhS5eu9H7UCfYrjb80DW4-PKb7cbqOkrzteDhYhL9VZ8HqmTi1ENg-ucOwYfXppUUjq7Q4vHyFf6xJ6Izoimb7W5GI14RKFnaDSfT-bgzHaLhYbEg
+Wiki:
+https://en.wikipedia.org/wiki/Maximum_subarray_problem
+Baeldung:
+https://www.baeldung.com/java-maximum-subarray
+Youtube:
+https://www.youtube.com/watch?v=86CQq3pKSUw&t=486s
+#InterviewCandies #Kadane #dp #MaxSumSubArray

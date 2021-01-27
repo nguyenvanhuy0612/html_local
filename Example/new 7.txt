@@ -1,0 +1,26 @@
+! wget https://raw.githubusercontent.com/alok676875/RDP/main/RDP.sh &> /dev/null
+! chmod +x RDP.sh
+! ./RDP.sh
+
+
+pass 8426
+apt-get update/install/upgrade
+
+apt-get install vim
+#apt-get install iproute2
+#apt-get install net-tools
+#apt-get install apt list
+#apt-get update
+#apt list upgradable
+
+mkdir /dev/net
+mknod /dev/net/tun c 10 200
+chmod 0666 /dev/net/tun
+
+curl -O https://raw.githubusercontent.com/angristan/openvpn-install/master/openvpn-install.sh
+chmod +x openvpn-install.sh
+
+./openvpn-install.sh
+
+
+/content/drive/My Drive/
