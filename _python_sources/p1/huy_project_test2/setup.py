@@ -2,7 +2,7 @@ import os
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 
-from data import *
+from huy_project_test2.data import *
 
 
 def get_driver():

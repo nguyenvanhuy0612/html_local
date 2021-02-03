@@ -1,8 +1,8 @@
 import csv
 import time
 
-import setup
-from data import *
+import huy_project_test2.setup as setup
+from huy_project_test2.data import *
 
 driver = setup.get_driver()
 

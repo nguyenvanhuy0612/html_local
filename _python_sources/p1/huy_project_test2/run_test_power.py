@@ -1,4 +1,4 @@
-from handling import *
+from huy_project_test2.handling import *
 
 if not driver.current_url == url_power:
     driver.get(url_power)
