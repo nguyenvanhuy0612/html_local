@@ -1,0 +1,193 @@
+E:\My_Data\my_JAVA\course\coursera_java programming - duke\week2
+
+1eafb467-5428-46a5-9728-24bb95fa782d
+
+
+
+a6v154nj-5P8L7W1y-rb8134jO
+
+0H3Th1l2-y69r5W1d-f8ux14Z3
+
+6A03vD8Z-41c0QO2s-R17so06q
+
+6f7OG40C-r1728mxM-ni60zA52
+
+82xu1l6i-5H8G3J6P-r21t3lP7
+
+P8F316rh-M1K98c5D-5Qe4sD73
+
+https://topdev.vn/blog/mot-so-doan-code-python-pho-bien-ban-nen-thuoc-long/?fbclid=IwAR06KXfq2rdlnYZPkDgWeHgpLrYl5rw-jG1s0UUvWBh-PJlmiAhGNzbSF00
+
+https://www.w3schools.com/python/python_regex.asp
+
+
+
+coursera-dl -u nvhuy1@tma.com.vn -p huy2012@C --video-resolution 720p -sl en java-programming 
+coursera-dl java-programming
+
+
+
+Download
+
+make sure remove --cauth param in coursera-dl.conf if used.
+run download command, here my example: coursera-dl -u 'username' -p 'password' --hook "$PWD/process.sh" ${course}.
+List
+
+method a: coursera-dl -u 'username' -p 'password' --cauth 'cauth-string' --list-courses
+method b: put --cauth 'cauth-string' in coursera-dl.conf, and run coursera-dl -u 'username' -p 'password' --list-courses
+
+
+
+
+
+Operator	with --cauth	without --cauth
+List	fine	#702 sometimes
+Download	403 Error	fine
+
+coursera-dl -u 'nvhuy1@tma.com.vn' -p 'huy2012@C' --cauth 'xuEyCPjAce8DBs3VxIHW33nypoUQLiYdA8IS6wmifi5wkjxAt_n7rL1FKeUwVbcgmM3_ndYHA5Sk_1q07zHxrA.5p_Mmo_CV72Txr3yIC0kDg.ecbxCNPKD9XmBmHd5F-mv56zuZmVhTpaT6JzeU6AIvyURiGoLBk3Ug5lObLxErZTYVLlZUJC3hQflOcBGbCD2HRNoUXRAnB5V1oJGiU8fit7mtvYaXhw-uslp1pRYipAvo6-1wAUYoZNbfysdC3Zgajg76VZTjmvXBHlfqCq9y_5QANcG9uuCiIr5HDriBGS' --list-courses java-programming
+
+
+
+
+dl_coursera --cookies path/to/cookies.txt --slug mathematical-thinking --how builtin
+
+
+
+
+C:\Program Files\Java\jdk-11.0.9\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Program Files\wkhtmltopdf;C:\Program Files\wkhtmltopdf\bin;C:\Program Files\sonar-scanner\bin;C:\Program Files\sonarqube\bin\windows-x86-64;d:\python\python386;d:\python\python386\Scripts
+
+
+C:\Program Files\Java\jdk-11.0.9\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Program Files\wkhtmltopdf;C:\Program Files\wkhtmltopdf\bin;C:\Program Files\sonar-scanner\bin;C:\Program Files\sonarqube\bin\windows-x86-64;d:\python\python386;d:\python\python386\Scripts
+
+
+https://learner.coursera.help/hc/en-us
+
+
+I found the solution, guys!
+
+First of all, check the youtube-dl version and upgrade if necessary ;)
+
+Make sure to have the packages coursera-dl and edx-dl installed
+
+if not, run: pip install coursera-dl edx-dl
+
+Download tthis Chrome Extension: https://chrome.google.com/webstore/detail/coursera-authentication-h/fkbgecmligfnknoclmgaebbcoodcacnf
+
+Create a file coursera-dl.conf in the same directory of the coursera-dl with the text below:
+--username <email_here>
+--password <passwd_here>
+--subtitle-language en
+--cauth <paste_your_cookie_here_from_the_chrome_extension_named_Coursera Authentication Helper>
+--download-quizzes
+--download-notebooks
+
+Enroll the courses you want to download
+
+for edx run:
+edx-dl -u <your_e-mail> -p <your_password> --list-courses
+edx-dl -u <your_e-mail> -p <your_password> <COURSE_URL>
+
+for coursera run:
+coursera-dl -u nvhuy1@tma.com.vn -p huy2012@C -c cookies.txt --list-courses
+coursera-dl <course_name>
+
+IMPORTANT BUG NOTE!
+
+COURSERA-DL is not working at first. It's necessary to:
+
+Logout from the account and close all tabs;
+
+Enter the website 'https://learner.coursera.help/hc/en-us' and login from this page;
+
+Run the script. It'll raise an error, but try again and again the same commmand until it work (it's working on fifth or sixth attempt, sometimes more)
+
+
+
+
+coursera-dl -u nvhuy1@tma.com.vn -p huy2012@C --path "E:\My_Data\my_JAVA\course\html-css-js" -ca PwmqrDuc9Jr_Xv8kGgWKYkZ3qrQEWqK2nPeIf3T2ktSK2Dx9Lq7S4KAExA5YeW8ccpkV7SLoB97hmAidtQ7BNQ.huqzDiHY-VV3MEPseeF1dA.inDSSGHUpXShuTBRWkhGSqkdlFbNcQnXfcY-yIF2FwvZ-6krHwSdj-iILbPBVu54VQhNtyRQJ73vu4MmZDp614RLJTEusUEf9vhckM1K6Qleb3XuBwCFAxzDg83p7KEos-I12hPXhXjUL8fK82ykTMOl8YHB_09OBHpv6PmVdpVyfHUn9pgCKSeZYVRpKSzT --disable-url-skipping --download-quizzes --download-delay 10 --video-resolution 720p --subtitle-language en html-css-javascript-for-web-developers
+
+coursera-dl -u nvhuy1@tma.com.vn -p huy2012@C --cauth PwmqrDuc9Jr_Xv8kGgWKYkZ3qrQEWqK2nPeIf3T2ktSK2Dx9Lq7S4KAExA5YeW8ccpkV7SLoB97hmAidtQ7BNQ.huqzDiHY-VV3MEPseeF1dA.inDSSGHUpXShuTBRWkhGSqkdlFbNcQnXfcY-yIF2FwvZ-6krHwSdj-iILbPBVu54VQhNtyRQJ73vu4MmZDp614RLJTEusUEf9vhckM1K6Qleb3XuBwCFAxzDg83p7KEos-I12hPXhXjUL8fK82ykTMOl8YHB_09OBHpv6PmVdpVyfHUn9pgCKSeZYVRpKSzT --list-courses
+
+dl_coursera --cookies "C:\Users\NGUYENHUY\Documents\coursera.org_cookies.txt" --slug html-css-javascript-for-web-developers --outdir html --how builtin
+
+
+
+
+coursera-dl -u nvhuy1@tma.com.vn -p huy2012@C --path python_classes_inheritance --cauth PwmqrDuc9Jr_Xv8kGgWKYkZ3qrQEWqK2nPeIf3T2ktSK2Dx9Lq7S4KAExA5YeW8ccpkV7SLoB97hmAidtQ7BNQ.huqzDiHY-VV3MEPseeF1dA.inDSSGHUpXShuTBRWkhGSqkdlFbNcQnXfcY-yIF2FwvZ-6krHwSdj-iILbPBVu54VQhNtyRQJ73vu4MmZDp614RLJTEusUEf9vhckM1K6Qleb3XuBwCFAxzDg83p7KEos-I12hPXhXjUL8fK82ykTMOl8YHB_09OBHpv6PmVdpVyfHUn9pgCKSeZYVRpKSzT python-classes-inheritance
+
+
+
+coursera-dl -u nvhuy1@tma.com.vn -p huy2012@C --subtitle-language en --video-resolution 720p --download-delay 10 --path courses -c coursera.org_cookies.txt -ca PwmqrDuc9Jr_Xv8kGgWKYkZ3qrQEWqK2nPeIf3T2ktSK2Dx9Lq7S4KAExA5YeW8ccpkV7SLoB97hmAidtQ7BNQ.huqzDiHY-VV3MEPseeF1dA.inDSSGHUpXShuTBRWkhGSqkdlFbNcQnXfcY-yIF2FwvZ-6krHwSdj-iILbPBVu54VQhNtyRQJ73vu4MmZDp614RLJTEusUEf9vhckM1K6Qleb3XuBwCFAxzDg83p7KEos-I12hPXhXjUL8fK82ykTMOl8YHB_09OBHpv6PmVdpVyfHUn9pgCKSeZYVRpKSzT html-css-javascript-for-web-developers java-programming python-crash-course java-programming-arrays-lists-data python-classes-inheritance
+
+--subtitle-language en
+--video-resolution 720p
+--download-delay 10
+--path 
+-c 
+
+https://github.com/ytdl-org/youtube-dl
+
+--preview
+
+
+
+Cannot login on coursera.org: 400 Client Error: Bad Request for url: https://api.coursera.org/api/login/v3
+
+
+
+html-css-javascript-for-web-developers
+java-programming
+python-crash-course
+java-programming-arrays-lists-data
+python-classes-inheritance
+
+usage: coursera-dl [-h] [-u USERNAME] [-p PASSWORD] [--jobs JOBS] [--download-delay DOWNLOAD_DELAY] [-b]
+                   [--path PATH] [-sl SUBTITLE_LANGUAGE] [--specialization] [--only-syllabus]
+                   [--download-quizzes] [--download-notebooks] [--about] [-f FILE_FORMATS]
+                   [--ignore-formats IGNORE_FORMATS] [-sf SECTION_FILTER] [-lf LECTURE_FILTER]
+                   [-rf RESOURCE_FILTER] [--video-resolution VIDEO_RESOLUTION] [--disable-url-skipping]
+                   [--wget [WGET]] [--curl [CURL]] [--aria2 [ARIA2]] [--axel [AXEL]]
+                   [--downloader-arguments DOWNLOADER_ARGUMENTS] [--list-courses] [--resume] [-o]
+                   [--verbose-dirs] [--quiet] [-r] [--combined-section-lectures-nums]
+                   [--unrestricted-filenames] [-ca COOKIES_CAUTH] [-c COOKIES_FILE] [-n [NETRC]] [-k]
+                   [--clear-cache] [--hook HOOKS] [-pl] [--mathjax-cdn MATHJAX_CDN_URL] [--skip-download]
+                   [--debug] [--cache-syllabus] [--version] [-l LOCAL_PAGE]
+                   [class_names [class_names ...]]
+You must supply at least one class name
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

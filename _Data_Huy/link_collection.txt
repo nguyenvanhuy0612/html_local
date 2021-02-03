@@ -3,3 +3,4 @@ https://www.udemy.com/course/selenium-webdriver-with-python3/
 https://letskodeit.teachable.com/
 https://udemydownload.com/flutter-dart-the-complete-flutter-app-development-course/
 https://www.coursera.org/learn/html-css-javascript-for-web-developers/lecture/igIL4/lecture-43-part-1-common-language-constructs
+https://code.visualstudio.com/docs/getstarted/keybindings
