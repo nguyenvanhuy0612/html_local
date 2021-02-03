@@ -27,4 +27,3 @@ def get_driver():
     driver.implicitly_wait(implicitly_wait)
     driver.set_page_load_timeout(set_page_load_timeout)
     return driver
-
