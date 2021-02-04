@@ -8,3 +8,4 @@ function orderChickenWith(sideDish) {
 }
 orderChickenWith("noodles");
 orderChickenWith();
+orderChickenWith("whatever!");
