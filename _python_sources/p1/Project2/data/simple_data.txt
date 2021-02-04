@@ -1,0 +1,13 @@
+                                         Name  Score
+School         Grade Student number
+Hogwarts       1     0                  Ginny      8
+                     1                   Luna      7
+               2     0                  Harry      5
+                     1               Hermione     10
+               3     0                   Fred      0
+                     1                 George      0
+Riverdale High 1     0                 Phoebe      3
+                     1                 Rachel      7
+               2     0                 Angela      6
+                     1                Tristan      3
+                     2                 Aurora      9
