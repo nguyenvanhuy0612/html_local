@@ -1,4 +1,6 @@
 {
     "jupyter.jupyterServerType": "local",
-    "workbench.colorTheme": "Dracula"
+    "workbench.colorTheme": "Dracula",
+    "python.pythonPath": "c:\\Program Files\\Python38\\python.exe",
+    "workbench.preferredLightColorTheme": "Monokai"
 }

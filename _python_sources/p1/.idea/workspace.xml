@@ -20,11 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0acebf3-0ca1-4b60-8477-22e3e612f5bd" name="Default Changelist" comment="changed">
+      <change beforePath="$PROJECT_DIR$/../../.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../.vscode/settings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/p1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/p1.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project2/data/link_tham_khao.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Project2/data/link_tham_khao.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project2/data/simple_text.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Project2/data/simple_text.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project2/parse_text.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project2/parse_text.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,10 +50,10 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -146,6 +144,12 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="changed" />
     <option name="LAST_COMMIT_MESSAGE" value="changed" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="487" y="128" key="SettingsEditor" timestamp="1612490797477">
+      <screen x="0" y="0" width="1920" height="983" />
+    </state>
+    <state x="487" y="128" key="SettingsEditor/0.0.1920.983@0.0.1920.983" timestamp="1612490797477" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
