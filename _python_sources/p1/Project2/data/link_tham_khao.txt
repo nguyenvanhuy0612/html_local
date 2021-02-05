@@ -1,0 +1,13 @@
+https://stackoverflow.com/questions/14840310/python-using-re-module-to-parse-an-imported-text-file
+https://www.google.com/search?q=use+regex+module+python+to+parse+text&rlz=1C1CHBF_enVN921VN921&oq=use+regex+module+python+to+parse+text&aqs=chrome..69i57j33i160.22184j0j1&sourceid=chrome&ie=UTF-8
+https://stackoverflow.com/questions/38157161/parse-a-file-regex-in-python
+https://stackoverflow.com/questions/4666973/how-to-extract-the-substring-between-two-markers
+https://stackoverflow.com/questions/47982949/how-to-parse-complex-text-files-using-python
+https://stackabuse.com/using-regex-for-text-manipulation-in-python/
+https://docs.python.org/3/howto/regex.html
+
+https://www.vipinajayakumar.com/parsing-text-with-python/
+
+https://blog.teamtreehouse.com/regular-expressions-10-languages
+https://github.com/ziishaned/learn-regex/blob/master/translations/README-vn.md
+https://regex101.com/r/9y9n85/1

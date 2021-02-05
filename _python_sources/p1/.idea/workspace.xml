@@ -20,13 +20,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0acebf3-0ca1-4b60-8477-22e3e612f5bd" name="Default Changelist" comment="changed">
+      <change beforePath="$PROJECT_DIR$/.idea/p1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/p1.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/huy_project_test4/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/huy_project_test4/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project2/data/link_tham_khao.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Project2/data/link_tham_khao.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project2/data/simple_text.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Project2/data/simple_text.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project2/parse_text.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project2/parse_text.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
@@ -39,14 +49,20 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\NGUYENHUY\Documents\Projects\_python_sources\p1\Project2\data" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.parse_text">
     <configuration name="abc" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="p1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -68,8 +84,30 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="parse_text" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="p1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Project2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Project2/parse_text.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.parse_text" />
         <item itemvalue="Python.abc" />
       </list>
     </recent_temporary>
@@ -109,54 +147,15 @@
     <MESSAGE value="changed" />
     <option name="LAST_COMMIT_MESSAGE" value="changed" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="656" y="184" key="FileChooserDialogImpl" timestamp="1612428869146">
-      <screen x="0" y="0" width="1920" height="983" />
-    </state>
-    <state x="656" y="184" key="FileChooserDialogImpl/0.0.1920.983@0.0.1920.983" timestamp="1612428869146" />
-    <state width="1878" height="248" key="GridCell.Tab.0.bottom" timestamp="1612428881582">
-      <screen x="0" y="0" width="1920" height="983" />
-    </state>
-    <state width="1878" height="248" key="GridCell.Tab.0.bottom/0.0.1920.983@0.0.1920.983" timestamp="1612428881582" />
-    <state width="1878" height="248" key="GridCell.Tab.0.center" timestamp="1612428881582">
-      <screen x="0" y="0" width="1920" height="983" />
-    </state>
-    <state width="1878" height="248" key="GridCell.Tab.0.center/0.0.1920.983@0.0.1920.983" timestamp="1612428881582" />
-    <state width="1878" height="248" key="GridCell.Tab.0.left" timestamp="1612428881582">
-      <screen x="0" y="0" width="1920" height="983" />
-    </state>
-    <state width="1878" height="248" key="GridCell.Tab.0.left/0.0.1920.983@0.0.1920.983" timestamp="1612428881582" />
-    <state width="1878" height="248" key="GridCell.Tab.0.right" timestamp="1612428881582">
-      <screen x="0" y="0" width="1920" height="983" />
-    </state>
-    <state width="1878" height="248" key="GridCell.Tab.0.right/0.0.1920.983@0.0.1920.983" timestamp="1612428881582" />
-    <state width="1878" height="248" key="GridCell.Tab.1.bottom" timestamp="1612428881583">
-      <screen x="0" y="0" width="1920" height="983" />
-    </state>
-    <state width="1878" height="248" key="GridCell.Tab.1.bottom/0.0.1920.983@0.0.1920.983" timestamp="1612428881583" />
-    <state width="1878" height="248" key="GridCell.Tab.1.center" timestamp="1612428881582">
-      <screen x="0" y="0" width="1920" height="983" />
-    </state>
-    <state width="1878" height="248" key="GridCell.Tab.1.center/0.0.1920.983@0.0.1920.983" timestamp="1612428881582" />
-    <state width="1878" height="248" key="GridCell.Tab.1.left" timestamp="1612428881582">
-      <screen x="0" y="0" width="1920" height="983" />
-    </state>
-    <state width="1878" height="248" key="GridCell.Tab.1.left/0.0.1920.983@0.0.1920.983" timestamp="1612428881582" />
-    <state width="1878" height="248" key="GridCell.Tab.1.right" timestamp="1612428881582">
-      <screen x="0" y="0" width="1920" height="983" />
-    </state>
-    <state width="1878" height="248" key="GridCell.Tab.1.right/0.0.1920.983@0.0.1920.983" timestamp="1612428881582" />
-    <state x="529" y="7" key="SettingsEditor" timestamp="1612428871527">
-      <screen x="0" y="0" width="1920" height="983" />
-    </state>
-    <state x="529" y="7" key="SettingsEditor/0.0.1920.983@0.0.1920.983" timestamp="1612428871527" />
-    <state x="556" y="229" key="Vcs.Push.Dialog.v2" timestamp="1612318262210">
-      <screen x="0" y="0" width="1920" height="983" />
-    </state>
-    <state x="556" y="229" key="Vcs.Push.Dialog.v2/0.0.1920.983@0.0.1920.983" timestamp="1612318262210" />
-    <state x="781" y="203" width="572" height="780" key="find.popup" timestamp="1612420883860">
-      <screen x="0" y="0" width="1920" height="983" />
-    </state>
-    <state x="781" y="203" width="572" height="780" key="find.popup/0.0.1920.983@0.0.1920.983" timestamp="1612420883860" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Project2/parse_text.py</url>
+          <line>43</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
