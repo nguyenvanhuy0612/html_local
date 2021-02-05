@@ -92,5 +92,7 @@ def parse_file(filepath):
     return data
 
 
-data = parse_file("data/simple_text.txt")
-print(data)
+if __name__ == '__main__':
+    filepath = 'data/simple_text.txt'
+    data = parse_file(filepath)
+    print(data)
