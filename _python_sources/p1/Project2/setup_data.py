@@ -1,4 +1,5 @@
 
+chrome_driver = r"../Tools/chromedriver.exe"
 implicitly_wait = 60
 set_page_load_timeout = 120
 csv_filename_power = "csv/test3.csv"

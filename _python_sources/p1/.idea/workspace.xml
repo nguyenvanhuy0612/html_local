@@ -20,11 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0acebf3-0ca1-4b60-8477-22e3e612f5bd" name="Default Changelist" comment="changed">
-      <change afterPath="$PROJECT_DIR$/Project2/parsing_use_method.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project2/paser_text2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project2/paser_text3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project2/AEP.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project2/data/text1.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project2/parse_text.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project2/parse_text.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project2/data.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project2/setup_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project2/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project2/setup.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,8 +62,8 @@
       <recent name="C:\Users\NGUYENHUY\Documents\Projects\_python_sources\p1\Project2\data" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.paser_text3">
-    <configuration name="abc" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.AEP">
+    <configuration name="AEP" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="p1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -71,11 +71,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/huy_project_test4" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Project2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/huy_project_test4/abc.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Project2/AEP.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -170,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.paser_text3" />
+        <item itemvalue="Python.AEP" />
         <item itemvalue="Python.paser_text2" />
+        <item itemvalue="Python.paser_text3" />
         <item itemvalue="Python.parse_text" />
         <item itemvalue="Python.parsing_use_method" />
-        <item itemvalue="Python.abc" />
       </list>
     </recent_temporary>
   </component>
@@ -214,42 +214,42 @@
     <option name="LAST_COMMIT_MESSAGE" value="changed" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1878" height="162" key="GridCell.Tab.0.bottom" timestamp="1612499400069">
+    <state width="1878" height="239" key="GridCell.Tab.0.bottom" timestamp="1612512752677">
       <screen x="0" y="0" width="1920" height="983" />
     </state>
-    <state width="1878" height="162" key="GridCell.Tab.0.bottom/0.0.1920.983@0.0.1920.983" timestamp="1612499400069" />
-    <state width="1878" height="162" key="GridCell.Tab.0.center" timestamp="1612499400069">
+    <state width="1878" height="239" key="GridCell.Tab.0.bottom/0.0.1920.983@0.0.1920.983" timestamp="1612512752677" />
+    <state width="1878" height="239" key="GridCell.Tab.0.center" timestamp="1612512752677">
       <screen x="0" y="0" width="1920" height="983" />
     </state>
-    <state width="1878" height="162" key="GridCell.Tab.0.center/0.0.1920.983@0.0.1920.983" timestamp="1612499400069" />
-    <state width="1878" height="162" key="GridCell.Tab.0.left" timestamp="1612499400069">
+    <state width="1878" height="239" key="GridCell.Tab.0.center/0.0.1920.983@0.0.1920.983" timestamp="1612512752677" />
+    <state width="1878" height="239" key="GridCell.Tab.0.left" timestamp="1612512752677">
       <screen x="0" y="0" width="1920" height="983" />
     </state>
-    <state width="1878" height="162" key="GridCell.Tab.0.left/0.0.1920.983@0.0.1920.983" timestamp="1612499400069" />
-    <state width="1878" height="162" key="GridCell.Tab.0.right" timestamp="1612499400069">
+    <state width="1878" height="239" key="GridCell.Tab.0.left/0.0.1920.983@0.0.1920.983" timestamp="1612512752677" />
+    <state width="1878" height="239" key="GridCell.Tab.0.right" timestamp="1612512752677">
       <screen x="0" y="0" width="1920" height="983" />
     </state>
-    <state width="1878" height="162" key="GridCell.Tab.0.right/0.0.1920.983@0.0.1920.983" timestamp="1612499400069" />
-    <state width="1878" height="356" key="GridCell.Tab.1.bottom" timestamp="1612499289076">
+    <state width="1878" height="239" key="GridCell.Tab.0.right/0.0.1920.983@0.0.1920.983" timestamp="1612512752677" />
+    <state width="1878" height="356" key="GridCell.Tab.1.bottom" timestamp="1612508394929">
       <screen x="0" y="0" width="1920" height="983" />
     </state>
-    <state width="1878" height="356" key="GridCell.Tab.1.bottom/0.0.1920.983@0.0.1920.983" timestamp="1612499289076" />
-    <state width="1878" height="356" key="GridCell.Tab.1.center" timestamp="1612499289076">
+    <state width="1878" height="356" key="GridCell.Tab.1.bottom/0.0.1920.983@0.0.1920.983" timestamp="1612508394929" />
+    <state width="1878" height="356" key="GridCell.Tab.1.center" timestamp="1612508394929">
       <screen x="0" y="0" width="1920" height="983" />
     </state>
-    <state width="1878" height="356" key="GridCell.Tab.1.center/0.0.1920.983@0.0.1920.983" timestamp="1612499289076" />
-    <state width="1878" height="356" key="GridCell.Tab.1.left" timestamp="1612499289075">
+    <state width="1878" height="356" key="GridCell.Tab.1.center/0.0.1920.983@0.0.1920.983" timestamp="1612508394929" />
+    <state width="1878" height="356" key="GridCell.Tab.1.left" timestamp="1612508394929">
       <screen x="0" y="0" width="1920" height="983" />
     </state>
-    <state width="1878" height="356" key="GridCell.Tab.1.left/0.0.1920.983@0.0.1920.983" timestamp="1612499289075" />
-    <state width="1878" height="356" key="GridCell.Tab.1.right" timestamp="1612499289076">
+    <state width="1878" height="356" key="GridCell.Tab.1.left/0.0.1920.983@0.0.1920.983" timestamp="1612508394929" />
+    <state width="1878" height="356" key="GridCell.Tab.1.right" timestamp="1612508394929">
       <screen x="0" y="0" width="1920" height="983" />
     </state>
-    <state width="1878" height="356" key="GridCell.Tab.1.right/0.0.1920.983@0.0.1920.983" timestamp="1612499289076" />
-    <state x="487" y="128" key="SettingsEditor" timestamp="1612490987516">
+    <state width="1878" height="356" key="GridCell.Tab.1.right/0.0.1920.983@0.0.1920.983" timestamp="1612508394929" />
+    <state x="547" y="56" key="SettingsEditor" timestamp="1612512324988">
       <screen x="0" y="0" width="1920" height="983" />
     </state>
-    <state x="487" y="128" key="SettingsEditor/0.0.1920.983@0.0.1920.983" timestamp="1612490987516" />
+    <state x="547" y="56" key="SettingsEditor/0.0.1920.983@0.0.1920.983" timestamp="1612512324988" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

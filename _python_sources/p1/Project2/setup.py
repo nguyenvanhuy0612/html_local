@@ -2,11 +2,11 @@ import os
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 
-from Project2.data import *
+from Project2.setup_data import *
 
 
 def get_driver():
-    chrome_driver = r"../Tools/chromedriver.exe"
+    # chrome_driver = r"../Tools/chromedriver.exe"
     chrome_options = Options()
     outputs = os.popen('wmic process get CommandLine').readlines()
     check = 0
