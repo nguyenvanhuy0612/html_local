@@ -1,6 +1,8 @@
 {
     "jupyter.jupyterServerType": "local",
     "workbench.colorTheme": "Dracula",
-    "python.pythonPath": "c:\\Program Files\\Python38\\python.exe",
-    "workbench.preferredLightColorTheme": "Monokai"
+    "python.pythonPath": "D:\\python\\python386\\python.exe",
+    "workbench.preferredLightColorTheme": "Monokai",
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true
 }
