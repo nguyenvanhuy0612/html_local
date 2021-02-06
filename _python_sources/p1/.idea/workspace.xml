@@ -20,10 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0acebf3-0ca1-4b60-8477-22e3e612f5bd" name="Default Changelist" comment="changed">
-      <change afterPath="$PROJECT_DIR$/Project2/AEP2_tables.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project2/data/dataframe.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project1/scrapeImages.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project1/scrapeImages.py.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project2/AEP.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project2/AEP.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project2/AEP2_tables.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project2/AEP2_tables.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Project2/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project2/setup.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -218,7 +217,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Project2/AEP2_tables.py</url>
-          <line>23</line>
+          <line>24</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">

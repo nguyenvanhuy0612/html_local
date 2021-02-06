@@ -12,7 +12,8 @@ def get_driver():
     check = 0
     for line in outputs:
         if "remote-debugging-port" in line:
-            print("get_driver(): Found: remote-debugging-port, add_experimental_option: debuggerAddress", "127.0.0.1:9223")
+            print("get_driver(): Found: remote-debugging-port, add_experimental_option: debuggerAddress",
+                  "127.0.0.1:9223")
             chrome_options.add_experimental_option("debuggerAddress", "127.0.0.1:9223")
             check = 1
             break
@@ -28,4 +29,3 @@ def get_driver():
     driver.set_page_load_timeout(set_page_load_timeout)
     # driver.maximize_window()
     return driver
-
