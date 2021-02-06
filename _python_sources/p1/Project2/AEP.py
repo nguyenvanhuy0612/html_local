@@ -14,7 +14,7 @@ from selenium.webdriver.support import expected_conditions as EC
 driver = setup.get_driver()
 # driver.switch_to.frame("main")
 WebDriverWait(driver, 10).until(EC.frame_to_be_available_and_switch_to_it((By.NAME, "main")))
-tb_data = driver.find_element_by_css_selector("#jasperReportForm > table:nth-child(2) > tbody > tr > td > table > tbody > tr > td:nth-child(2)")
+tb_data = driver.find_element_by_css_selector("#mw-content-text > div.mw-parser-output > table:nth-child(39)")
 html_source = tb_data.get_attribute('innerHTML')
 # soup = BeautifulSoup(html_source, 'html.parser')
 tables = pd.read_html(html_source)

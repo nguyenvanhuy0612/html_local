@@ -26,5 +26,6 @@ def get_driver():
     driver = webdriver.Chrome(executable_path=chrome_driver, chrome_options=chrome_options)
     driver.implicitly_wait(implicitly_wait)
     driver.set_page_load_timeout(set_page_load_timeout)
+    # driver.maximize_window()
     return driver
 

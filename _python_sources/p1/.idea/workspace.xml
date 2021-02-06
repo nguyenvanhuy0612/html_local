@@ -19,7 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0acebf3-0ca1-4b60-8477-22e3e612f5bd" name="Default Changelist" comment="changed" />
+    <list default="true" id="a0acebf3-0ca1-4b60-8477-22e3e612f5bd" name="Default Changelist" comment="changed">
+      <change afterPath="$PROJECT_DIR$/Project2/AEP2_tables.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project1/scrapeImages.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project1/scrapeImages.py.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project2/AEP.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project2/AEP.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project2/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project2/setup.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,15 +58,15 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\NGUYENHUY\Documents\Projects\_python_sources\p1\Project2\data" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.web_scraping">
-    <configuration name="parse_text" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.AEP2_tables">
+    <configuration name="AEP2_tables" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="p1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -72,7 +78,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Project2/parse_text.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Project2/AEP2_tables.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -167,11 +173,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.web_scraping" />
-        <item itemvalue="Python.paser_text3" />
-        <item itemvalue="Python.paser_text2" />
-        <item itemvalue="Python.parsing_use_method" />
-        <item itemvalue="Python.parse_text" />
+        <item itemvalue="Python.AEP2_tables" />
       </list>
     </recent_temporary>
   </component>
@@ -215,13 +217,13 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Project2/parse_text.py</url>
-          <line>43</line>
-          <option name="timeStamp" value="2" />
+          <url>file://$PROJECT_DIR$/Project2/AEP2_tables.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Project2/parse_text.py</url>
-          <line>84</line>
+          <url>file://$PROJECT_DIR$/Project2/AEP2_tables.py</url>
+          <line>19</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
