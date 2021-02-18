@@ -2,7 +2,7 @@ import os
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 
-from data import data_setup
+from .data import data_setup
 
 
 def get_driver():

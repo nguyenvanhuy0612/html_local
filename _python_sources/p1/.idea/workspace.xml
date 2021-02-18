@@ -19,13 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0acebf3-0ca1-4b60-8477-22e3e612f5bd" name="Default Changelist" comment="changed">
-      <change afterPath="$PROJECT_DIR$/huy_project_test5/data/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/huy_project_test5/data/data_setup.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/huy_project_test5/setup.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/huy_project_test5/test2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="a0acebf3-0ca1-4b60-8477-22e3e612f5bd" name="Default Changelist" comment="changed" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,7 +49,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/huy_project_test5" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -217,6 +211,12 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="changed" />
     <option name="LAST_COMMIT_MESSAGE" value="changed" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="444" y="70" key="SettingsEditor" timestamp="1613614342948">
+      <screen x="0" y="0" width="1920" height="983" />
+    </state>
+    <state x="444" y="70" key="SettingsEditor/0.0.1920.983@0.0.1920.983" timestamp="1613614342948" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
