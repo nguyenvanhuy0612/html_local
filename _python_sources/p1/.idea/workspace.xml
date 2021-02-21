@@ -20,10 +20,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0acebf3-0ca1-4b60-8477-22e3e612f5bd" name="Default Changelist" comment="changed">
-      <change afterPath="$PROJECT_DIR$/huy_project_test5/data/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/huy_project_test5/data/data_setup.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/huy_project_test5/setup.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/huy_project_test5/test2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/huy_project_test6/data/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/huy_project_test6/data/data_setup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/huy_project_test6/data/ex.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/huy_project_test6/setup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/huy_project_test6/test1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/huy_project_test6/test2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/huy_project_test6/test3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/python_learn/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/python_learn/pandas_learn/Pandas Data Science Tutorial.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/python_learn/pandas_learn/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/python_learn/pandas_learn/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/python_learn/pandas_learn/analysis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/python_learn/pandas_learn/pandas_tutorial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/python_learn/pandas_learn/pokemon_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/python_learn/pandas_learn/pokemon_data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/python_learn/pandas_learn/pokemon_data.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +66,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/huy_project_test5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -62,14 +74,16 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\NGUYENHUY\Documents\Projects\_python_sources\p1" />
       <recent name="C:\Users\NGUYENHUY\Documents\Projects\_python_sources\p1\huy_project_test5" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\NGUYENHUY\Documents\Projects\_python_sources\p1\main\python_learn\pandas_learn" />
       <recent name="C:\Users\NGUYENHUY\Documents\Projects\_python_sources\p1\Project2\data" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test2">
-    <configuration name="AEP2_tables" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.pandas_tutorial">
+    <configuration name="pandas_tutorial" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="p1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -77,32 +91,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Project2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/main/python_learn/pandas_learn" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Project2/AEP2_tables.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="paser_text3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="p1" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Project2" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Project2/paser_text3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main/python_learn/pandas_learn/pandas_tutorial.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -153,6 +146,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="p1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/huy_project_test6" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/huy_project_test6/test3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="web_scraping" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="p1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -176,9 +190,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.pandas_tutorial" />
+        <item itemvalue="Python.web_scraping" />
+        <item itemvalue="Python.test3" />
         <item itemvalue="Python.test2" />
         <item itemvalue="Python.test1" />
-        <item itemvalue="Python.AEP2_tables" />
       </list>
     </recent_temporary>
   </component>
