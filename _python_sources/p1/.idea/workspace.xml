@@ -19,6 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="a0acebf3-0ca1-4b60-8477-22e3e612f5bd" name="Default Changelist" comment="changed">
       <change afterPath="$PROJECT_DIR$/huy_project_test6/data/__init__.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/huy_project_test6/data/data_setup.py" afterDir="false" />
@@ -38,6 +39,9 @@
       <change afterPath="$PROJECT_DIR$/main/python_learn/pandas_learn/pokemon_data.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
+=======
+    <list default="true" id="a0acebf3-0ca1-4b60-8477-22e3e612f5bd" name="Default Changelist" comment="changed" />
+>>>>>>> 51e8334684bd0b566dd85636f9d3e347f1025ad3
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -66,8 +70,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+<<<<<<< HEAD
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="SDKs" />
+=======
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/huy_project_test5" />
+    <property name="project.structure.last.edited" value="Modules" />
+>>>>>>> 51e8334684bd0b566dd85636f9d3e347f1025ad3
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -233,6 +242,12 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="changed" />
     <option name="LAST_COMMIT_MESSAGE" value="changed" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="444" y="70" key="SettingsEditor" timestamp="1613614342948">
+      <screen x="0" y="0" width="1920" height="983" />
+    </state>
+    <state x="444" y="70" key="SettingsEditor/0.0.1920.983@0.0.1920.983" timestamp="1613614342948" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
