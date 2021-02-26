@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0acebf3-0ca1-4b60-8477-22e3e612f5bd" name="Default Changelist" comment="changed" />
+    <list default="true" id="a0acebf3-0ca1-4b60-8477-22e3e612f5bd" name="Default Changelist" comment="changed">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,7 +54,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -62,8 +64,8 @@
       <recent name="C:\Users\NGUYENHUY\Documents\Projects\_python_sources\p1\Project2\data" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test2">
-    <configuration name="AEP2_tables" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.AEP">
+    <configuration name="AEP" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="p1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -75,7 +77,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Project2/AEP2_tables.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Project2/AEP.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -170,9 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.AEP" />
+        <item itemvalue="Python.web_scraping" />
         <item itemvalue="Python.test2" />
         <item itemvalue="Python.test1" />
-        <item itemvalue="Python.AEP2_tables" />
+        <item itemvalue="Python.paser_text3" />
       </list>
     </recent_temporary>
   </component>
@@ -213,10 +217,30 @@
     <option name="LAST_COMMIT_MESSAGE" value="changed" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="444" y="70" key="SettingsEditor" timestamp="1613614342948">
+    <state width="1878" height="238" key="GridCell.Tab.0.bottom" timestamp="1614223153715">
       <screen x="0" y="0" width="1920" height="983" />
     </state>
-    <state x="444" y="70" key="SettingsEditor/0.0.1920.983@0.0.1920.983" timestamp="1613614342948" />
+    <state width="1878" height="238" key="GridCell.Tab.0.bottom/0.0.1920.983@0.0.1920.983" timestamp="1614223153715" />
+    <state width="1878" height="238" key="GridCell.Tab.0.center" timestamp="1614223153714">
+      <screen x="0" y="0" width="1920" height="983" />
+    </state>
+    <state width="1878" height="238" key="GridCell.Tab.0.center/0.0.1920.983@0.0.1920.983" timestamp="1614223153714" />
+    <state width="1878" height="238" key="GridCell.Tab.0.left" timestamp="1614223153714">
+      <screen x="0" y="0" width="1920" height="983" />
+    </state>
+    <state width="1878" height="238" key="GridCell.Tab.0.left/0.0.1920.983@0.0.1920.983" timestamp="1614223153714" />
+    <state width="1878" height="238" key="GridCell.Tab.0.right" timestamp="1614223153715">
+      <screen x="0" y="0" width="1920" height="983" />
+    </state>
+    <state width="1878" height="238" key="GridCell.Tab.0.right/0.0.1920.983@0.0.1920.983" timestamp="1614223153715" />
+    <state x="444" y="70" key="SettingsEditor" timestamp="1614222924969">
+      <screen x="0" y="0" width="1920" height="983" />
+    </state>
+    <state x="444" y="70" key="SettingsEditor/0.0.1920.983@0.0.1920.983" timestamp="1614222924969" />
+    <state x="608" y="158" key="new project wizard" timestamp="1614223149017">
+      <screen x="0" y="0" width="1920" height="983" />
+    </state>
+    <state x="608" y="158" key="new project wizard/0.0.1920.983@0.0.1920.983" timestamp="1614223149017" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

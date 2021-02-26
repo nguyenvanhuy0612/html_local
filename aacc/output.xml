@@ -1,0 +1,923 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2.2 (Python 3.7.5 on win32)" generated="20210226 16:52:29.011" rpa="false">
+<suite id="s1" name="Huy" source="D:\aacc\test_suites\oanh\huy.robot">
+<test id="s1-t1" name="Test 2">
+<kw name="Debug" library="DebugLibrary">
+<doc>Open a interactive shell, run any RobotFramework keywords.</doc>
+<kw name="Keyword Avaya">
+<msg timestamp="20210226 16:53:04.095" level="FAIL">No keyword with name 'Keyword Avaya' found.</msg>
+<status status="FAIL" starttime="20210226 16:53:04.095" endtime="20210226 16:53:04.095"></status>
+</kw>
+<kw name="keyword">
+<msg timestamp="20210226 16:53:14.035" level="FAIL">No keyword with name 'keyword' found. Did you mean:
+    BuiltIn.Run Keyword
+    BuiltIn.Run Keywords
+    BuiltIn.Run Keyword If</msg>
+<status status="FAIL" starttime="20210226 16:53:14.035" endtime="20210226 16:53:14.035"></status>
+</kw>
+<kw name="BaseKeyword">
+<msg timestamp="20210226 16:53:50.651" level="FAIL">No keyword with name 'BaseKeyword' found.</msg>
+<status status="FAIL" starttime="20210226 16:53:50.651" endtime="20210226 16:53:50.651"></status>
+</kw>
+<kw name="keyword BaseKeyword">
+<msg timestamp="20210226 16:54:00.191" level="FAIL">No keyword with name 'keyword BaseKeyword' found.</msg>
+<status status="FAIL" starttime="20210226 16:54:00.191" endtime="20210226 16:54:00.191"></status>
+</kw>
+<kw name="var">
+<msg timestamp="20210226 16:54:51.254" level="FAIL">No keyword with name 'var' found.</msg>
+<status status="FAIL" starttime="20210226 16:54:51.254" endtime="20210226 16:54:51.254"></status>
+</kw>
+<kw name="variables">
+<msg timestamp="20210226 16:54:55.130" level="FAIL">No keyword with name 'variables' found. Did you mean:
+    BuiltIn.Log Variables
+    BuiltIn.Get Variables
+    BuiltIn.Set Variable</msg>
+<status status="FAIL" starttime="20210226 16:54:55.130" endtime="20210226 16:54:55.130"></status>
+</kw>
+<kw name="Get Variables" library="BuiltIn">
+<doc>Returns a dictionary containing all variables in the current scope.</doc>
+<status status="PASS" starttime="20210226 16:55:06.079" endtime="20210226 16:55:06.099"></status>
+</kw>
+<kw name="Get Variable">
+<msg timestamp="20210226 16:55:10.248" level="FAIL">No keyword with name 'Get Variable' found. Did you mean:
+    BuiltIn.Get Variables
+    BuiltIn.Set Variable
+    BuiltIn.Set Variable If</msg>
+<status status="FAIL" starttime="20210226 16:55:10.248" endtime="20210226 16:55:10.248"></status>
+</kw>
+<kw name="Get Variables" library="BuiltIn">
+<doc>Returns a dictionary containing all variables in the current scope.</doc>
+<status status="PASS" starttime="20210226 16:55:16.150" endtime="20210226 16:55:16.170"></status>
+</kw>
+<kw name="Log Variables" library="BuiltIn">
+<doc>Logs all variables in the current scope with given log level.</doc>
+<msg timestamp="20210226 16:55:20.951" level="INFO">${/} = \</msg>
+<msg timestamp="20210226 16:55:20.951" level="INFO">${:} = ;</msg>
+<msg timestamp="20210226 16:55:20.951" level="INFO">${\n} = 
+</msg>
+<msg timestamp="20210226 16:55:20.951" level="INFO">${ACTIVITY_CODE1} = CC1026_AC</msg>
+<msg timestamp="20210226 16:55:20.951" level="INFO">${ACTIVITY_CODE2} = Skillset_Default_Activity_Code</msg>
+<msg timestamp="20210226 16:55:20.951" level="INFO">${ACTIVITY_CODE3} = System_Default_Activity_Code</msg>
+<msg timestamp="20210226 16:55:20.951" level="INFO">${ACTIVITY_CODE4} = TeaNov2016_AC1</msg>
+<msg timestamp="20210226 16:55:20.951" level="INFO">${ACTIVITY_CODE5} = TeaNov2016_AC2</msg>
+<msg timestamp="20210226 16:55:20.951" level="INFO">${ACTIVITY_NAME_VAR} = ${ACTIVITY_NAME}</msg>
+<msg timestamp="20210226 16:55:20.951" level="INFO">${ACW_CODE} = ${ACW_CODE_VAR}</msg>
+<msg timestamp="20210226 16:55:20.951" level="INFO">${ACW_CODE1} = Default_ACW</msg>
+<msg timestamp="20210226 16:55:20.951" level="INFO">${ACW_CODE2} = ACC7_ForceNRRC_ACW_1616001</msg>
+<msg timestamp="20210226 16:55:20.951" level="INFO">${ACW_CODE3} = ACC7_ForceNRRC_ACW_1616002</msg>
+<msg timestamp="20210226 16:55:20.951" level="INFO">${ACW_CODE4} = ACC7_ForceNRRC_ACW_1616003</msg>
+<msg timestamp="20210226 16:55:20.951" level="INFO">${ACW_TIME} = 30</msg>
+<msg timestamp="20210226 16:55:20.951" level="INFO">${ADMIN_CONTENT_EMAIL} = The e-mail account does not exist at the organization this message was sent to. Check the e-mail address, or contact the recipient directly to find out the correct address.</msg>
+<msg timestamp="20210226 16:55:20.951" level="INFO">${ADMIN_EMAIL} = Administrator@automation.tma.com</msg>
+<msg timestamp="20210226 16:55:20.951" level="INFO">${ADMIN_SUBJECT} = Undeliverable</msg>
+<msg timestamp="20210226 16:55:20.951" level="INFO">${AGENT1_FIRSTNAME} = AACC_AUTO_SANITY1_V</msg>
+<msg timestamp="20210226 16:55:20.951" level="INFO">${AGENT1_FULLNAME} = AACC_AUTO_SANITY1_V</msg>
+<msg timestamp="20210226 16:55:20.951" level="INFO">${AGENT1_ID} = 6500701</msg>
+<msg timestamp="20210226 16:55:20.951" level="INFO">${AGENT1_LASTNAME} = AACC_AUTO_SANITY1_V</msg>
+<msg timestamp="20210226 16:55:20.951" level="INFO">${AGENT1_PASSWORD} = 1_Abc_123</msg>
+<msg timestamp="20210226 16:55:20.951" level="INFO">${AGENT1_PHONE_NUMBER} = 6500701</msg>
+<msg timestamp="20210226 16:55:20.951" level="INFO">${AGENT1_SKILLSET_VOICE1} = V_SKILLSET_FOR_SANITY1</msg>
+<msg timestamp="20210226 16:55:20.951" level="INFO">${AGENT1_SKILLSET_VOICE2} = V_SKILLSET_FOR_SANITY2</msg>
+<msg timestamp="20210226 16:55:20.951" level="INFO">${AGENT1_SUP} = WS_SANITY_SUP</msg>
+<msg timestamp="20210226 16:55:20.951" level="INFO">${AGENT1_USERNAME} = aoc\AACC_AUTO_SANITY1_V</msg>
+<msg timestamp="20210226 16:55:20.951" level="INFO">${AGENT1_VOICE_URI} = sip:6500701@aoc.com</msg>
+<msg timestamp="20210226 16:55:20.951" level="INFO">${AGENT2_FIRSTNAME} = AACC_AUTO_SANITY2_V</msg>
+<msg timestamp="20210226 16:55:20.951" level="INFO">${AGENT2_FULLNAME} = AACC_AUTO_SANITY2_V</msg>
+<msg timestamp="20210226 16:55:20.951" level="INFO">${AGENT2_ID} = 6500702</msg>
+<msg timestamp="20210226 16:55:20.951" level="INFO">${AGENT2_LASTNAME} = AACC_AUTO_SANITY2_V</msg>
+<msg timestamp="20210226 16:55:20.951" level="INFO">${AGENT2_PASSWORD} = 1_Abc_123</msg>
+<msg timestamp="20210226 16:55:20.951" level="INFO">${AGENT2_PHONE_NUMBER} = 6500702</msg>
+<msg timestamp="20210226 16:55:20.951" level="INFO">${AGENT2_SKILLSET_VOICE1} = V_SKILLSET_FOR_SANITY1</msg>
+<msg timestamp="20210226 16:55:20.951" level="INFO">${AGENT2_SKILLSET_VOICE2} = V_SKILLSET_FOR_SANITY2</msg>
+<msg timestamp="20210226 16:55:20.951" level="INFO">${AGENT2_SUP} = WS_SANITY_SUP</msg>
+<msg timestamp="20210226 16:55:20.951" level="INFO">${AGENT2_USERNAME} = aoc\AACC_AUTO_SANITY2_V</msg>
+<msg timestamp="20210226 16:55:20.951" level="INFO">${AGENT2_VOICE_URI} = sip:6500702@aoc.com</msg>
+<msg timestamp="20210226 16:55:20.951" level="INFO">${AGENT3_FIRSTNAME} = AACC_AUTO_SANITY3_BL</msg>
+<msg timestamp="20210226 16:55:20.961" level="INFO">${AGENT3_FULLNAME} = AACC_AUTO_SANITY3_BL</msg>
+<msg timestamp="20210226 16:55:20.961" level="INFO">${AGENT3_ID} = 6500603</msg>
+<msg timestamp="20210226 16:55:20.961" level="INFO">${AGENT3_LASTNAME} = AACC_AUTO_SANITY3_BL</msg>
+<msg timestamp="20210226 16:55:20.961" level="INFO">${AGENT3_MAIL} = WS_SANITY1@acc7dc.com</msg>
+<msg timestamp="20210226 16:55:20.961" level="INFO">${AGENT3_MAIL2} = WS_SANITY2@acc7dc.com</msg>
+<msg timestamp="20210226 16:55:20.961" level="INFO">${AGENT3_PASSWORD} = 1_Abc_123</msg>
+<msg timestamp="20210226 16:55:20.961" level="INFO">${AGENT3_PHONE_NUMBER} = 6500703</msg>
+<msg timestamp="20210226 16:55:20.961" level="INFO">${AGENT3_SKILLSET_EM} = EM_SKILLSET_FOR_SANITY1</msg>
+<msg timestamp="20210226 16:55:20.961" level="INFO">${AGENT3_SKILLSET_EM2} = EM_SKILLSET_FOR_SANITY2</msg>
+<msg timestamp="20210226 16:55:20.961" level="INFO">${AGENT3_SKILLSET_VOICE1} = V_SKILLSET_FOR_SANITY1</msg>
+<msg timestamp="20210226 16:55:20.961" level="INFO">${AGENT3_SKILLSET_VOICE2} = V_SKILLSET_FOR_SANITY2</msg>
+<msg timestamp="20210226 16:55:20.961" level="INFO">${AGENT3_SKILLSET_WC} = WC_SKILLSET_FOR_SANITY1</msg>
+<msg timestamp="20210226 16:55:20.961" level="INFO">${AGENT3_SKILLSET_WC2} = WC_SKILLSET_FOR_SANITY2</msg>
+<msg timestamp="20210226 16:55:20.961" level="INFO">${AGENT3_SUP} = WS_SANITY_SUP</msg>
+<msg timestamp="20210226 16:55:20.961" level="INFO">${AGENT3_USERNAME} = aoc\AACC_AUTO_SANITY3_BL</msg>
+<msg timestamp="20210226 16:55:20.961" level="INFO">${AGENT3_VOICE_URI} = sip:6500703@aoc.com</msg>
+<msg timestamp="20210226 16:55:20.961" level="INFO">${AGENT4_FIRSTNAME} = AACC_AUTO_SANITY4_BL</msg>
+<msg timestamp="20210226 16:55:20.961" level="INFO">${AGENT4_FULLNAME} = AACC_AUTO_SANITY4_BL</msg>
+<msg timestamp="20210226 16:55:20.961" level="INFO">${AGENT4_ID} = 6500704</msg>
+<msg timestamp="20210226 16:55:20.961" level="INFO">${AGENT4_LASTNAME} = AACC_AUTO_SANITY4_BL</msg>
+<msg timestamp="20210226 16:55:20.961" level="INFO">${AGENT4_MAIL} = WS_SANITY1@acc7dc.com</msg>
+<msg timestamp="20210226 16:55:20.961" level="INFO">${AGENT4_MAIL2} = WS_SANITY2@acc7dc.com</msg>
+<msg timestamp="20210226 16:55:20.961" level="INFO">${AGENT4_PASSWORD} = 1_Abc_123</msg>
+<msg timestamp="20210226 16:55:20.961" level="INFO">${AGENT4_PHONE_NUMBER} = 6500704</msg>
+<msg timestamp="20210226 16:55:20.961" level="INFO">${AGENT4_SKILLSET_EM} = EM_SKILLSET_FOR_SANITY1</msg>
+<msg timestamp="20210226 16:55:20.961" level="INFO">${AGENT4_SKILLSET_EM2} = EM_SKILLSET_FOR_SANITY2</msg>
+<msg timestamp="20210226 16:55:20.961" level="INFO">${AGENT4_SKILLSET_VOICE1} = V_SKILLSET_FOR_SANITY1</msg>
+<msg timestamp="20210226 16:55:20.961" level="INFO">${AGENT4_SKILLSET_VOICE2} = V_SKILLSET_FOR_SANITY2</msg>
+<msg timestamp="20210226 16:55:20.961" level="INFO">${AGENT4_SKILLSET_WC} = WC_SKILLSET_FOR_SANITY1</msg>
+<msg timestamp="20210226 16:55:20.961" level="INFO">${AGENT4_SUP} = WS_SANITY_SUP</msg>
+<msg timestamp="20210226 16:55:20.961" level="INFO">${AGENT4_USERNAME} = aoc\AACC_AUTO_SANITY4_BL</msg>
+<msg timestamp="20210226 16:55:20.961" level="INFO">${AGENT4_VOICE_URI} = sip:6500704@aOC.com</msg>
+<msg timestamp="20210226 16:55:20.961" level="INFO">${AGENT5_FIRSTNAME} = AACC_AUTO_SANITY5_MM</msg>
+<msg timestamp="20210226 16:55:20.961" level="INFO">${AGENT5_FULLNAME} = AACC_AUTO_SANITY5_MM</msg>
+<msg timestamp="20210226 16:55:20.961" level="INFO">${AGENT5_ID} = 6500705</msg>
+<msg timestamp="20210226 16:55:20.961" level="INFO">${AGENT5_LASTNAME} = AACC_AUTO_SANITY5_MM</msg>
+<msg timestamp="20210226 16:55:20.961" level="INFO">${AGENT5_MAIL} = WS_SANITY1@acc7dc.com</msg>
+<msg timestamp="20210226 16:55:20.961" level="INFO">${AGENT5_MAIL2} = WS_SANITY2@acc7dc.com</msg>
+<msg timestamp="20210226 16:55:20.961" level="INFO">${AGENT5_PASSWORD} = 1_Abc_123</msg>
+<msg timestamp="20210226 16:55:20.961" level="INFO">${AGENT5_SKILLSET_EM} = EM_SKILLSET_FOR_SANITY1</msg>
+<msg timestamp="20210226 16:55:20.961" level="INFO">${AGENT5_SKILLSET_EM2} = EM_SKILLSET_FOR_SANITY2</msg>
+<msg timestamp="20210226 16:55:20.961" level="INFO">${AGENT5_SKILLSET_WC} = WC_SKILLSET_FOR_SANITY1</msg>
+<msg timestamp="20210226 16:55:20.961" level="INFO">${AGENT5_SUP} = WS_SANITY_SUP</msg>
+<msg timestamp="20210226 16:55:20.961" level="INFO">${AGENT5_USERNAME} = aoc\AACC_AUTO_SANITY5_MM</msg>
+<msg timestamp="20210226 16:55:20.961" level="INFO">${AGENT_FULLNAME} = NAME_AGENT</msg>
+<msg timestamp="20210226 16:55:20.961" level="INFO">${AGENT_VAR} = ${AGENTID}</msg>
+<msg timestamp="20210226 16:55:20.961" level="INFO">${attach_file} = &lt;function attach_file at 0x00000000041B1318&gt;</msg>
+<msg timestamp="20210226 16:55:20.961" level="INFO">${ATTACH_LARGER_25MB} = Pics.zip</msg>
+<msg timestamp="20210226 16:55:20.961" level="INFO">${ATTACH_LARGER_25MB_LINK} = C:\Users\Administrator\Documents\Pics.zip</msg>
+<msg timestamp="20210226 16:55:20.961" level="INFO">${ATTACH_LINK_1} = C:\Users\Administrator\Documents\1CLWujF.png</msg>
+<msg timestamp="20210226 16:55:20.961" level="INFO">${ATTACH_LINK_2} = C:\Users\Administrator\Documents\This is attachment with having a long name_1111111111111111112222222222222333333333334444444445555555555566666666666777777778888888888999999999999900000000001111122222222222223333333123456789123456789.png</msg>
+<msg timestamp="20210226 16:55:20.961" level="INFO">${ATTACH_LINK_3} = C:\Users\Administrator\Documents\CCMA_A_PM.ppt</msg>
+<msg timestamp="20210226 16:55:20.961" level="INFO">${ATTACH_LINK_4} = C:\Users\Administrator\Documents\Consolidated_ConfigurationTool.xlsm</msg>
+<msg timestamp="20210226 16:55:20.961" level="INFO">${ATTACH_LINK_5} = C:\Users\Administrator\Documents\week3_1.zip</msg>
+<msg timestamp="20210226 16:55:20.961" level="INFO">${ATTACH_SAME_LINK_1} = C:\Users\Administrator\Pictures\1CLWujF.png</msg>
+<msg timestamp="20210226 16:55:20.961" level="INFO">${ATTACHMENT_LONG_NAME2} = This is attachment with having a long name_1111111111111111112222222222222333333333334444444445555555555566666666666777777778888888888999999999999900000000001111122222222222223333333123456789123456789.png</msg>
+<msg timestamp="20210226 16:55:20.961" level="INFO">${ATTACHMENT_NAME1} = 1CLWujF.png</msg>
+<msg timestamp="20210226 16:55:20.961" level="INFO">${ATTACHMENT_NAME3} = CCMA_A_PM.ppt</msg>
+<msg timestamp="20210226 16:55:20.961" level="INFO">${ATTACHMENT_NAME4} = Consolidated_ConfigurationTool.xlsm</msg>
+<msg timestamp="20210226 16:55:20.961" level="INFO">${ATTACHMENT_NAME5} = week3_1.zip</msg>
+<msg timestamp="20210226 16:55:20.961" level="INFO">${ATTACHMENT_SAME_NAME1} = 1CLWujF.png</msg>
+<msg timestamp="20210226 16:55:20.961" level="INFO">${AUTO_PHRASES1} = This is auto phrases 1 from Agent</msg>
+<msg timestamp="20210226 16:55:20.961" level="INFO">${AUTO_PHRASES2} = 1234 1234 1234 1234 1234</msg>
+<msg timestamp="20210226 16:55:20.961" level="INFO">${AUTO_PHRASES3} = !@#$%^&amp;*()_+{}:"?</msg>
+<msg timestamp="20210226 16:55:20.961" level="INFO">${AVAYA_COMMUNICATOR} = C:/Program Files (x86)/Avaya/Avaya Communicator/AvayaCommunicator.exe</msg>
+<msg timestamp="20210226 16:55:20.961" level="INFO">${AVAYA_IX_WORKPLACE} = C:/Program Files (x86)/Avaya/Avaya IX Workplace/Avaya IX Workplace.exe</msg>
+<msg timestamp="20210226 16:55:20.961" level="INFO">${BROWSER_AGENT_0} = Chrome</msg>
+<msg timestamp="20210226 16:55:20.961" level="INFO">${BROWSER_AGENT_1} = Chrome</msg>
+<msg timestamp="20210226 16:55:20.961" level="INFO">${BROWSER_AGENT_2} = Chrome</msg>
+<msg timestamp="20210226 16:55:20.961" level="INFO">${BROWSER_AGENT_3} = Chrome</msg>
+<msg timestamp="20210226 16:55:20.961" level="INFO">${BROWSER_AGENT_4} = Chrome</msg>
+<msg timestamp="20210226 16:55:20.971" level="INFO">${BROWSER_AGENT_5} = Chrome</msg>
+<msg timestamp="20210226 16:55:20.971" level="INFO">${BROWSER_AGENT_6} = Chrome</msg>
+<msg timestamp="20210226 16:55:20.971" level="INFO">${BROWSER_AGENT_ALIAS_0} = brs_agent_0</msg>
+<msg timestamp="20210226 16:55:20.971" level="INFO">${BROWSER_AGENT_ALIAS_1} = brs_agent_1</msg>
+<msg timestamp="20210226 16:55:20.971" level="INFO">${BROWSER_AGENT_ALIAS_2} = brs_agent_2</msg>
+<msg timestamp="20210226 16:55:20.971" level="INFO">${BROWSER_AGENT_ALIAS_3} = brs_agent_3</msg>
+<msg timestamp="20210226 16:55:20.971" level="INFO">${BROWSER_AGENT_ALIAS_4} = brs_agent_4</msg>
+<msg timestamp="20210226 16:55:20.971" level="INFO">${BROWSER_AGENT_ALIAS_5} = brs_agent_5</msg>
+<msg timestamp="20210226 16:55:20.971" level="INFO">${BROWSER_AGENT_ALIAS_6} = brs_agent_6</msg>
+<msg timestamp="20210226 16:55:20.971" level="INFO">${BROWSER_CCMA_ALIAS_1} = brs_CCMA_1</msg>
+<msg timestamp="20210226 16:55:20.971" level="INFO">${BROWSER_CHROME} = Chrome</msg>
+<msg timestamp="20210226 16:55:20.971" level="INFO">${BROWSER_CUST_1} = Chrome</msg>
+<msg timestamp="20210226 16:55:20.971" level="INFO">${BROWSER_CUST_2} = Chrome</msg>
+<msg timestamp="20210226 16:55:20.971" level="INFO">${BROWSER_CUST_3} = Chrome</msg>
+<msg timestamp="20210226 16:55:20.971" level="INFO">${BROWSER_CUST_4} = Chrome</msg>
+<msg timestamp="20210226 16:55:20.971" level="INFO">${BROWSER_CUST_5} = Chrome</msg>
+<msg timestamp="20210226 16:55:20.971" level="INFO">${BROWSER_CUST_6} = Chrome</msg>
+<msg timestamp="20210226 16:55:20.971" level="INFO">${BROWSER_CUST_ALIAS_1} = brs_cust1</msg>
+<msg timestamp="20210226 16:55:20.971" level="INFO">${BROWSER_CUST_ALIAS_2} = brs_cust2</msg>
+<msg timestamp="20210226 16:55:20.971" level="INFO">${BROWSER_CUST_ALIAS_3} = brs_cust3</msg>
+<msg timestamp="20210226 16:55:20.971" level="INFO">${BROWSER_CUST_ALIAS_4} = brs_cust4</msg>
+<msg timestamp="20210226 16:55:20.971" level="INFO">${BROWSER_CUST_ALIAS_5} = brs_cust5</msg>
+<msg timestamp="20210226 16:55:20.971" level="INFO">${BROWSER_CUST_ALIAS_6} = brs_cust6</msg>
+<msg timestamp="20210226 16:55:20.971" level="INFO">${BROWSER_EDGE} = edge</msg>
+<msg timestamp="20210226 16:55:20.971" level="INFO">${BROWSER_FIREFOX} = Firefox</msg>
+<msg timestamp="20210226 16:55:20.971" level="INFO">${BROWSER_HELP_ALIAS} = brs_help</msg>
+<msg timestamp="20210226 16:55:20.971" level="INFO">${BROWSER_IE} = Ie</msg>
+<msg timestamp="20210226 16:55:20.971" level="INFO">${call_accept} = &lt;function call_accept at 0x0000000003DC1798&gt;</msg>
+<msg timestamp="20210226 16:55:20.971" level="INFO">${call_out} = &lt;function call_out at 0x0000000003DC1708&gt;</msg>
+<msg timestamp="20210226 16:55:20.971" level="INFO">${CCMA_PASS} = webadmin</msg>
+<msg timestamp="20210226 16:55:20.971" level="INFO">${CCMA_URL} = https://autosrv98.automation.tma.com</msg>
+<msg timestamp="20210226 16:55:20.971" level="INFO">${CCMA_USER} = webadmin</msg>
+<msg timestamp="20210226 16:55:20.971" level="INFO">${CDN1} = 55086</msg>
+<msg timestamp="20210226 16:55:20.971" level="INFO">${CDN1_URI} = sip:55086@aoc.com</msg>
+<msg timestamp="20210226 16:55:20.971" level="INFO">${CDN2} = 55048</msg>
+<msg timestamp="20210226 16:55:20.971" level="INFO">${CDN2_URI} = sip:55048@auracc8.com</msg>
+<msg timestamp="20210226 16:55:20.971" level="INFO">${CHAT_MESSAGE_FROM_CUSTOMER} = Chat message from customer</msg>
+<msg timestamp="20210226 16:55:20.971" level="INFO">${CHAT_MESSAGE_FROM_CUSTOMER_CONTENT_SPECIAL1} = https://google.com.vn</msg>
+<msg timestamp="20210226 16:55:20.971" level="INFO">${CHAT_MESSAGE_FROM_CUSTOMER_CONTENT_SPECIAL2} = http://google.com.vn</msg>
+<msg timestamp="20210226 16:55:20.971" level="INFO">${check_error} = &lt;function check_error at 0x0000000003DB1AF8&gt;</msg>
+<msg timestamp="20210226 16:55:20.971" level="INFO">${check_login} = &lt;function check_login at 0x0000000003DEC3A8&gt;</msg>
+<msg timestamp="20210226 16:55:20.971" level="INFO">${check_Other_AvayaIX} = &lt;function check_Other_AvayaIX at 0x0000000003DB1828&gt;</msg>
+<msg timestamp="20210226 16:55:20.971" level="INFO">${check_tip} = &lt;function check_tip at 0x0000000003DC1438&gt;</msg>
+<msg timestamp="20210226 16:55:20.971" level="INFO">${choose_account} = &lt;function choose_account at 0x0000000003E07798&gt;</msg>
+<msg timestamp="20210226 16:55:20.971" level="INFO">${CLASS_BTN_CHART} = neo-btn neo-btn--ghost neo-icon-{}-chart</msg>
+<msg timestamp="20210226 16:55:20.971" level="INFO">${click_exit} = &lt;function click_exit at 0x0000000003DC15E8&gt;</msg>
+<msg timestamp="20210226 16:55:20.971" level="INFO">${click_login} = &lt;function click_login at 0x0000000003DC1558&gt;</msg>
+<msg timestamp="20210226 16:55:20.971" level="INFO">${click_logout} = &lt;function click_logout at 0x0000000003DC1678&gt;</msg>
+<msg timestamp="20210226 16:55:20.971" level="INFO">${click_new_button} = &lt;function click_new_button at 0x0000000003E07C18&gt;</msg>
+<msg timestamp="20210226 16:55:20.971" level="INFO">${click_receive_button} = &lt;function click_receive_button at 0x0000000003E3C288&gt;</msg>
+<msg timestamp="20210226 16:55:20.971" level="INFO">${click_send_button} = &lt;function click_send_button at 0x0000000003E37B88&gt;</msg>
+<msg timestamp="20210226 16:55:20.971" level="INFO">${click_setting} = &lt;function click_setting at 0x0000000003DB1A68&gt;</msg>
+<msg timestamp="20210226 16:55:20.971" level="INFO">${close_AvayaIX} = &lt;function close_AvayaIX at 0x0000000003DF8A68&gt;</msg>
+<msg timestamp="20210226 16:55:20.971" level="INFO">${close_file_explorer_window} = &lt;function close_file_explorer_window at 0x0000000002EAAEE8&gt;</msg>
+<msg timestamp="20210226 16:55:20.971" level="INFO">${close_mail_app} = &lt;function close_mail_app at 0x0000000002EAAE58&gt;</msg>
+<msg timestamp="20210226 16:55:20.971" level="INFO">${close_onex} = &lt;function close_onex at 0x0000000003DC19D8&gt;</msg>
+<msg timestamp="20210226 16:55:20.971" level="INFO">${close_outlook} = &lt;function close_outlook at 0x0000000003E403A8&gt;</msg>
+<msg timestamp="20210226 16:55:20.971" level="INFO">${COMFORT_MESSAGE1} = Sorry Customer, network connection is not stable</msg>
+<msg timestamp="20210226 16:55:20.971" level="INFO">${COMFORT_MESSAGE2} = Please wait a few minutes</msg>
+<msg timestamp="20210226 16:55:20.971" level="INFO">${COMFORT_MESSAGE3} = Agent will answer you now</msg>
+<msg timestamp="20210226 16:55:20.971" level="INFO">${compare_images} = &lt;function compare_images at 0x0000000003E454C8&gt;</msg>
+<msg timestamp="20210226 16:55:20.971" level="INFO">${CONTACT_INFO_VAR} = ${CONTACT_INFO}</msg>
+<msg timestamp="20210226 16:55:20.971" level="INFO">${CONTACT_ROUTING_TIMEOUT} = 180</msg>
+<msg timestamp="20210226 16:55:20.971" level="INFO">${CONTACT_SKILLSET_VAR} = CUST_SKILLSET</msg>
+<msg timestamp="20210226 16:55:20.971" level="INFO">${CONTENT_ELEMENT_EMAIL_WEB} = xpath://div[@class='widget widget--email']//cc-email-editor//div[@id='email--textarea']//p</msg>
+<msg timestamp="20210226 16:55:20.971" level="INFO">${CONTENT_EMAIL1} = 1234567890 1234567890 1234567890 1234567890 1234567890 qwertyuiop asdfghjkl;'xcvbnm,][poiuytdfvbnm</msg>
+<msg timestamp="20210226 16:55:20.971" level="INFO">${CONTENT_EMAIL_WEB} = xpath://div[@class='widget widget--email']//div[@id='email--textarea']</msg>
+<msg timestamp="20210226 16:55:20.971" level="INFO">${create_new_email} = &lt;function create_new_email at 0x0000000003E0D0D8&gt;</msg>
+<msg timestamp="20210226 16:55:20.971" level="INFO">${create_new_email_plain} = &lt;function create_new_email_plain at 0x0000000003E374C8&gt;</msg>
+<msg timestamp="20210226 16:55:20.971" level="INFO">${CUST1_DOMAIN} = aoc.com</msg>
+<msg timestamp="20210226 16:55:20.971" level="INFO">${CUST1_EMAIL} = WS_CUSTOMER1@acc7dc.com</msg>
+<msg timestamp="20210226 16:55:20.971" level="INFO">@{CUST1_INFO} = [ WS_CUSTOMER1 | WS_CUSTOMER1@acc7dc.com | WC_oanh1 ]</msg>
+<msg timestamp="20210226 16:55:20.971" level="INFO">${CUST1_NAME} = WS_CUSTOMER1</msg>
+<msg timestamp="20210226 16:55:20.971" level="INFO">${CUST1_PHONE} = 6500719</msg>
+<msg timestamp="20210226 16:55:20.971" level="INFO">${CUST1_PHONE_IP_SERVER} = 100.30.6.150</msg>
+<msg timestamp="20210226 16:55:20.971" level="INFO">${CUST1_PHONE_PASSWORD} = 12345678</msg>
+<msg timestamp="20210226 16:55:20.971" level="INFO">${CUST1_URI} = tel:6500719;phone-context=dialstring</msg>
+<msg timestamp="20210226 16:55:20.971" level="INFO">${CUST1_URI_CDN} = sip:+6500719@aoc.com</msg>
+<msg timestamp="20210226 16:55:20.971" level="INFO">${CUST2_DOMAIN} = auracc8.com</msg>
+<msg timestamp="20210226 16:55:20.971" level="INFO">${CUST2_EMAIL} = WS_CUSTOMER2@acc7dc.com</msg>
+<msg timestamp="20210226 16:55:20.971" level="INFO">@{CUST2_INFO} = [ WS_CUSTOMER2 | WS_CUSTOMER2@acc7dc.com | WC_oanh1 ]</msg>
+<msg timestamp="20210226 16:55:20.971" level="INFO">${CUST2_NAME} = WS_CUSTOMER2</msg>
+<msg timestamp="20210226 16:55:20.971" level="INFO">${CUST2_PHONE} = 6500772</msg>
+<msg timestamp="20210226 16:55:20.971" level="INFO">${CUST2_PHONE_IP_SERVER} = 100.30.6.150</msg>
+<msg timestamp="20210226 16:55:20.971" level="INFO">${CUST2_PHONE_PASSWORD} = 12345678</msg>
+<msg timestamp="20210226 16:55:20.971" level="INFO">${CUST2_URI} = tel:6500772;phone-context=auracc8.com</msg>
+<msg timestamp="20210226 16:55:20.971" level="INFO">${CUST2_URI_CDN} = sip:+6500772@auracc8.com</msg>
+<msg timestamp="20210226 16:55:20.971" level="INFO">${CUST3_DOMAIN} = auracc8.com</msg>
+<msg timestamp="20210226 16:55:20.971" level="INFO">${CUST3_EMAIL} = WS_EM_CUSTOMER3@automation.tma.com</msg>
+<msg timestamp="20210226 16:55:20.971" level="INFO">@{CUST3_INFO} = [ cust_name_3 | WS_EM_CUSTOMER3@automation.tma.com | WC_oanh1 ]</msg>
+<msg timestamp="20210226 16:55:20.971" level="INFO">${CUST3_NAME} = cust_name_3</msg>
+<msg timestamp="20210226 16:55:20.971" level="INFO">${CUST3_PHONE} = 3307</msg>
+<msg timestamp="20210226 16:55:20.981" level="INFO">${CUST3_PHONE_IP_SERVER} = 100.30.6.150</msg>
+<msg timestamp="20210226 16:55:20.981" level="INFO">${CUST3_PHONE_PASSWORD} = 12345678</msg>
+<msg timestamp="20210226 16:55:20.981" level="INFO">${CUST3_URI} = tel:3307;phone-context=auracc8.com</msg>
+<msg timestamp="20210226 16:55:20.981" level="INFO">${CUST3_URI_CDN} = sip:3307@auracc8.com</msg>
+<msg timestamp="20210226 16:55:20.981" level="INFO">${CUST4_DOMAIN} = auracc8.com</msg>
+<msg timestamp="20210226 16:55:20.981" level="INFO">${CUST4_EMAIL} = WS_EM_customer4444@automation.tma.com</msg>
+<msg timestamp="20210226 16:55:20.981" level="INFO">@{CUST4_INFO} = [ cust_name_4 | WS_EM_customer4444@automation.tma.com | WC_oanh1 ]</msg>
+<msg timestamp="20210226 16:55:20.981" level="INFO">${CUST4_NAME} = cust_name_4</msg>
+<msg timestamp="20210226 16:55:20.981" level="INFO">${CUST4_PHONE} = 3307</msg>
+<msg timestamp="20210226 16:55:20.981" level="INFO">${CUST4_PHONE_IP_SERVER} = 100.30.6.150</msg>
+<msg timestamp="20210226 16:55:20.981" level="INFO">${CUST4_PHONE_PASSWORD} = 12345678</msg>
+<msg timestamp="20210226 16:55:20.981" level="INFO">${CUST4_URI} = tel:3307;phone-context=auracc8.com</msg>
+<msg timestamp="20210226 16:55:20.981" level="INFO">${CUST4_URI_CDN} = sip:3307@auracc8.com</msg>
+<msg timestamp="20210226 16:55:20.981" level="INFO">${CUST5_DOMAIN} = auracc8.com</msg>
+<msg timestamp="20210226 16:55:20.981" level="INFO">${CUST5_EMAIL} = WS5@automation.tma.com</msg>
+<msg timestamp="20210226 16:55:20.981" level="INFO">@{CUST5_INFO} = [ cust_name_5 | WS5@automation.tma.com | WC_oanh1 ]</msg>
+<msg timestamp="20210226 16:55:20.981" level="INFO">${CUST5_NAME} = cust_name_5</msg>
+<msg timestamp="20210226 16:55:20.981" level="INFO">${CUST5_PHONE} = 3307</msg>
+<msg timestamp="20210226 16:55:20.981" level="INFO">${CUST5_PHONE_IP_SERVER} = 100.30.6.150</msg>
+<msg timestamp="20210226 16:55:20.981" level="INFO">${CUST5_PHONE_PASSWORD} = 12345678</msg>
+<msg timestamp="20210226 16:55:20.981" level="INFO">${CUST5_URI} = tel:3307;phone-context=auracc8.com</msg>
+<msg timestamp="20210226 16:55:20.981" level="INFO">${CUST5_URI_CDN} = sip:3307@auracc8.com</msg>
+<msg timestamp="20210226 16:55:20.981" level="INFO">${CUST6_DOMAIN} = auracc8.com</msg>
+<msg timestamp="20210226 16:55:20.981" level="INFO">${CUST6_EMAIL} = oanhho_cust6@automation.tma.com</msg>
+<msg timestamp="20210226 16:55:20.981" level="INFO">@{CUST6_INFO} = [ oanhho_cust6 | oanhho_cust6@automation.tma.com | WC_oanh1 ]</msg>
+<msg timestamp="20210226 16:55:20.981" level="INFO">${CUST6_NAME} = oanhho_cust6</msg>
+<msg timestamp="20210226 16:55:20.981" level="INFO">${CUST6_PHONE} = 3307</msg>
+<msg timestamp="20210226 16:55:20.981" level="INFO">${CUST6_PHONE_IP_SERVER} = 100.30.6.150</msg>
+<msg timestamp="20210226 16:55:20.981" level="INFO">${CUST6_PHONE_PASSWORD} = 12345678</msg>
+<msg timestamp="20210226 16:55:20.981" level="INFO">${CUST6_URI} = tel:3307;phone-context=auracc8.com</msg>
+<msg timestamp="20210226 16:55:20.981" level="INFO">${CUST6_URI_CDN} = sip:3307@auracc8.com</msg>
+<msg timestamp="20210226 16:55:20.981" level="INFO">${CUST7_DOMAIN} = auracc8.com</msg>
+<msg timestamp="20210226 16:55:20.981" level="INFO">${CUST7_EMAIL} = oanhho_cust7@automation.tma.com</msg>
+<msg timestamp="20210226 16:55:20.981" level="INFO">@{CUST7_INFO} = [  | oanhho_cust7@automation.tma.com | WC_oanh1 ]</msg>
+<msg timestamp="20210226 16:55:20.981" level="INFO">${CUST7_NAME} = </msg>
+<msg timestamp="20210226 16:55:20.981" level="INFO">${CUST7_PHONE} = 3307</msg>
+<msg timestamp="20210226 16:55:20.981" level="INFO">${CUST7_PHONE_IP_SERVER} = 100.30.6.150</msg>
+<msg timestamp="20210226 16:55:20.981" level="INFO">${CUST7_PHONE_PASSWORD} = 12345678</msg>
+<msg timestamp="20210226 16:55:20.981" level="INFO">${CUST7_URI} = tel:3307;phone-context=auracc8.com</msg>
+<msg timestamp="20210226 16:55:20.981" level="INFO">${CUST7_URI_CDN} = sip:+3307@auracc8.com</msg>
+<msg timestamp="20210226 16:55:20.981" level="INFO">${CUST_LAST_MESSAGE} = //div[@id="messages"]//p[@class="sent"][last()]/span</msg>
+<msg timestamp="20210226 16:55:20.981" level="INFO">${CUST_LAST_MESSAGE_INFO} = //div[@id='messages']//p[@class='date'][last()]/span</msg>
+<msg timestamp="20210226 16:55:20.981" level="INFO">${CUST_LAST_SYSTEM_MESSAGE} = //div[@id="messages"]//p[@class="system"][(last)]/span</msg>
+<msg timestamp="20210226 16:55:20.981" level="INFO">${CUSTOMER_SEARCH_BTN_ADD_DATA} = xpath://button[@aria-label='Add{}']</msg>
+<msg timestamp="20210226 16:55:20.981" level="INFO">${CUSTOMER_SEARCH_BTN_CALL_CUSTOMER} = xpath://md-list-item[1]//button[contains(@aria-label,'Click to call {}')]</msg>
+<msg timestamp="20210226 16:55:20.981" level="INFO">${CUSTOMER_SEARCH_BTN_CREATE_NEW_CUSTOMER} = xpath://button//span[contains(text(),'Create new customer')]</msg>
+<msg timestamp="20210226 16:55:20.981" level="INFO">${CUSTOMER_SEARCH_BTN_EDIT_NAME} = xpath://button[@aria-label='Edit name']</msg>
+<msg timestamp="20210226 16:55:20.981" level="INFO">${CUSTOMER_SEARCH_BTN_FIELD_SEARCH} = xpath://button[@aria-label='Add search by {}']</msg>
+<msg timestamp="20210226 16:55:20.981" level="INFO">${CUSTOMER_SEARCH_BTN_FIELD_SEARCH_EMAIL} = xpath://button[@aria-label='Add search by Email']</msg>
+<msg timestamp="20210226 16:55:20.981" level="INFO">${CUSTOMER_SEARCH_BTN_FIELD_SEARCH_NAME} = xpath://button[@aria-label='Add search by Name']</msg>
+<msg timestamp="20210226 16:55:20.981" level="INFO">${CUSTOMER_SEARCH_BTN_FIELD_SEARCH_PHONE} = xpath://button[@aria-label='Add search by Phone']</msg>
+<msg timestamp="20210226 16:55:20.981" level="INFO">${CUSTOMER_SEARCH_BTN_FIELD_SEARCH_SURNAME} = xpath://button[@aria-label='Add search by Surname']</msg>
+<msg timestamp="20210226 16:55:20.981" level="INFO">${CUSTOMER_SEARCH_BTN_MAIL_CUSTOMER} = xpath://md-list-item[1]//button[@aria-label='Click to email']</msg>
+<msg timestamp="20210226 16:55:20.981" level="INFO">${CUSTOMER_SEARCH_BTN_SEARCH} = xpath://button[@aria-label='Search']</msg>
+<msg timestamp="20210226 16:55:20.981" level="INFO">${CUSTOMER_SEARCH_BTN_SHOW_HISTORY} = xpath://md-list-item[1]//button[@aria-label='Show history']</msg>
+<msg timestamp="20210226 16:55:20.981" level="INFO">${CUSTOMER_SEARCH_INPUT_CONTENT_EMAIL} = xpath://input[contains(@ng-model,'emailAddress')]</msg>
+<msg timestamp="20210226 16:55:20.981" level="INFO">${CUSTOMER_SEARCH_INPUT_CONTENT_FIRSTNAME} = xpath://input[contains(@ng-model,'firstName')]</msg>
+<msg timestamp="20210226 16:55:20.981" level="INFO">${CUSTOMER_SEARCH_INPUT_CONTENT_PHONE} = xpath://input[contains(@ng-model,'phoneNumber')]</msg>
+<msg timestamp="20210226 16:55:20.981" level="INFO">${CUSTOMER_SEARCH_INPUT_CONTENT_SEARCH} = xpath://input[contains(@ng-model,'{}')]</msg>
+<msg timestamp="20210226 16:55:20.981" level="INFO">${CUSTOMER_SEARCH_INPUT_CONTENT_SURNAME} = xpath://input[contains(@ng-model,'lastName')]</msg>
+<msg timestamp="20210226 16:55:20.981" level="INFO">${CUSTOMER_SEARCH_RESULT_SEARCH_CONTACT} = xpath://md-list-item[1]//div[@class='md-list-item-text layout-align-center-start layout-column']</msg>
+<msg timestamp="20210226 16:55:20.981" level="INFO">${DEBUG_FILE} = NONE</msg>
+<msg timestamp="20210226 16:55:20.981" level="INFO">${DEFAULT_CUSTOMER_LABEL} = CustomerLabel</msg>
+<msg timestamp="20210226 16:55:20.981" level="INFO">${DEFAULT_WELCOME_MESSAGE} = WCCF_063_Default Welcome Message</msg>
+<msg timestamp="20210226 16:55:20.981" level="INFO">${delete_download_attachment} = &lt;function delete_download_attachment at 0x0000000002EAAF78&gt;</msg>
+<msg timestamp="20210226 16:55:20.981" level="INFO">${delete_old_email} = &lt;function delete_old_email at 0x0000000003E37EE8&gt;</msg>
+<msg timestamp="20210226 16:55:20.981" level="INFO">${DISPOSITION_CODE1} = Completed</msg>
+<msg timestamp="20210226 16:55:20.981" level="INFO">${DISPOSITION_CODE2} = CRC_Completed</msg>
+<msg timestamp="20210226 16:55:20.981" level="INFO">${DISPOSITION_CODE3} = CRC_WebComms</msg>
+<msg timestamp="20210226 16:55:20.981" level="INFO">${DISPOSITION_NAME_VAR} = ${DISPOSITION_NAME}</msg>
+<msg timestamp="20210226 16:55:20.981" level="INFO">${DOMAIN} = aoc</msg>
+<msg timestamp="20210226 16:55:20.981" level="INFO">${DownloadChart} = &lt;function DownloadChart at 0x0000000003E47048&gt;</msg>
+<msg timestamp="20210226 16:55:20.981" level="INFO">${DYNAMIC_VARIABLE_COMFORT_MESSAGE_INDEX} = 1</msg>
+<msg timestamp="20210226 16:55:20.981" level="INFO">${DYNAMIC_VARIABLE_LINK_DOWNLOAD_FILE} = ${FILE_NAME}</msg>
+<msg timestamp="20210226 16:55:20.981" level="INFO">${DYNAMIC_VARIABLE_MESSAGE_ORDER} = ${MESSAGE_ORDER}</msg>
+<msg timestamp="20210226 16:55:20.981" level="INFO">${DYNAMIC_VARIABLE_WORKCARD_SERVICE_NAME} = ${WORKCARD_SERVICE_NAME}</msg>
+<msg timestamp="20210226 16:55:20.981" level="INFO">${EMAIL_CHATSCRIPT_NO} = no</msg>
+<msg timestamp="20210226 16:55:20.981" level="INFO">${EMAIL_CHATSCRIPT_YES} = yes</msg>
+<msg timestamp="20210226 16:55:20.981" level="INFO">${EMAIL_SIGNATURE} = THIS IS EMAIL SIGNATURE ROW</msg>
+<msg timestamp="20210226 16:55:20.981" level="INFO">${EMAIL_SIGNATURE2} = ********** TMA **********</msg>
+<msg timestamp="20210226 16:55:20.981" level="INFO">${EMAIL_SIGNATURE3_SPECIAL_CHARACTERS} = ~ ` ! @ # $ % ^ &amp; * ( ) _ + { } [ ] |  : " ; ' &lt; &gt; ? , . /</msg>
+<msg timestamp="20210226 16:55:20.981" level="INFO">${EMAIL_TEMPLATE1} = Ctrl - Help PyCharm</msg>
+<msg timestamp="20210226 16:55:20.981" level="INFO">${EMAIL_TEMPLATE2} = gif1</msg>
+<msg timestamp="20210226 16:55:20.981" level="INFO">${EMAIL_TEMPLATE3} = Learn English Online British Council</msg>
+<msg timestamp="20210226 16:55:20.981" level="INFO">${EMAIL_TEMPLATE4} = template2_pic_a71</msg>
+<msg timestamp="20210226 16:55:20.981" level="INFO">${EMAIL_TEMPLATE5} = Template include hyperlink</msg>
+<msg timestamp="20210226 16:55:20.981" level="INFO">${EMAIL_TEMPLATE6} = Learn English Online British Council - Learn English Online British Council (((^@__@^)))</msg>
+<msg timestamp="20210226 16:55:20.981" level="INFO">${EMAIL_TEMPLATE_NAME} = TEMPLATE</msg>
+<msg timestamp="20210226 16:55:20.981" level="INFO">${end_call} = &lt;function end_call at 0x0000000003DC1828&gt;</msg>
+<msg timestamp="20210226 16:55:20.981" level="INFO">${EXECDIR} = D:\aacc</msg>
+<msg timestamp="20210226 16:55:20.981" level="INFO">${False} = False</msg>
+<msg timestamp="20210226 16:55:20.981" level="INFO">@{filter2_list} = [ 0 | 1 | 2 | Display Name | Last Name | First Name | Phone | Call Out | Mobile | 9 | IP Phone | 10 | Other Phone | 11 | Email | Department | Street | City | State | PostalCode ]</msg>
+<msg timestamp="20210226 16:55:20.991" level="INFO">${GET_ARIA_OWN} = ${GET_ARIA_OWN}</msg>
+<msg timestamp="20210226 16:55:20.991" level="INFO">${HELP_URL} = http://100.30.6.137:31380/services/UnifiedAgentController/workspaces/assets/help/aacc/en-us/index.html</msg>
+<msg timestamp="20210226 16:55:20.991" level="INFO">${hold_call} = &lt;function hold_call at 0x0000000003DC18B8&gt;</msg>
+<msg timestamp="20210226 16:55:20.991" level="INFO">${ID_AGENT} = ${AGENTID}</msg>
+<msg timestamp="20210226 16:55:20.991" level="INFO">${ID_AGENT_SEARCH} = xxx</msg>
+<msg timestamp="20210226 16:55:20.991" level="INFO">${INLINE_IMAGE_1} = abcdef.png</msg>
+<msg timestamp="20210226 16:55:20.991" level="INFO">${INLINE_IMAGE_2} = abcdef.jpg</msg>
+<msg timestamp="20210226 16:55:20.991" level="INFO">${INLINE_IMAGE_3} = abcdef.jpeg</msg>
+<msg timestamp="20210226 16:55:20.991" level="INFO">${INLINE_IMAGE_GIF_4} = pusheen gif.gif</msg>
+<msg timestamp="20210226 16:55:20.991" level="INFO">${INLINE_IMAGE_GIF_LINK_4} = C:\Users\Administrator\Documents\pusheen gif.gif</msg>
+<msg timestamp="20210226 16:55:20.991" level="INFO">${INLINE_IMAGE_INVALID_EXTENTION} = CCMA_A_PM.ppt</msg>
+<msg timestamp="20210226 16:55:20.991" level="INFO">${INLINE_IMAGE_INVALID_EXTENTION_LINK} = C:\Users\Administrator\Documents\CCMA_A_PM.ppt</msg>
+<msg timestamp="20210226 16:55:20.991" level="INFO">${INLINE_IMAGE_LINK_1} = C:\Users\Administrator\Documents\abcdef.png</msg>
+<msg timestamp="20210226 16:55:20.991" level="INFO">${INLINE_IMAGE_LINK_2} = C:\Users\Administrator\Documents\abcdef.jpg</msg>
+<msg timestamp="20210226 16:55:20.991" level="INFO">${INLINE_IMAGE_LINK_3} = C:\Users\Administrator\Documents\abcdef.jpeg</msg>
+<msg timestamp="20210226 16:55:20.991" level="INFO">${INLINE_IMAGE_NO_EXTENTION} = IMAGE_NO_EXTENTION</msg>
+<msg timestamp="20210226 16:55:20.991" level="INFO">${INLINE_IMAGE_NO_EXTENTION_LINK} = C:\Users\Administrator\Documents\IMAGE_NO_EXTENTION</msg>
+<msg timestamp="20210226 16:55:20.991" level="INFO">${INLINE_IMAGE_SPECIAL_FILE_TYPE} = sPECILA FILE tYPE.jpeg.PNG</msg>
+<msg timestamp="20210226 16:55:20.991" level="INFO">${INLINE_IMAGE_SPECIAL_FILE_TYPE_LINK} = C:\Users\Administrator\Documents\sPECILA FILE tYPE.jpeg.PNG</msg>
+<msg timestamp="20210226 16:55:20.991" level="INFO">${INLINE_IMAGE_SPECIAL_NAME} = Valid Special Characters Name!@#$%^&amp;().png</msg>
+<msg timestamp="20210226 16:55:20.991" level="INFO">${INLINE_IMAGE_SPECIAL_NAME_LINK} = C:\Users\Administrator\Documents\Valid Special Characters Name!@#$%^&amp;().png</msg>
+<msg timestamp="20210226 16:55:20.991" level="INFO">${insert_inline_image} = &lt;function insert_inline_image at 0x0000000003E37828&gt;</msg>
+<msg timestamp="20210226 16:55:20.991" level="INFO">${LINE_EMAIL_TEMPLATE} = LINE</msg>
+<msg timestamp="20210226 16:55:20.991" level="INFO">${listdir} = &lt;built-in function listdir&gt;</msg>
+<msg timestamp="20210226 16:55:20.991" level="INFO">${LOC_AGENT_STATE} = xpath://div[@title='Connected']</msg>
+<msg timestamp="20210226 16:55:20.991" level="INFO">${LOC_AGENT_TOOLBAR_BTN_ACW} = id:ow_go_acw</msg>
+<msg timestamp="20210226 16:55:20.991" level="INFO">${LOC_AGENT_TOOLBAR_BTN_ACW_CODE} = id:ow_acw_${ACW_CODE_VAR}</msg>
+<msg timestamp="20210226 16:55:20.991" level="INFO">${LOC_AGENT_TOOLBAR_BTN_CALL_OUT} = xpath://button[@id='ow_search_button_call']</msg>
+<msg timestamp="20210226 16:55:20.991" level="INFO">${LOC_AGENT_TOOLBAR_BTN_CREATE_EMAIL} = xpath://button[@aria-label='Create Email']</msg>
+<msg timestamp="20210226 16:55:20.991" level="INFO">${LOC_AGENT_TOOLBAR_BTN_DROP_DOWN_MENU} = id:ow_starting_work</msg>
+<msg timestamp="20210226 16:55:20.991" level="INFO">${LOC_AGENT_TOOLBAR_BTN_EXIT} = xpath://button[@ng-click='exit()']</msg>
+<msg timestamp="20210226 16:55:20.991" level="INFO">${LOC_AGENT_TOOLBAR_BTN_FINISH_WORK} = xpath://button[@puppeteer-id='finish-work--dropdown-button']</msg>
+<msg timestamp="20210226 16:55:20.991" level="INFO">${LOC_AGENT_TOOLBAR_BTN_INTERACTION_LOG} = xpath://button[@class='toolbar__button-icon aoc-worklog md-button md-ink-ripple']</msg>
+<msg timestamp="20210226 16:55:20.991" level="INFO">${LOC_AGENT_TOOLBAR_BTN_INTERACTION_LOG_INBOUND} = xpath://md-tab-item//span[@class='aoc-inbound']</msg>
+<msg timestamp="20210226 16:55:20.991" level="INFO">${LOC_AGENT_TOOLBAR_BTN_INTERACTION_LOG_LAST_CONTACT_INBOUND} = xpath://md-content[@puppeteer-id='interaction-log__incoming-interaction-list']//md-card[1]//md-list-item//div[1]//div</msg>
+<msg timestamp="20210226 16:55:20.991" level="INFO">${LOC_AGENT_TOOLBAR_BTN_INTERACTION_LOG_LAST_CONTACT_MISSED} = xpath://md-content[@puppeteer-id='interaction-log__missed-interaction-list']//md-card[1]//md-list-item//div[1]//div</msg>
+<msg timestamp="20210226 16:55:20.991" level="INFO">${LOC_AGENT_TOOLBAR_BTN_INTERACTION_LOG_LAST_CONTACT_TYPE_INBOUND} = xpath://md-content[@puppeteer-id='interaction-log__incoming-interaction-list']//md-card[1]//md-list-item//div[1]//span</msg>
+<msg timestamp="20210226 16:55:20.991" level="INFO">${LOC_AGENT_TOOLBAR_BTN_INTERACTION_LOG_LAST_CONTACT_TYPE_MISSED} = xpath://md-content[@puppeteer-id='interaction-log__missed-interaction-list']//md-card[1]//md-list-item//div[1]//span</msg>
+<msg timestamp="20210226 16:55:20.991" level="INFO">${LOC_AGENT_TOOLBAR_BTN_INTERACTION_LOG_LAST_SKILL_CONTACT_INBOUND} = xpath://md-content[@puppeteer-id='interaction-log__incoming-interaction-list']//md-card[1]//md-list-item//div[1]//div//strong</msg>
+<msg timestamp="20210226 16:55:20.991" level="INFO">${LOC_AGENT_TOOLBAR_BTN_INTERACTION_LOG_LAST_SKILL_CONTACT_MISSED} = xpath://md-content[@puppeteer-id='interaction-log__missed-interaction-list']//md-card[1]//md-list-item//div[1]//div//strong</msg>
+<msg timestamp="20210226 16:55:20.991" level="INFO">${LOC_AGENT_TOOLBAR_BTN_INTERACTION_LOG_MISSED} = xpath://md-tab-item//span[@class='missed']</msg>
+<msg timestamp="20210226 16:55:20.991" level="INFO">${LOC_AGENT_TOOLBAR_BTN_INTERACTION_LOG_OUTBOUND} = xpath://md-tab-item//span[@class='aoc-outbound']</msg>
+<msg timestamp="20210226 16:55:20.991" level="INFO">${LOC_AGENT_TOOLBAR_BTN_NOT_READY} = id:ow_go_not_ready</msg>
+<msg timestamp="20210226 16:55:20.991" level="INFO">${LOC_AGENT_TOOLBAR_BTN_NOT_READY_CODE} = id:ow_not_ready_${NRD_CODE}</msg>
+<msg timestamp="20210226 16:55:20.991" level="INFO">${LOC_AGENT_TOOLBAR_BTN_PHONEBOOK} = xpath://button[@id='ow_address_book_']</msg>
+<msg timestamp="20210226 16:55:20.991" level="INFO">${LOC_AGENT_TOOLBAR_BTN_PHONEBOOK_CALL} = xpath://cc-address-book//button[@aria-label='Click to call ${AGENTID}']</msg>
+<msg timestamp="20210226 16:55:20.991" level="INFO">${LOC_AGENT_TOOLBAR_BTN_READY} = xpath://button[@id='ow_go_ready']</msg>
+<msg timestamp="20210226 16:55:20.991" level="INFO">${LOC_AGENT_TOOLBAR_BTN_REDIAL} = xpath://button[@aria-label='Redial']</msg>
+<msg timestamp="20210226 16:55:20.991" level="INFO">${LOC_AGENT_TOOLBAR_BTN_START_WORK} = xpath://button[@puppeteer-id='start-work--dropdown-button']</msg>
+<msg timestamp="20210226 16:55:20.991" level="INFO">${LOC_AGENT_TOOLBAR_BTN_SUPERVISOR_CALL} = xpath://button[@id='ow_call_supervisor']</msg>
+<msg timestamp="20210226 16:55:20.991" level="INFO">${LOC_AGENT_TOOLBAR_CARD_AGENT_ID} = xpath://*[@id='ow_Card_AgentId']//dl[1]//dd</msg>
+<msg timestamp="20210226 16:55:20.991" level="INFO">${LOC_AGENT_TOOLBAR_CARD_STATION_ID} = xpath://*[@id='ow_Card_StationId']//dd</msg>
+<msg timestamp="20210226 16:55:20.991" level="INFO">${LOC_AGENT_TOOLBAR_ICON_WC_INTERACTION_LOG} = xpath:</msg>
+<msg timestamp="20210226 16:55:20.991" level="INFO">${LOC_AGENT_TOOLBAR_IPT_PHONE} = xpath://input[@id='ow_enter_phone_number']</msg>
+<msg timestamp="20210226 16:55:20.991" level="INFO">${LOC_AGENT_TOOLBAR_IPT_PHONEBOOK_SEARCH} = xpath://input[@puppeteer-id='search-contacts--input']</msg>
+<msg timestamp="20210226 16:55:20.991" level="INFO">${LOC_AGENT_TOOLBAR_PHONEBOOK_LIST} = xpath://cc-address-book//*[contains(text(),'${AGENTID}')]</msg>
+<msg timestamp="20210226 16:55:20.991" level="INFO">${LOC_AGENT_TOOLBAR_TABLE_INTERACTION_LOG} = xpath://md-tab-content[@class='_md md-no-scroll md-active']</msg>
+<msg timestamp="20210226 16:55:20.991" level="INFO">${LOC_AGENT_TOOLBAR_TIMER} = xpath://div[@id='ow_Icon_State2']//cc-timer</msg>
+<msg timestamp="20210226 16:55:20.991" level="INFO">${LOC_AGENT_TOOLBAR_TITLE_FOOTER} = xpath://div[@puppeteer-id='footer-state--label']</msg>
+<msg timestamp="20210226 16:55:20.991" level="INFO">${LOC_AGENT_TOOLBAR_TITLE_NRD_CODE} = xpath://div[@puppeteer-id='footer-reason-code--label']</msg>
+<msg timestamp="20210226 16:55:20.991" level="INFO">${LOC_AGENT_TOOLBAR_TXT_EXIT_NOTIFY} = xpath://button[@id='login-button']</msg>
+<msg timestamp="20210226 16:55:20.991" level="INFO">${LOC_AGENT_TOOLBAR_TXT_TOOLBAR_STATE} = xpath://*[@class='footer-label']</msg>
+<msg timestamp="20210226 16:55:20.991" level="INFO">${LOC_BTN_END_OBSERVE} = xpath://button[@aria-label='End Observe']</msg>
+<msg timestamp="20210226 16:55:20.991" level="INFO">${LOC_BTN_START_WORK} = xpath://button[@aria-label='Start Work']</msg>
+<msg timestamp="20210226 16:55:20.991" level="INFO">${LOC_CUSTOMER_DETAIL_AD_CDN} = xpath://div[@ng-if='isIntrinsicPopulated']//table//tbody//tr[4]//td[2]</msg>
+<msg timestamp="20210226 16:55:20.991" level="INFO">${LOC_CUSTOMER_DETAIL_AD_CLID} = xpath://div[@ng-if='isIntrinsicPopulated']//table//tbody//tr[15]//td[2]</msg>
+<msg timestamp="20210226 16:55:20.991" level="INFO">${LOC_CUSTOMER_DETAIL_BTN_MORE_INFO} = xpath://div[@interaction-id='${WORKCARD_ID}']//button[@class='more-information-button md-button md-ink-ripple']</msg>
+<msg timestamp="20210226 16:55:20.991" level="INFO">${LOC_CUSTOMER_DETAIL_CHANEL_TYPE} = xpath://tr[@ng-if='context.channel']/td[2]</msg>
+<msg timestamp="20210226 16:55:20.991" level="INFO">${LOC_CUSTOMER_DETAIL_CONTACT_ID} = xpath://div[@ng-if='isIntrinsicPopulated']//table//tbody//tr[1]//td[2]</msg>
+<msg timestamp="20210226 16:55:20.991" level="INFO">${LOC_CUSTOMER_DETAIL_CONTACT_SIP_REQUEST_URI} = xpath://div[@ng-if='isIntrinsicPopulated']//table//tbody//tr[3]//td[2]</msg>
+<msg timestamp="20210226 16:55:20.991" level="INFO">${LOC_CUSTOMER_DETAIL_CONTACT_TYPE} = xpath://div[@ng-if='isIntrinsicPopulated']//table//tbody//tr[2]//td[2]</msg>
+<msg timestamp="20210226 16:55:20.991" level="INFO">${LOC_CUSTOMER_DETAIL_DESTINATION} = xpath://div[@class='widget__content--indented ps ps--active-x ps--active-y']//tr[@ng-if='context.destinationAddress']//td[2]</msg>
+<msg timestamp="20210226 16:55:20.991" level="INFO">${LOC_CUSTOMER_DETAIL_DIRECTION} = xpath://tr[@ng-if='context.direction']/td[2]</msg>
+<msg timestamp="20210226 16:55:20.991" level="INFO">${LOC_CUSTOMER_DETAIL_INTRINSIC_NAME} = xpath://div[@interaction-id='${WORKCARD_ID}']//div[@ng-if='isIntrinsicPopulated']//table//tbody//tr//td[1]</msg>
+<msg timestamp="20210226 16:55:20.991" level="INFO">${LOC_CUSTOMER_DETAIL_INTRINSIC_VALUE} = xpath://div[@interaction-id='${WORKCARD_ID}']//div[@ng-if='isIntrinsicPopulated']//table//tbody//tr//td[2]</msg>
+<msg timestamp="20210226 16:55:20.991" level="INFO">${LOC_CUSTOMER_DETAIL_LINE_EMAIL} = xpath://div[@interaction-id='${WORKCARD_ID}']//a[@title='Open link in external email client']</msg>
+<msg timestamp="20210226 16:55:20.991" level="INFO">${LOC_CUSTOMER_DETAIL_ORIGINAL_ADDRESS} = xpath://div[@class='widget widget--interaction-details']//*[@ng-if='context.originatingAddress']//td[2]</msg>
+<msg timestamp="20210226 16:55:20.991" level="INFO">${LOC_CUSTOMER_DETAIL_SERVICE} = xpath://tr[@ng-if='context.topic']/td[2]</msg>
+<msg timestamp="20210226 16:55:20.991" level="INFO">${LOC_CUSTOMER_DETAIL_SIP_DIALED_DN} = xpath://div[@ng-if='isIntrinsicPopulated']//table//tbody//tr[7]//td[2]</msg>
+<msg timestamp="20210226 16:55:20.991" level="INFO">${LOC_CUSTOMER_DETAIL_SIP_FROM_ADDRESS} = xpath://div[@ng-if='isIntrinsicPopulated']//table//tbody//tr[14]//td[2]</msg>
+<msg timestamp="20210226 16:55:20.991" level="INFO">${LOC_CUSTOMER_DETAIL_SIP_TO_ADDRESS} = xpath://div[@ng-if='isIntrinsicPopulated']//table//tbody//tr[5]//td[2]</msg>
+<msg timestamp="20210226 16:55:20.991" level="INFO">${LOC_CUSTOMER_DETAIL_WIDGET_CONTENT} = xpath://div[@class='widget widget--interaction-details']</msg>
+<msg timestamp="20210226 16:55:20.991" level="INFO">${LOC_CUSTOMER_DETAIL_WIDGET_HEADER} = xpath://h5[@class='widget__header aoc-interaction-details']</msg>
+<msg timestamp="20210226 16:55:20.991" level="INFO">${LOC_CUSTOMER_HISTORY_BTN_ADD_MORE_SEARCH_PARAMETER} = xpath://button[@puppeteer-id='history-search_search-type-option__search.type']</msg>
+<msg timestamp="20210226 16:55:20.991" level="INFO">${LOC_INTERACTIONLOG_BTN_CALL} = xpath://md-tab-content[1]/div/md-content/md-card/md-card-content/md-list-item/span[@aria-label='Click to call XXX']</msg>
+<msg timestamp="20210226 16:55:20.991" level="INFO">${LOC_INTERACTIONLOG_BTN_INTERACTIONLOG} = xpath://button[@id='ow_open_logs']</msg>
+<msg timestamp="20210226 16:55:20.991" level="INFO">${LOC_INTERACTIONLOG_LINE_CALL} = xpath://md-content/cc-worklog/md-content/md-tabs/md-tabs-content-wrapper/md-tab-content[1]/div/md-content/md-card/md-card-content</msg>
+<msg timestamp="20210226 16:55:20.991" level="INFO">${LOC_MYAGENT_BTN_OBSERVE} = xpath://td[text()='${CONTACT_INFO}']//following-sibling::td//button[@aria-label='Observe Interaction']</msg>
+<msg timestamp="20210226 16:55:20.991" level="INFO">${LOC_MYAGENT_BTN_STATUS_AGENT} = xpath://button[@aria-label='state']</msg>
+<msg timestamp="20210226 16:55:20.991" level="INFO">${LOC_MYAGENT_DISPLAY_AGENT} = xpath://td[@class='agent-display-name']</msg>
+<msg timestamp="20210226 16:55:20.991" level="INFO">${LOC_MYAGENT_SEARCH_AGENT} = xpath://div[@class='widget widget--supervisor']//md-input-container[1]//input[@aria-label='Search Team']</msg>
+<msg timestamp="20210226 16:55:20.991" level="INFO">${LOC_MYAGENT_SELECT_STATUS_AGENT} = xpath://button//span[text()='#{STATUS}']</msg>
+<msg timestamp="20210226 16:55:20.991" level="INFO">${LOC_SCREENPOP_LIST_SPAN_SCREENPOP} = xpath://div[@class="widget widget--screen-pop"]//md-tabs[@class="md-no-tab-content"]//md-tab-item</msg>
+<msg timestamp="20210226 16:55:20.991" level="INFO">${LOC_SEND_MESSAGE} = xpath://messenger-manager[@interaction-id='${WORKCARD_ID}']//*[@puppeteer-id='messenger-input__send-button']</msg>
+<msg timestamp="20210226 16:55:21.001" level="INFO">${LOC_TYPE_A_MESSAGE} = xpath://messenger-manager[@interaction-id='${WORKCARD_ID}']//textarea[@aria-label='Type a message...']</msg>
+<msg timestamp="20210226 16:55:21.001" level="INFO">${LOC_WEBCHAT_AGENT_LABEL} = xpath://div[@class='user']</msg>
+<msg timestamp="20210226 16:55:21.001" level="INFO">${LOC_WEBCHAT_AGENT_LINK_DOWNLOAD} = xpath://*[@id='tabs']//a[contains(text(), '${FILE_NAME}')]</msg>
+<msg timestamp="20210226 16:55:21.001" level="INFO">${LOC_WEBCHAT_AGENT_RESPONSE} = xpath:(//div[@id='chatInterface']/div[@id='messages']/p[@class='response'])[1]</msg>
+<msg timestamp="20210226 16:55:21.001" level="INFO">${LOC_WEBCHAT_BTN_SEND_BUTTON} = id:sendbutton-chat</msg>
+<msg timestamp="20210226 16:55:21.001" level="INFO">${LOC_WEBCHAT_BTN_SEND_URL} = xpath://button[@id='sendurl-chat']</msg>
+<msg timestamp="20210226 16:55:21.001" level="INFO">${LOC_WEBCHAT_CHAT_FIELD} = id:outmessage</msg>
+<msg timestamp="20210226 16:55:21.001" level="INFO">${LOC_WEBCHAT_CHAT_NOW_BUTTON} = id:openbutton-chat</msg>
+<msg timestamp="20210226 16:55:21.001" level="INFO">${LOC_WEBCHAT_CHECKBOX_EMAIL_TRANSCRIPT} = xpath://input[@type='checkbox' and @id='transcript-chat']</msg>
+<msg timestamp="20210226 16:55:21.001" level="INFO">${LOC_WEBCHAT_CUST_EMAIL} = id:email-chat</msg>
+<msg timestamp="20210226 16:55:21.001" level="INFO">${LOC_WEBCHAT_CUST_NAME} = id:user-chat</msg>
+<msg timestamp="20210226 16:55:21.001" level="INFO">${LOC_WEBCHAT_FIRST_PRECEDING_AGENT_DATE} = xpath:(//div[@id='chatInterface']/div[@id='messages']/p[@class='response'])[${MESSAGE_ORDER}]//preceding::p[@class='agentDate'][1]</msg>
+<msg timestamp="20210226 16:55:21.001" level="INFO">${LOC_WEBCHAT_FIRST_PRECEDING_CUSTOMER_DATE} = xpath:(//div[@id='chatInterface']/div[@id='messages']/p[@class='sent'])[${MESSAGE_ORDER}]//preceding::p[@class='date'][1]</msg>
+<msg timestamp="20210226 16:55:21.001" level="INFO">${LOC_WEBCHAT_FIRST_PRECEDING_SYSTEM_DATE} = xpath:(//div[@id='chatInterface']/div[@id='messages']/p[@class='system'])[${MESSAGE_ORDER}]/preceding::p[@class='agentDate'][1]</msg>
+<msg timestamp="20210226 16:55:21.001" level="INFO">${LOC_WEBCHAT_INIT_CHAT_BUTTON} = xpath://div[@id='chatPanel']//a</msg>
+<msg timestamp="20210226 16:55:21.001" level="INFO">${LOC_WEBCHAT_INT_URL} = xpath://input[@type='url']</msg>
+<msg timestamp="20210226 16:55:21.001" level="INFO">${LOC_WEBCHAT_LAST_SYSTEM_MESSAGE} = xpath://div[@id="messages"]//p[@class="system"][last()]/span</msg>
+<msg timestamp="20210226 16:55:21.001" level="INFO">${LOC_WEBCHAT_LINK_DOWNLOAD} = xpath://*[@id='messages']//span[contains(text(), '${FILE_NAME}')]/../span/a</msg>
+<msg timestamp="20210226 16:55:21.001" level="INFO">${LOC_WEBCHAT_LIST_OF_AGENT_MESSAGE} = xpath://div[@id='chatInterface']/div[@id='messages']</msg>
+<msg timestamp="20210226 16:55:21.001" level="INFO">${LOC_WEBCHAT_LIST_OF_CUSTOMER_MESSAGE} = xpath://div[@id='chatInterface']/div[@id='messages']/p[@class='sent']</msg>
+<msg timestamp="20210226 16:55:21.001" level="INFO">${LOC_WEBCHAT_LIST_OF_SYSTEM_MESSAGE} = xpath://div[@id='chatInterface']/div[@id='messages']/p[@class='system']</msg>
+<msg timestamp="20210226 16:55:21.001" level="INFO">${LOC_WEBCHAT_MESSAGE} = xpath://div[@id="messages"]//p[${MESSAGE_ORDER}]/span</msg>
+<msg timestamp="20210226 16:55:21.001" level="INFO">${LOC_WEBCHAT_ON_HOLD_MESSAGE_TEXT} = xpath://*[@id='messages']/p[3]</msg>
+<msg timestamp="20210226 16:55:21.001" level="INFO">${LOC_WEBCHAT_SELECT_SKILLSET} = xpath://select[@id='skillset-chat']/option[@value='CUST_SKILLSET']</msg>
+<msg timestamp="20210226 16:55:21.001" level="INFO">${LOC_WEBCHAT_SKILLSET} = id:skillset-chat</msg>
+<msg timestamp="20210226 16:55:21.001" level="INFO">${LOC_WEBCHAT_WINDOW__TEXTBOX_MESSAGE} = xpath://input[@id='outmessage']</msg>
+<msg timestamp="20210226 16:55:21.001" level="INFO">${LOC_WEBCHAT_WINDOW_CHAT} = xpath://div[@id='messages']//p</msg>
+<msg timestamp="20210226 16:55:21.001" level="INFO">${LOC_WEBCHAT_WINDOW_CLOSE_BUTTON} = xpath://button[@id='closebutton-chat']</msg>
+<msg timestamp="20210226 16:55:21.001" level="INFO">${LOC_WEBCHAT_WINDOW_MESSAGE_CONTENT_AGENT_LAST_MESSAGE} = xpath://div[@id='messages']//p[@class='response'][last()]/span[1]</msg>
+<msg timestamp="20210226 16:55:21.001" level="INFO">${LOC_WEBCHAT_WINDOW_MESSAGE_CONTENT_AGENT_LAST_MESSAGE_AGENT_INFO} = xpath://div[@id='messages']//p[@class = 'agentDate'][last()]/span[1]</msg>
+<msg timestamp="20210226 16:55:21.001" level="INFO">${LOC_WEBCHAT_WINDOW_MESSAGE_CONTENT_AGENT_LAST_MESSAGE_DATETIME} = xpath://div[@id='messages']//p[@class = 'agentDate'][last()]/span[5]</msg>
+<msg timestamp="20210226 16:55:21.001" level="INFO">${LOC_WEBCHAT_WINDOW_MESSAGE_CONTENT_CUST_LAST_MESSAGE} = xpath://div[@id="messages"]//p[@class="sent"][last()]/span</msg>
+<msg timestamp="20210226 16:55:21.001" level="INFO">${LOC_WEBCHAT_WINDOW_MESSAGE_CONTENT_CUST_LAST_MESSAGE_INFO} = xpath://div[@id='messages']//p[@class='date'][last()]/span</msg>
+<msg timestamp="20210226 16:55:21.001" level="INFO">${LOC_WEBCHAT_WINDOW_ON_HOLD_URL_GROUP} = xpath://*[@id='messages']/p[3]/span[1]</msg>
+<msg timestamp="20210226 16:55:21.001" level="INFO">${LOC_WEBCHAT_WINDOW_ON_HOLD_URL_MESSAGE} = xpath://*[@id='messages']/p[3]/span[3]/a</msg>
+<msg timestamp="20210226 16:55:21.001" level="INFO">${LOC_WEBCHAT_WINDOW_ON_HOLD_URL_NUMBER} = xpath://*[@id='messages']/p/span/a</msg>
+<msg timestamp="20210226 16:55:21.001" level="INFO">${LOC_WEBCHAT_WINDOW_URL} = xpath://div[@id='messages']//a</msg>
+<msg timestamp="20210226 16:55:21.001" level="INFO">${LOC_WEBCHAT_WINDOW_WELCOME_MESSAGE} = xpath://*[contains(text(), 'Login request received and approved')]</msg>
+<msg timestamp="20210226 16:55:21.001" level="INFO">${LOC_WEBSTATISTIC_ALERT} = xpath://md-checkbox[@aria-label='Alert']</msg>
+<msg timestamp="20210226 16:55:21.001" level="INFO">${LOC_WEBSTATISTIC_ALERT_DIALOG} = xpath://span[contains(text(),'Service Level Exceeded: {}')]</msg>
+<msg timestamp="20210226 16:55:21.001" level="INFO">${LOC_WEBSTATISTIC_BTN_CHART} = xpath://button[@id='webstat_chart_type_icon']</msg>
+<msg timestamp="20210226 16:55:21.001" level="INFO">${LOC_WEBSTATISTIC_BTN_REFRESH} = xpath://button[@id='refreshButtonId']</msg>
+<msg timestamp="20210226 16:55:21.001" level="INFO">${LOC_WEBSTATISTIC_BTN_SORT} = xpath://button[@id='webstat_sort_icon']</msg>
+<msg timestamp="20210226 16:55:21.001" level="INFO">${LOC_WEBSTATISTIC_CHART_AGENT} = xpath://canvas[@id='agentsChart']</msg>
+<msg timestamp="20210226 16:55:21.001" level="INFO">${LOC_WEBSTATISTIC_CHART_CONTACT} = xpath://canvas[@id='contactsChart']</msg>
+<msg timestamp="20210226 16:55:21.001" level="INFO">${LOC_WEBSTATISTIC_CHECKBOX_ALERT} = xpath://md-checkbox[@aria-label='Alert']</msg>
+<msg timestamp="20210226 16:55:21.001" level="INFO">${LOC_WEBSTATISTIC_MAX_WALT_TIME} = xpath://span[@id='maxWait']</msg>
+<msg timestamp="20210226 16:55:21.001" level="INFO">${LOC_WEBSTATISTIC_SELECT_SKILLSET} = xpath://li//*[contains(text(),'{}')]</msg>
+<msg timestamp="20210226 16:55:21.001" level="INFO">${LOC_WEBSTATISTIC_SERVICE_LEVEL} = xpath://span[@id='serviceLevel']</msg>
+<msg timestamp="20210226 16:55:21.001" level="INFO">${LOC_WEBSTATISTIC_SKILLSET_VIEW} = xpath://div[@class='skillsetView']//*[@id='{}']</msg>
+<msg timestamp="20210226 16:55:21.001" level="INFO">${LOC_WEBSTATISTIC_WARNING_SIGN} = xpath://li[@class='neo-tabs__item selectedSkillset']//span[@class='neo-icons__value neo-icon-error-filled notice-error']</msg>
+<msg timestamp="20210226 16:55:21.001" level="INFO">${LOC_WIDGETEMAIL_ADD_BCC} = xpath://div[@interaction-id='${WORKCARD_ID}']//a[@ng-click='toggleBcc()']</msg>
+<msg timestamp="20210226 16:55:21.001" level="INFO">${LOC_WIDGETEMAIL_ALIGN_CENTER} = xpath://div[@interaction-id='${WORKCARD_ID}']//button[@aria-label='Align Center']</msg>
+<msg timestamp="20210226 16:55:21.001" level="INFO">${LOC_WIDGETEMAIL_ALIGN_LEFT} = xpath://div[@interaction-id='${WORKCARD_ID}']//button[@aria-label='Align Left']</msg>
+<msg timestamp="20210226 16:55:21.001" level="INFO">${LOC_WIDGETEMAIL_ALIGN_REDO} = xpath://div[@interaction-id='${WORKCARD_ID}']//button[@aria-label='Redo']</msg>
+<msg timestamp="20210226 16:55:21.001" level="INFO">${LOC_WIDGETEMAIL_ALIGN_RIGHT} = xpath://div[@interaction-id='${WORKCARD_ID}']//button[@aria-label='Align Right']</msg>
+<msg timestamp="20210226 16:55:21.001" level="INFO">${LOC_WIDGETEMAIL_ALIGN_UNDO} = xpath://div[@interaction-id='${WORKCARD_ID}']//button[@aria-label='Undo']</msg>
+<msg timestamp="20210226 16:55:21.001" level="INFO">${LOC_WIDGETEMAIL_BOLD} = xpath://div[@interaction-id='${WORKCARD_ID}']//button[@aria-label='Bold']</msg>
+<msg timestamp="20210226 16:55:21.001" level="INFO">${LOC_WIDGETEMAIL_BTN_ATTACH_FILE} = xpath://div[@interaction-id='${WORKCARD_ID}']//button[@puppeteer-id='email-attach-file-button']</msg>
+<msg timestamp="20210226 16:55:21.001" level="INFO">${LOC_WIDGETEMAIL_BTN_CANCEL_PREVIEW_TEMPLATE} = xpath://button[@puppeteer-id='template-details__cancel-button']</msg>
+<msg timestamp="20210226 16:55:21.001" level="INFO">${LOC_WIDGETEMAIL_BTN_CANCEL_SEND_EMAIL} = xpath://div[@interaction-id='${WORKCARD_ID}']//button[@puppeteer-id='cancel-button--email-widget']</msg>
+<msg timestamp="20210226 16:55:21.001" level="INFO">${LOC_WIDGETEMAIL_BTN_CHOOSE_SKILLSET} = xpath://div[@id='ow_Email_Outbound_From']//md-select-value[@class='md-select-value']</msg>
+<msg timestamp="20210226 16:55:21.001" level="INFO">${LOC_WIDGETEMAIL_BTN_CHOOSE_SKILLSET_LIST} = xpath://md-select-menu[@class='_md md-overflow']//md-option//div</msg>
+<msg timestamp="20210226 16:55:21.001" level="INFO">${LOC_WIDGETEMAIL_BTN_CHOOSE_SKILLSET_LIST_ELEMENT} = xpath://md-select-menu[@class='_md md-overflow']//md-option</msg>
+<msg timestamp="20210226 16:55:21.001" level="INFO">${LOC_WIDGETEMAIL_BTN_DELETE_INLINE_IMAGE} = xpath://button[@class='md-primary md-button_high-contrast md-raised margin-right md-button md-ink-ripple']</msg>
+<msg timestamp="20210226 16:55:21.001" level="INFO">${LOC_WIDGETEMAIL_BTN_END_INTERACTION} = xpath://div[@class='md-dialog-container']//md-dialog//button[@class='md-primary md-confirm-button md-button md-ink-ripple md-default-theme']</msg>
+<msg timestamp="20210226 16:55:21.001" level="INFO">${LOC_WIDGETEMAIL_BTN_EXIT_UPLOAD_IMAGE_WINDOW} = xpath://i[@aria-label='Cancel']</msg>
+<msg timestamp="20210226 16:55:21.001" level="INFO">${LOC_WIDGETEMAIL_BTN_INSERT_EMAIL_SIGNATURE} = xpath://*[@ng-click='includeSignature()']</msg>
+<msg timestamp="20210226 16:55:21.011" level="INFO">${LOC_WIDGETEMAIL_BTN_INSERT_INLINE_IMAGE} = xpath://button[@class='md-primary md-button_high-contrast md-raised md-button md-ink-ripple']</msg>
+<msg timestamp="20210226 16:55:21.011" level="INFO">${LOC_WIDGETEMAIL_BTN_INSERT_LINK} = xpath://button[@puppeteer-id='insert-link-button--insert-link']</msg>
+<msg timestamp="20210226 16:55:21.011" level="INFO">${LOC_WIDGETEMAIL_BTN_INSERTT_TEMPLATE} = LINE//button[@aria-label='Insert']</msg>
+<msg timestamp="20210226 16:55:21.011" level="INFO">${LOC_WIDGETEMAIL_BTN_PREVIEW_TEMPLATE} = LINE//button[@aria-label='Preview']</msg>
+<msg timestamp="20210226 16:55:21.011" level="INFO">${LOC_WIDGETEMAIL_BTN_REPLY_ALL_EMAIL} = xpath://button[@ng-click='replyAll()']</msg>
+<msg timestamp="20210226 16:55:21.011" level="INFO">${LOC_WIDGETEMAIL_BTN_REPLY_EMAIL} = xpath://button[@ng-click='reply()']</msg>
+<msg timestamp="20210226 16:55:21.011" level="INFO">${LOC_WIDGETEMAIL_BTN_SELECT_FILE_ATTACH} = xpath://button[@cc-choose-file-button='add-new-file']</msg>
+<msg timestamp="20210226 16:55:21.011" level="INFO">${LOC_WIDGETEMAIL_BTN_SEND_EMAIL} = xpath://div[@interaction-id='${WORKCARD_ID}']//button[@puppeteer-id='email-send--button']</msg>
+<msg timestamp="20210226 16:55:21.011" level="INFO">${LOC_WIDGETEMAIL_BTN_SEND_REPLY_EMAIL} = xpath://div[@interaction-id='${WORKCARD_ID}']//button[@puppeteer-id='email-send--button']</msg>
+<msg timestamp="20210226 16:55:21.011" level="INFO">${LOC_WIDGETEMAIL_BTN_UPLOAD_ALL_ATTACH} = xpath://button[@puppeteer-id='email-upload-all-button']</msg>
+<msg timestamp="20210226 16:55:21.011" level="INFO">${LOC_WIDGETEMAIL_BTN_UPLOAD_IMAGE} = xpath://button[@cc-choose-file-button='upload-new-file']</msg>
+<msg timestamp="20210226 16:55:21.011" level="INFO">${LOC_WIDGETEMAIL_CHOOSE_SELECTED_IMAGE} = xpath://md-grid-tile[@puppeteer-id='image-pool__image']</msg>
+<msg timestamp="20210226 16:55:21.011" level="INFO">${LOC_WIDGETEMAIL_DISPLAY_INLINE_IMAGE} = xpath://div[@interaction-id='${WORKCARD_ID}']//div[@id='email--textarea']//img</msg>
+<msg timestamp="20210226 16:55:21.011" level="INFO">${LOC_WIDGETEMAIL_ERROR_MESSAGE_UPLOAD} = xpath://span[@class='toast__heading--text']</msg>
+<msg timestamp="20210226 16:55:21.011" level="INFO">${LOC_WIDGETEMAIL_FOUND_MATCHES} = xpath://md-content/md-virtual-repeat-container//div[@class='template-name flex']</msg>
+<msg timestamp="20210226 16:55:21.011" level="INFO">${LOC_WIDGETEMAIL_INPUT_BCC} = xpath://div[@interaction-id='${WORKCARD_ID}']//input[@class='email-address-input-row_bcc dir_ltr dir_aligned md-input']</msg>
+<msg timestamp="20210226 16:55:21.011" level="INFO">${LOC_WIDGETEMAIL_INSERT_IMAGE} = xpath://div[@interaction-id='${WORKCARD_ID}']//button[@aria-label='Insert Image']</msg>
+<msg timestamp="20210226 16:55:21.011" level="INFO">${LOC_WIDGETEMAIL_INSERT_LINK} = xpath://div[@interaction-id='${WORKCARD_ID}']//button[@aria-label='Insert Link']</msg>
+<msg timestamp="20210226 16:55:21.011" level="INFO">${LOC_WIDGETEMAIL_INSERT_LIST} = xpath://div[@interaction-id='${WORKCARD_ID}']//button[@aria-label='Insert List']</msg>
+<msg timestamp="20210226 16:55:21.011" level="INFO">${LOC_WIDGETEMAIL_IPT_CHOOSE_SUGGEST} = xpath://div[@interaction-id='${WORKCARD_ID}']//button[@puppeteer-index-id='suggested-content__response-phrase-0']</msg>
+<msg timestamp="20210226 16:55:21.011" level="INFO">${LOC_WIDGETEMAIL_IPT_CONTENT_EMAIL} = xpath://div[@interaction-id='${WORKCARD_ID}']//div[@id='email--textarea']//div[1]</msg>
+<msg timestamp="20210226 16:55:21.011" level="INFO">${LOC_WIDGETEMAIL_IPT_CONTENT_EMAIL1} = xpath://div[@interaction-id='${WORKCARD_ID}']//div[@id='email--textarea']</msg>
+<msg timestamp="20210226 16:55:21.011" level="INFO">${LOC_WIDGETEMAIL_IPT_CONTENT_EMAIL_LINE} = xpath://div[@interaction-id='${WORKCARD_ID}']//div[@id='email--textarea']/div</msg>
+<msg timestamp="20210226 16:55:21.011" level="INFO">${LOC_WIDGETEMAIL_IPT_CONTENT_EMAIL_LINE_REPLY} = xpath://div[@interaction-id='${WORKCARD_ID}']//div[@id='email--textarea']//div</msg>
+<msg timestamp="20210226 16:55:21.011" level="INFO">${LOC_WIDGETEMAIL_IPT_CONTENT_EMAIL_LINK} = xpath://div[@id='email--textarea']//div//a</msg>
+<msg timestamp="20210226 16:55:21.011" level="INFO">${LOC_WIDGETEMAIL_IPT_CONTENT_EMAIL_PLAIN} = xpath://div[@interaction-id='${WORKCARD_ID}']//textarea[@aria-label='Email signature text editor']//div[1]</msg>
+<msg timestamp="20210226 16:55:21.011" level="INFO">${LOC_WIDGETEMAIL_IPT_CONTENT_EMAIL_SUGGEST} = xpath://div[@interaction-id='${WORKCARD_ID}']//div[@id='email--textarea']//div[2]</msg>
+<msg timestamp="20210226 16:55:21.011" level="INFO">${LOC_WIDGETEMAIL_IPT_EDIT_LINK} = xpath://input[@id='edit-link']</msg>
+<msg timestamp="20210226 16:55:21.011" level="INFO">${LOC_WIDGETEMAIL_IPT_EDIT_TEXT_LINK} = xpath://input[@id='edit-text']</msg>
+<msg timestamp="20210226 16:55:21.011" level="INFO">${LOC_WIDGETEMAIL_IPT_EMAIL_FIELD_CC} = xpath://div[@interaction-id='${WORKCARD_ID}']//input[@id='ow_Email_Field_CC']</msg>
+<msg timestamp="20210226 16:55:21.011" level="INFO">${LOC_WIDGETEMAIL_IPT_EMAIL_FIELD_TO} = xpath://div[@interaction-id='${WORKCARD_ID}']//input[@id='ow_Email_Field_To']</msg>
+<msg timestamp="20210226 16:55:21.011" level="INFO">${LOC_WIDGETEMAIL_IPT_EMAIL_FIELD_TO_REPLY} = xpath://div[@interaction-id='${WORKCARD_ID}']//div[@class='md-chip-content _md-chip-content-edit-is-enabled']//span</msg>
+<msg timestamp="20210226 16:55:21.011" level="INFO">${LOC_WIDGETEMAIL_IPT_SEARCH_SUGGEST} = xpath://div[@interaction-id='${WORKCARD_ID}']//input[@ng-model='suggestedResponsesQuery.text']</msg>
+<msg timestamp="20210226 16:55:21.011" level="INFO">${LOC_WIDGETEMAIL_IPT_SEARCH_TEMPLATE} = xpath://div[@interaction-id='${WORKCARD_ID}']//input[@placeholder='Search Templates and Categories...']</msg>
+<msg timestamp="20210226 16:55:21.011" level="INFO">${LOC_WIDGETEMAIL_IPT_SEARCH_TEMPLATE_NEW_EMAIL} = xpath://input[@placeholder='Search Templates and Categories...']</msg>
+<msg timestamp="20210226 16:55:21.011" level="INFO">${LOC_WIDGETEMAIL_IPT_SUBJECT_EMAIL} = xpath://div[@interaction-id='${WORKCARD_ID}']//input[@id='ow_Email_Field_Subject']</msg>
+<msg timestamp="20210226 16:55:21.011" level="INFO">${LOC_WIDGETEMAIL_ITALIC} = xpath://div[@interaction-id='${WORKCARD_ID}']//button[@aria-label='Italic']</msg>
+<msg timestamp="20210226 16:55:21.011" level="INFO">${LOC_WIDGETEMAIL_NUMBER_LIST} = xpath://div[@interaction-id='${WORKCARD_ID}']//button[@aria-label='Insert Numbered List']</msg>
+<msg timestamp="20210226 16:55:21.011" level="INFO">${LOC_WIDGETEMAIL_QUOTE} = xpath://div[@interaction-id='${WORKCARD_ID}']//button[@aria-label='Quote']</msg>
+<msg timestamp="20210226 16:55:21.011" level="INFO">${LOC_WIDGETEMAIL_RECEIVE_CONTENT} = xpath://div[@interaction-id='${WORKCARD_ID}']//div[@id='email--textarea']//div//p</msg>
+<msg timestamp="20210226 16:55:21.011" level="INFO">${LOC_WIDGETEMAIL_RECEIVE_FROM} = xpath://div[@interaction-id='${WORKCARD_ID}']//span[@class='email-addresses__label email-addresses__label--teal']</msg>
+<msg timestamp="20210226 16:55:21.011" level="INFO">${LOC_WIDGETEMAIL_RECEIVE_SUBJECT} = xpath://div[@interaction-id='${WORKCARD_ID}']//div[@class='email-info__subject email-no-hide-whitespaces']</msg>
+<msg timestamp="20210226 16:55:21.011" level="INFO">${LOC_WIDGETEMAIL_RECEIVE_TO} = xpath://div[@interaction-id='${WORKCARD_ID}']//span[@class='email-addresses__label']//strong</msg>
+<msg timestamp="20210226 16:55:21.011" level="INFO">${LOC_WIDGETEMAIL_REMOVE_BCC} = xpath://div[@interaction-id='${WORKCARD_ID}']//a[@ng-click='toggleBcc()']</msg>
+<msg timestamp="20210226 16:55:21.011" level="INFO">${LOC_WIDGETEMAIL_SELECT_EMAIL_TEMPLATE_GROUP} = xpath://div[@interaction-id='${WORKCARD_ID}']//div[@puppeteer-id-name='template-list-item__item-name:TEMPLATE'][@puppeteer-id__email-templates_resource-type='GROUP']</msg>
+<msg timestamp="20210226 16:55:21.011" level="INFO">${LOC_WIDGETEMAIL_SELECT_EMAIL_TEMPLATE_MIME} = xpath://div[@interaction-id='${WORKCARD_ID}']//div[@puppeteer-id-name='template-list-item__item-name:TEMPLATE'][@puppeteer-id__email-templates_resource-type='MIME']</msg>
+<msg timestamp="20210226 16:55:21.011" level="INFO">${LOC_WIDGETEMAIL_SHOW_ATTACHMENT} = xpath://div[@interaction-id='${WORKCARD_ID}']//div[@class='file-attachment__name flex-auto']</msg>
+<msg timestamp="20210226 16:55:21.011" level="INFO">${LOC_WIDGETEMAIL_TEMPLATE_CONTENT} = xpath://div[@ng-if='isTemplateView']//div[@id='email--textarea']//div</msg>
+<msg timestamp="20210226 16:55:21.011" level="INFO">${LOC_WIDGETEMAIL_TEMPLATE_NAME} = xpath://div[@ng-if='isTemplateView']//div[@layout-align='space-between center']//h3</msg>
+<msg timestamp="20210226 16:55:21.011" level="INFO">${LOC_WIDGETEMAIL_TEMPLATE_SUBJECT} = xpath://div[@ng-if='isTemplateView']//div[@class='details layout-row']//span//span</msg>
+<msg timestamp="20210226 16:55:21.011" level="INFO">${LOC_WIDGETEMAIL_UNDERLINE} = xpath://div[@interaction-id='${WORKCARD_ID}']//button[@aria-label='Underline']</msg>
+<msg timestamp="20210226 16:55:21.011" level="INFO">${LOC_WIDGETEMAIL_VERIFY_ALIGN_CENTER} = xpath://div[@interaction-id='${WORKCARD_ID}']//div[@id='email--textarea']//div[@class=' align-center']</msg>
+<msg timestamp="20210226 16:55:21.011" level="INFO">${LOC_WIDGETEMAIL_VERIFY_ALIGN_LEFT} = xpath://div[@interaction-id='${WORKCARD_ID}']//div[@id='email--textarea']//div[@class=' align-left']</msg>
+<msg timestamp="20210226 16:55:21.011" level="INFO">${LOC_WIDGETEMAIL_VERIFY_ALIGN_RIGHT} = xpath://div[@interaction-id='${WORKCARD_ID}']//div[@id='email--textarea']//div[@class=' align-right']</msg>
+<msg timestamp="20210226 16:55:21.011" level="INFO">${LOC_WIDGETEMAIL_VERIFY_CONTENT_BOLD} = xpath://div[@interaction-id='${WORKCARD_ID}']//div[@id='email--textarea']//b</msg>
+<msg timestamp="20210226 16:55:21.011" level="INFO">${LOC_WIDGETEMAIL_VERIFY_CONTENT_INSERT_LIST} = xpath://div[@interaction-id='${WORKCARD_ID}']//div[@id='email--textarea']//ul//li</msg>
+<msg timestamp="20210226 16:55:21.011" level="INFO">${LOC_WIDGETEMAIL_VERIFY_CONTENT_ITALIC} = xpath://div[@interaction-id='${WORKCARD_ID}']//div[@id='email--textarea']//i</msg>
+<msg timestamp="20210226 16:55:21.011" level="INFO">${LOC_WIDGETEMAIL_VERIFY_CONTENT_NUMBER_LIST} = xpath://div[@interaction-id='${WORKCARD_ID}']//div[@id='email--textarea']//ol//li</msg>
+<msg timestamp="20210226 16:55:21.011" level="INFO">${LOC_WIDGETEMAIL_VERIFY_CONTENT_SIZE_12} = xpath://div[@interaction-id='${WORKCARD_ID}']//div[@id='email--textarea']//div//span[@style='font-size:12pt']</msg>
+<msg timestamp="20210226 16:55:21.011" level="INFO">${LOC_WIDGETEMAIL_VERIFY_CONTENT_SIZE_14} = xpath://div[@interaction-id='${WORKCARD_ID}']//div[@id='email--textarea']//div//span[@style='font-size:14pt']</msg>
+<msg timestamp="20210226 16:55:21.011" level="INFO">${LOC_WIDGETEMAIL_VERIFY_CONTENT_SIZE_16} = xpath://div[@interaction-id='${WORKCARD_ID}']//div[@id='email--textarea']//div//span[@style='font-size:16pt']</msg>
+<msg timestamp="20210226 16:55:21.011" level="INFO">${LOC_WIDGETEMAIL_VERIFY_CONTENT_SIZE_8} = xpath://div[@interaction-id='${WORKCARD_ID}']//div[@id='email--textarea']//div//span[@style='font-size:8pt']</msg>
+<msg timestamp="20210226 16:55:21.011" level="INFO">${LOC_WIDGETEMAIL_VERIFY_CONTENT_UNDERLINE} = xpath://div[@interaction-id='${WORKCARD_ID}']//div[@id='email--textarea']//u</msg>
+<msg timestamp="20210226 16:55:21.011" level="INFO">${LOC_WIDGETEMAIL_WARNING_MESS_UPLOAD_IMAGE} = xpath://div[@class='aoc-warning-filled error-msg']//span//span</msg>
+<msg timestamp="20210226 16:55:21.011" level="INFO">${LOC_WIDGETEMAIL_WORKCARD} = xpath://card-container[@interaction-direction='OUTGOING']</msg>
+<msg timestamp="20210226 16:55:21.011" level="INFO">${LOC_WIDGETSETTINGS_SETTINGS_ABOUT_BUILD} = xpath://span[@puppeteer-id='settings-about_build-version']</msg>
+<msg timestamp="20210226 16:55:21.011" level="INFO">${LOC_WIDGETSETTINGS_SETTINGS_ABOUT_VERSION} = xpath://span[@puppeteer-id='settings-about_solution-version']</msg>
+<msg timestamp="20210226 16:55:21.011" level="INFO">${LOC_WIDGETSETTINGS_SETTINGS_EMAIL_SIGNATURE} = xpath://md-tab-item//span[@puppeteer-id='settings-email-signature']</msg>
+<msg timestamp="20210226 16:55:21.011" level="INFO">${LOC_WIDGETSETTINGS_SETTINGS_EMAIL_SIGNATURE_ANY_EDIT_BTN} = xpath://cc-email-editor[@puppeteer-id='email-signature--html']//button</msg>
+<msg timestamp="20210226 16:55:21.011" level="INFO">${LOC_WIDGETSETTINGS_SETTINGS_EMAIL_SIGNATURE_BOLD} = xpath://md-tab-content[1]//button[@aria-label='Bold']</msg>
+<msg timestamp="20210226 16:55:21.011" level="INFO">${LOC_WIDGETSETTINGS_SETTINGS_EMAIL_SIGNATURE_BTN_SAVE} = xpath://progress-button[@puppeteer-id='email-signature-html--save-button']//button</msg>
+<msg timestamp="20210226 16:55:21.011" level="INFO">${LOC_WIDGETSETTINGS_SETTINGS_EMAIL_SIGNATURE_CHECK_AUTO_INSERT} = xpath://md-tab-content[1]//md-checkbox</msg>
+<msg timestamp="20210226 16:55:21.021" level="INFO">${LOC_WIDGETSETTINGS_SETTINGS_EMAIL_SIGNATURE_CONTENT} = xpath://div[@id='email--textarea']</msg>
+<msg timestamp="20210226 16:55:21.021" level="INFO">${LOC_WIDGETSETTINGS_SETTINGS_EMAIL_SIGNATURE_EDIT_LINK} = xpath://input[@id='edit-link']</msg>
+<msg timestamp="20210226 16:55:21.021" level="INFO">${LOC_WIDGETSETTINGS_SETTINGS_EMAIL_SIGNATURE_FONT_SIZE} = xpath://*[@class='_md md-active']//div//cc-email-editor//div//div[1]//div[2]</msg>
+<msg timestamp="20210226 16:55:21.021" level="INFO">${LOC_WIDGETSETTINGS_SETTINGS_EMAIL_SIGNATURE_FONT_SIZE_12} = xpath://div[@class='md-select-menu-container md-active md-clickable']//md-option[@value='12']</msg>
+<msg timestamp="20210226 16:55:21.021" level="INFO">${LOC_WIDGETSETTINGS_SETTINGS_EMAIL_SIGNATURE_FONT_SIZE_14} = xpath://div[@class='md-select-menu-container md-active md-clickable']//md-option[@value='14']</msg>
+<msg timestamp="20210226 16:55:21.021" level="INFO">${LOC_WIDGETSETTINGS_SETTINGS_EMAIL_SIGNATURE_FONT_SIZE_16} = xpath://div[@class='md-select-menu-container md-active md-clickable']//md-option[@value='16']</msg>
+<msg timestamp="20210226 16:55:21.021" level="INFO">${LOC_WIDGETSETTINGS_SETTINGS_EMAIL_SIGNATURE_FONT_SIZE_8} = xpath://div[@class='md-select-menu-container md-active md-clickable']//md-option[@value='8']</msg>
+<msg timestamp="20210226 16:55:21.021" level="INFO">${LOC_WIDGETSETTINGS_SETTINGS_EMAIL_SIGNATURE_LINK} = xpath://cc-email-editor[@puppeteer-id='email-signature--html']//button[@puppeteer-id='insert-link--email-widget-toolbar-button']</msg>
+<msg timestamp="20210226 16:55:21.021" level="INFO">${LOC_WIDGETSETTINGS_SETTINGS_EMAIL_SIGNATURE_REDO} = xpath://cc-email-editor[@puppeteer-id='email-signature--html']//button[@aria-label='Redo']</msg>
+<msg timestamp="20210226 16:55:21.021" level="INFO">${LOC_WIDGETSETTINGS_SETTINGS_EMAIL_SIGNATURE_SUBMIT_LINK} = xpath://button[@id='submit']</msg>
+<msg timestamp="20210226 16:55:21.021" level="INFO">${LOC_WIDGETSETTINGS_SETTINGS_EMAIL_SIGNATURE_TEXT_EDITOR} = xpath://div[@id='email--textarea']</msg>
+<msg timestamp="20210226 16:55:21.021" level="INFO">${LOC_WIDGETSETTINGS_SETTINGS_EMAIL_SIGNATURE_UNDO} = xpath://cc-email-editor[@puppeteer-id='email-signature--html']//button[@aria-label='Undo']</msg>
+<msg timestamp="20210226 16:55:21.021" level="INFO">${LOC_WIDGETSETTINGS_SETTINGS_LANGUAGE} = xpath://md-tab-item//span[@puppeteer-id='settings-language']</msg>
+<msg timestamp="20210226 16:55:21.021" level="INFO">${LOC_WIDGETSETTINGS_SETTINGS_LANGUAGE_SELECT} = xpath://language-settings//md-select-value</msg>
+<msg timestamp="20210226 16:55:21.021" level="INFO">${LOC_WIDGETSETTINGS_SETTINGS_LANGUAGE_SELECT_LIST} = xpath://div[@class='md-select-menu-container md-active md-clickable']//md-select-menu//md-option</msg>
+<msg timestamp="20210226 16:55:21.021" level="INFO">${LOC_WIDGETSETTINGS_SETTINGS_LANGUAGE_SELECT_LIST_NAME} = xpath://div[@class='md-select-menu-container md-active md-clickable']//md-option//div[@class='md-text']</msg>
+<msg timestamp="20210226 16:55:21.021" level="INFO">${LOC_WIDGETWELCOME_IPT_SEARCH_TEAM} = xpath://input[@aria-label='Search Team']</msg>
+<msg timestamp="20210226 16:55:21.021" level="INFO">${LOC_WIDGETWELCOME_MEMBER_SEARCH} = xpath://*[@id='ow_team_member_AGENT_expandedTeamView_xxx']</msg>
+<msg timestamp="20210226 16:55:21.021" level="INFO">${LOC_WORK_ITEM_OBSERVE} = xpath://td[@class='work-item']</msg>
+<msg timestamp="20210226 16:55:21.021" level="INFO">${LOC_WORKCARD} = xpath://card-container[@interaction-title='${CONTACT_INFO}']</msg>
+<msg timestamp="20210226 16:55:21.021" level="INFO">${LOC_WORKCARD_ACCEPT_CONTACT_BUTTON} = xpath://button[contains(@id, 'ow_card_accept_btn')]</msg>
+<msg timestamp="20210226 16:55:21.021" level="INFO">${LOC_WORKCARD_ACCEPT_CONTACT_HEADER_TITLE} = //button[@id='ow_card_accept_btn']//ancestor::card-container//span[starts-with(@class,'card__header-title')]</msg>
+<msg timestamp="20210226 16:55:21.021" level="INFO">${LOC_WORKCARD_BTN_ACCEPT_CONTACT} = xpath://card-container[@interaction-title='${CONTACT_INFO}']//button[@id='ow_card_accept_btn']</msg>
+<msg timestamp="20210226 16:55:21.021" level="INFO">${LOC_WORKCARD_BTN_ACTIVITY} = xpath://work-code[@type='WORK']//md-menu[@class='work-code _md-nested-menu md-menu _md']//button</msg>
+<msg timestamp="20210226 16:55:21.021" level="INFO">${LOC_WORKCARD_BTN_ACTIVITY_CODE} = xpath://button[text()='${ACTIVITY_NAME}']</msg>
+<msg timestamp="20210226 16:55:21.021" level="INFO">${LOC_WORKCARD_BTN_BARGE} = xpath://card-container[@interaction-title='${CONTACT_INFO}']//button[@aria-label='Barge']</msg>
+<msg timestamp="20210226 16:55:21.021" level="INFO">${LOC_WORKCARD_BTN_COACH} = xpath://card-container[@interaction-title='${CONTACT_INFO}']//button[@aria-label='Coach']</msg>
+<msg timestamp="20210226 16:55:21.021" level="INFO">${LOC_WORKCARD_BTN_COMPLETE_CONTACT} = xpath://card-container[@interaction-title='${CONTACT_INFO}']//button[@aria-label='Complete']</msg>
+<msg timestamp="20210226 16:55:21.021" level="INFO">${LOC_WORKCARD_BTN_CONSULT_CALL} = xpath://button[@id='ow_click_to_call_consult_menu_Consult_${WORKCARD_ID}']</msg>
+<msg timestamp="20210226 16:55:21.021" level="INFO">${LOC_WORKCARD_BTN_CONSULT_TEAM} = xpath://button[@puppeteer-id='consult-menu__team_Consult_${WORKCARD_ID}']</msg>
+<msg timestamp="20210226 16:55:21.021" level="INFO">${LOC_WORKCARD_BTN_CONSULT_TEAM_CHOOSED_AGENT} = xpath://*[@puppeteer-id='consult-menu__member-in-team_Consult_${WORKCARD_ID}']</msg>
+<msg timestamp="20210226 16:55:21.021" level="INFO">${LOC_WORKCARD_BTN_DISPOSITION} = //div[contains(@class,"md-open-menu-container") and @aria-hidden="false"]//work-code[@type="DISPOSITION"]/md-menu/button</msg>
+<msg timestamp="20210226 16:55:21.021" level="INFO">${LOC_WORKCARD_BTN_DISPOSITION_CODE} = //div[contains(@class,"md-open-menu-container") and @aria-hidden="false"]//md-menu-item[@class="ws-dropdown-menu__item work-code__item"]//span[text()="${DISPOSITION_NAME}"]</msg>
+<msg timestamp="20210226 16:55:21.021" level="INFO">${LOC_WORKCARD_BTN_END_ANY_CONTACT} = xpath://button[@aria-label='End']</msg>
+<msg timestamp="20210226 16:55:21.021" level="INFO">${LOC_WORKCARD_BTN_END_COACH} = xpath://card-container[@interaction-title='${CONTACT_INFO}']//button[@aria-label='End Coach']</msg>
+<msg timestamp="20210226 16:55:21.021" level="INFO">${LOC_WORKCARD_BTN_END_CONTACT} = xpath://card-container[@interaction-title='${CONTACT_INFO}']//button[contains(@id, 'ow_Card_End_btn')]</msg>
+<msg timestamp="20210226 16:55:21.021" level="INFO">${LOC_WORKCARD_BTN_END_INTERACTION} = xpath://div[@class='md-dialog-container']//md-dialog//button[@class='md-primary md-confirm-button md-button md-ink-ripple md-default-theme']</msg>
+<msg timestamp="20210226 16:55:21.021" level="INFO">${LOC_WORKCARD_BTN_END_INTERACTION_CALL} = xpath://card-container[@interaction-title='${CONTACT_INFO}']/ng-switch/div/ng-include/div/card-actions/div/span[1]/button</msg>
+<msg timestamp="20210226 16:55:21.021" level="INFO">${LOC_WORKCARD_BTN_END_OBSERVE} = xpath://card-container[@interaction-title='${CONTACT_INFO}']//button[@aria-label='End Observe']</msg>
+<msg timestamp="20210226 16:55:21.021" level="INFO">${LOC_WORKCARD_BTN_FIRST_ACTIVITY} = (//div[contains(@class,"md-open-menu-container") and @aria-hidden="false"]/md-menu-content/md-menu-item/span/button)[1]</msg>
+<msg timestamp="20210226 16:55:21.021" level="INFO">${LOC_WORKCARD_BTN_FIRST_DISPOSITION} = (//div[contains(@class,"md-open-menu-container") and @aria-hidden="false"]/md-menu-content/md-menu-item/span/button)[1]</msg>
+<msg timestamp="20210226 16:55:21.021" level="INFO">${LOC_WORKCARD_BTN_HOLD_ANY_CONTACT} = xpath://button[@aria-label='Unhold']</msg>
+<msg timestamp="20210226 16:55:21.021" level="INFO">${LOC_WORKCARD_BTN_HOLD_CONTACT} = xpath://card-container[@interaction-title='${CONTACT_INFO}']//button[@aria-label='Hold']</msg>
+<msg timestamp="20210226 16:55:21.021" level="INFO">${LOC_WORKCARD_BTN_INTERACTION_DETAILS_BUTTON} = xpath://*[@id='ow_interaction_details_${WORKCARD_ID}']</msg>
+<msg timestamp="20210226 16:55:21.021" level="INFO">${LOC_WORKCARD_BTN_MORE} = xpath://button[@id='ow_Card_More_btn_${WORKCARD_ID}']</msg>
+<msg timestamp="20210226 16:55:21.021" level="INFO">${LOC_WORKCARD_BTN_MORE_OUTGOING} = xpath://button[@id='ow_Card_More_btn_${WORKCARD_ID}']</msg>
+<msg timestamp="20210226 16:55:21.021" level="INFO">${LOC_WORKCARD_BTN_PART1_CUSTOMER} = xpath://*[@id='${GET_ARIA_OWN}']//md-menu-content//md-menu-item[1]//button//div//p[1]</msg>
+<msg timestamp="20210226 16:55:21.021" level="INFO">${LOC_WORKCARD_BTN_PART1_CUSTOMER_LABEL} = xpath://*[@id='${GET_ARIA_OWN}']//md-menu-content//md-menu-item[1]//button//div//p[2]</msg>
+<msg timestamp="20210226 16:55:21.021" level="INFO">${LOC_WORKCARD_BTN_PART2_AGENT} = xpath://*[@id='${GET_ARIA_OWN}']//md-menu-content//md-menu-item[2]//button//div//p[1]</msg>
+<msg timestamp="20210226 16:55:21.021" level="INFO">${LOC_WORKCARD_BTN_PART2_AGENT_LABEL} = xpath://*[@id='${GET_ARIA_OWN}']//md-menu-content//md-menu-item[2]//button//div//p[2]</msg>
+<msg timestamp="20210226 16:55:21.021" level="INFO">${LOC_WORKCARD_BTN_PART3_AGENT} = xpath://*[@id='${GET_ARIA_OWN}']//md-menu-content//md-menu-item[3]//button//div//p[1]</msg>
+<msg timestamp="20210226 16:55:21.021" level="INFO">${LOC_WORKCARD_BTN_PART3_AGENT_LABEL} = xpath://*[@id='${GET_ARIA_OWN}']//md-menu-content//md-menu-item[3]//button//div//p[2]</msg>
+<msg timestamp="20210226 16:55:21.021" level="INFO">${LOC_WORKCARD_BTN_PARTICIPANT_LIST} = xpath://messenger-participants[@id='${WORKCARD_ID}']//button[@aria-label='Participants List']</msg>
+<msg timestamp="20210226 16:55:21.021" level="INFO">${LOC_WORKCARD_BTN_REJECT_CONTACT} = xpath://card-container[@interaction-title='${CONTACT_INFO}']//button[@aria-label='End']</msg>
+<msg timestamp="20210226 16:55:21.021" level="INFO">${LOC_WORKCARD_BTN_SEND_PHRASE} = xpath://div[@interaction-id='${WORKCARD_ID}']//button[@aria-label='Click to send phrase']</msg>
+<msg timestamp="20210226 16:55:21.021" level="INFO">${LOC_WORKCARD_BTN_SEND_URL} = xpath://div[@interaction-id='${WORKCARD_ID}']//button[@aria-label='Click to send URL']</msg>
+<msg timestamp="20210226 16:55:21.021" level="INFO">${LOC_WORKCARD_BTN_SERVICE_NAME_TO_TRANSFER} = xpath://button[text()='${SERVICE_NAME_TO_TRANSFER_VALUE}']</msg>
+<msg timestamp="20210226 16:55:21.021" level="INFO">${LOC_WORKCARD_BTN_SERVICES} = id:ow_navigate_next_Transfer_${WORKCARD_ID}</msg>
+<msg timestamp="20210226 16:55:21.021" level="INFO">${LOC_WORKCARD_BTN_TRANSFER} = xpath://card-container[@interaction-title='${CONTACT_INFO}']//button[@aria-label='Transfer']</msg>
+<msg timestamp="20210226 16:55:21.021" level="INFO">${LOC_WORKCARD_BTN_TRANSFER_CALL} = xpath://button[@id='ow_click_to_call_consult_menu_Transfer_${WORKCARD_ID}']</msg>
+<msg timestamp="20210226 16:55:21.021" level="INFO">${LOC_WORKCARD_BTN_TRANSFER_TEAM} = xpath://button[@puppeteer-id='consult-menu__team_Transfer_${WORKCARD_ID}']</msg>
+<msg timestamp="20210226 16:55:21.021" level="INFO">${LOC_WORKCARD_BTN_TRANSFER_TEAM_CHOOSED_AGENT} = xpath://*[@puppeteer-id='consult-menu__member-in-team_Transfer_${WORKCARD_ID}']</msg>
+<msg timestamp="20210226 16:55:21.021" level="INFO">${LOC_WORKCARD_BTN_UNHOLD_CONTACT} = xpath://card-container[@interaction-title='${CONTACT_INFO}']//button[@aria-label='Unhold']</msg>
+<msg timestamp="20210226 16:55:21.021" level="INFO">${LOC_WORKCARD_CHARACTER_COUND} = xpath://messenger-manager[@interaction-id='${WORKCARD_ID}']//p[@ng-if='charCountEnabled()']//span</msg>
+<msg timestamp="20210226 16:55:21.021" level="INFO">${LOC_WORKCARD_CHOOSE} = xpath://card-container[@interaction-id='${WORKCARD_ID}']</msg>
+<msg timestamp="20210226 16:55:21.021" level="INFO">${LOC_WORKCARD_CONSULT_CALL} = xpath://card-container[@interaction-title='${CONTACT_INFO}']//button[@aria-label='Consult']</msg>
+<msg timestamp="20210226 16:55:21.021" level="INFO">${LOC_WORKCARD_CONTENT_CHAT} = xpath://div[@id='webchat__${WORKCARD_ID}']//div[2]//md-card//span[@class='message-body__text']</msg>
+<msg timestamp="20210226 16:55:21.021" level="INFO">${LOC_WORKCARD_DISCONNECT} = xpath://messenger-manager[@interaction-id='${WORKCARD_ID}']//p/span</msg>
+<msg timestamp="20210226 16:55:21.021" level="INFO">${LOC_WORKCARD_HEADER} = xpath://span[@class='card__header-text']</msg>
+<msg timestamp="20210226 16:55:21.021" level="INFO">${LOC_WORKCARD_HEADER_MISSED_MESSAGE} = xpath://card-container[@interaction-title='${CONTACT_INFO}']//span[@aria-label='Missed Messages']</msg>
+<msg timestamp="20210226 16:55:21.031" level="INFO">${LOC_WORKCARD_HEADER_SUMMARY_TEXT} = xpath://card-container[@interaction-title='${CONTACT_INFO}']//card-summary//div</msg>
+<msg timestamp="20210226 16:55:21.031" level="INFO">${LOC_WORKCARD_HEADER_TIMER} = xpath://card-container[@interaction-title='${CONTACT_INFO}']//cc-timer</msg>
+<msg timestamp="20210226 16:55:21.031" level="INFO">${LOC_WORKCARD_HEADER_TITLE} = xpath://card-container[@interaction-title='${CONTACT_INFO}']//span[@class='card__header-text']</msg>
+<msg timestamp="20210226 16:55:21.031" level="INFO">${LOC_WORKCARD_ICON_TRANSFER} = //span[@class='service-icon aoc-transfer-forward']</msg>
+<msg timestamp="20210226 16:55:21.031" level="INFO">${LOC_WORKCARD_ID} = xpath://card-container[@interaction-title='${CONTACT_INFO}']//cc-consult-menu</msg>
+<msg timestamp="20210226 16:55:21.031" level="INFO">${LOC_WORKCARD_ID_BY_ORDER} = //cc-consult-menu[@menu-type='Transfer'][${WORKCARD_ORDER}]</msg>
+<msg timestamp="20210226 16:55:21.031" level="INFO">${LOC_WORKCARD_INPUT_EXTENSION_TRANSFER} = //input[@class='menu-input-white ng-pristine ng-valid md-autofocus md-input ng-empty ng-touched'][@aria-label='Enter extension'] </msg>
+<msg timestamp="20210226 16:55:21.031" level="INFO">${LOC_WORKCARD_INTERACTION_CHANNEL} = xpath://button[@id='ow_details_channel_${WORKCARD_ID}']//div[@class='menu-item-value']</msg>
+<msg timestamp="20210226 16:55:21.031" level="INFO">${LOC_WORKCARD_INTERACTION_CONTACT_ID} = xpath://button[@id='ow_contact_id_${WORKCARD_ID}']//div[@class='menu-item-value']</msg>
+<msg timestamp="20210226 16:55:21.031" level="INFO">${LOC_WORKCARD_INTERACTION_DESTINATION_ADDRESS} = xpath://button[@id='ow_destination_address_${WORKCARD_ID}']//div[@class='menu-item-value']</msg>
+<msg timestamp="20210226 16:55:21.031" level="INFO">${LOC_WORKCARD_INTERACTION_DIRECTION} = xpath://button[@id='ow_details_direction_${WORKCARD_ID}']//div[@class='menu-item-value']</msg>
+<msg timestamp="20210226 16:55:21.031" level="INFO">${LOC_WORKCARD_INTERACTION_ORIGINAL_ADDRESS} = xpath://button[@id='ow_originating_address_${WORKCARD_ID}']//div[@class='menu-item-value']</msg>
+<msg timestamp="20210226 16:55:21.031" level="INFO">${LOC_WORKCARD_INTERACTION_SERVICE} = xpath://button[@id='ow_interaction_topic_${WORKCARD_ID}']//div[@class='menu-item-value']</msg>
+<msg timestamp="20210226 16:55:21.031" level="INFO">${LOC_WORKCARD_IPT_ACTIVITY_SEARCH} = //div[contains(@class,"md-open-menu-container") and @aria-hidden="false"]/md-menu-content/form//md-input-container[starts-with(@class, "code-search-input")]//input</msg>
+<msg timestamp="20210226 16:55:21.031" level="INFO">${LOC_WORKCARD_IPT_CONSULT_EXTENSION} = xpath://*[@id='ow_enter_extension_Consult_${WORKCARD_ID}']</msg>
+<msg timestamp="20210226 16:55:21.031" level="INFO">${LOC_WORKCARD_IPT_CONSULT_TEAM_SEARCH} = id:team_search_Consult_${WORKCARD_ID}</msg>
+<msg timestamp="20210226 16:55:21.031" level="INFO">${LOC_WORKCARD_IPT_DISPOSITION_SEARCH} = xpath://div[6]//input[@aria-label='Search']</msg>
+<msg timestamp="20210226 16:55:21.031" level="INFO">${LOC_WORKCARD_IPT_PHRASE_SEARCH} = xpath://div[@interaction-id='${WORKCARD_ID}']//input[@placeholder='Search by phrase']</msg>
+<msg timestamp="20210226 16:55:21.031" level="INFO">${LOC_WORKCARD_IPT_TRANSFER_EXTENSION} = xpath://*[@id='ow_enter_extension_Transfer_${WORKCARD_ID}']</msg>
+<msg timestamp="20210226 16:55:21.031" level="INFO">${LOC_WORKCARD_IPT_TRANSFER_TEAM_SEARCH} = id:team_search_Transfer_${WORKCARD_ID}</msg>
+<msg timestamp="20210226 16:55:21.031" level="INFO">${LOC_WORKCARD_IPT_URL_SEARCH} = xpath://div[@interaction-id='${WORKCARD_ID}']//input[@placeholder='Search by url description or address']</msg>
+<msg timestamp="20210226 16:55:21.031" level="INFO">${LOC_WORKCARD_LABEL_CHAT} = xpath://div[@id='webchat__${WORKCARD_ID}']//md-content[@puppeteer-id='messages-content__agent-customer']//div[@class='message-info md-caption layout-align-start-center layout-row']//span[1]</msg>
+<msg timestamp="20210226 16:55:21.031" level="INFO">${LOC_WORKCARD_LABEL_SKILLSET} = xpath://div[@id='ow_Service_Name_${WORKCARD_ID}']//span</msg>
+<msg timestamp="20210226 16:55:21.031" level="INFO">${LOC_WORKCARD_LIST} = //cc-cards-collection//card-container</msg>
+<msg timestamp="20210226 16:55:21.031" level="INFO">${LOC_WORKCARD_MESSENGER_STATUS} = xpath://context-canvas//div[2]//div[2]//messenger-status//div//p//span[1]</msg>
+<msg timestamp="20210226 16:55:21.031" level="INFO">${LOC_WORKCARD_SCROLL_CHAT} = xpath://messenger-manager[@interaction-id='${WORKCARD_ID}']//md-content[@puppeteer-id='messages-content__agent-customer']//div[@class='ps__rail-y']//div[@class='ps__thumb-y']</msg>
+<msg timestamp="20210226 16:55:21.031" level="INFO">${LOC_WORKCARD_SERVICE_NAME} = xpath://card-container[@interaction-title='${CONTACT_INFO}']//card-content[not(contains(@class,'card-details'))]//span</msg>
+<msg timestamp="20210226 16:55:21.031" level="INFO">${LOC_WORKCARD_SERVICE_SEARCH_BOX} = //div[starts-with(@id,"menu_container")][@aria-hidden="false"]//md-input-container[contains(@class,"service-search-input input-container--no-validation md-input-has-placeholder flex")]/input[@ng-model="query"]</msg>
+<msg timestamp="20210226 16:55:21.031" level="INFO">${LOC_WORKCARD_TAB_PHRASE} = xpath://div[@interaction-id='${WORKCARD_ID}']//div[@class='widget__content']//md-pagination-wrapper[@aria-label='Use the left and right arrow keys to navigate between tabs']//md-tab-item[1]</msg>
+<msg timestamp="20210226 16:55:21.031" level="INFO">${LOC_WORKCARD_TAB_URL} = xpath://div[@interaction-id='${WORKCARD_ID}']//div[@class='widget__content']//md-pagination-wrapper[@aria-label='Use the left and right arrow keys to navigate between tabs']//md-tab-item[2]</msg>
+<msg timestamp="20210226 16:55:21.031" level="INFO">${LOC_WORKCARD_TRANSFER_CALL} = xpath://card-container[@interaction-title='${CONTACT_INFO}']//button[@aria-label='Transfer']</msg>
+<msg timestamp="20210226 16:55:21.031" level="INFO">${LOC_WORKCARD_TRANSFER_TO_SERVICE_STATE} = //*[@id='ow_transferred_service_${WORKCARD_ID}']/div[@class='menu-item-value']</msg>
+<msg timestamp="20210226 16:55:21.031" level="INFO">${LOC_WORKCARD_TXT_ACTIVITY} = xpath://span[@puppeteer-id='card-content__work-code-icon--${WORKCARD_ID}']</msg>
+<msg timestamp="20210226 16:55:21.031" level="INFO">${LOC_WORKCARD_TXT_DISPOSITION} = xpath://span[@puppeteer-id='card-content__disposition-code-icon--${WORKCARD_ID}']</msg>
+<msg timestamp="20210226 16:55:21.031" level="INFO">${LOC_WORKCARD_TYPE_A_MESSAGE} = xpath://div[@class='super-input__input mousetrap dir_auto dir_aligned']</msg>
+<msg timestamp="20210226 16:55:21.031" level="INFO">${LOC_WORKSPACE_BTN_ACCEPT_CONTACT} = //*[@id='ow_card_accept_btn']</msg>
+<msg timestamp="20210226 16:55:21.031" level="INFO">${LOC_WORKSPACE_BTN_COMPLETE_CONTACT} = xpath://button[@aria-label="Complete"]</msg>
+<msg timestamp="20210226 16:55:21.031" level="INFO">${LOC_WORKSPACE_BTN_END_CONTACT} = xpath://button[contains(@id,"ow_Card_End_btn")]</msg>
+<msg timestamp="20210226 16:55:21.031" level="INFO">${LOC_WORKSPACE_CUSTOMER_HISTORY_BTN_SHOW_FIRST_DETAIL} = xpath://tr[1]//button[@aria-label='Toggle item details']</msg>
+<msg timestamp="20210226 16:55:21.031" level="INFO">${LOC_WORKSPACE_CUSTOMER_HISTORY_CHAT_CONTENT} = xpath://div[@class='chat-transcript']</msg>
+<msg timestamp="20210226 16:55:21.031" level="INFO">${LOC_WORKSPACE_CUSTOMER_HISTORY_SEARCH_BTN_FROM_DATE} = xpath://md-input-container[@puppeteer-id='history-search_from-date-datepicker-container']//md-icon[@ng-click='expandCalendar($event)']</msg>
+<msg timestamp="20210226 16:55:21.031" level="INFO">${LOC_WORKSPACE_CUSTOMER_HISTORY_SEARCH_BTN_SEARCH} = xpath://button[@class='ch-filter-btn md-button md-ink-ripple']</msg>
+<msg timestamp="20210226 16:55:21.031" level="INFO">${LOC_WORKSPACE_CUSTOMER_HISTORY_SEARCH_BTN_TO_DATE} = xpath://md-input-container[@puppeteer-id='history-search_to-date-datepicker-container']//md-icon[@ng-click='expandCalendar($event)']</msg>
+<msg timestamp="20210226 16:55:21.031" level="INFO">${LOC_WORKSPACE_CUSTOMER_HISTORY_SEARCH_BY_CUST_EMAIL} = xpath://div[@class='md-text'][contains(text(),'Customer Email')]</msg>
+<msg timestamp="20210226 16:55:21.031" level="INFO">${LOC_WORKSPACE_CUSTOMER_HISTORY_SEARCH_CHAT_FROM_AGENT} = xpath://span[@ng-bind-html='getMsgText(channelType, msg)']</msg>
+<msg timestamp="20210226 16:55:21.031" level="INFO">${LOC_WORKSPACE_CUSTOMER_HISTORY_SEARCH_CHAT_FROM_CUSTOMER} = xpath://span[@class='chat-body chat-body-customer']//span</msg>
+<msg timestamp="20210226 16:55:21.031" level="INFO">${LOC_WORKSPACE_CUSTOMER_HISTORY_SEARCH_CHOOSE_PAGE} = xpath:(//div[@class='md-select-menu-container md-active md-clickable']//md-select-menu//md-content//md-option[@ng-repeat='opts in pagination.currentPageOptions'])[last()]</msg>
+<msg timestamp="20210226 16:55:21.031" level="INFO">${LOC_WORKSPACE_CUSTOMER_HISTORY_SEARCH_CURRENT_DATE} = xpath://td[contains(@class,'focus')]</msg>
+<msg timestamp="20210226 16:55:21.031" level="INFO">${LOC_WORKSPACE_CUSTOMER_HISTORY_SEARCH_DATE_TIME_OF_CONTACT} = xpath:(//div[@ng-switch-when='true']//table[@class='widget__table widget__table--accessible']//tr[@ng-repeat-start='item in customerSearchResults track by $index']//td[1])[last()]</msg>
+<msg timestamp="20210226 16:55:21.031" level="INFO">${LOC_WORKSPACE_CUSTOMER_HISTORY_SEARCH_ICON_ADD_OF_CONTACT} = xpath:(//div[@ng-switch-when='true']//table[@class='widget__table widget__table--accessible']//tr[@ng-repeat-start='item in customerSearchResults track by $index']//td//button//div[@class='md-ripple-container'])[last()]</msg>
+<msg timestamp="20210226 16:55:21.031" level="INFO">${LOC_WORKSPACE_CUSTOMER_HISTORY_SEARCH_ICON_SELECT} = xpath://div[@class='layout-row']//md-select-value//span[@class='md-select-icon']</msg>
+<msg timestamp="20210226 16:55:21.031" level="INFO">${LOC_WORKSPACE_CUSTOMER_HISTORY_SEARCH_IPT_CUST_EMAIL} = xpath://div[@class='ch-filters']//md-input-container//input</msg>
+<msg timestamp="20210226 16:55:21.031" level="INFO">${LOC_WORKSPACE_CUSTOMER_HISTORY_SEARCH_IPT_FROM_DATE} = xpath://div[@ng-switch='searchField']//md-input-container//input[@aria-label='From']</msg>
+<msg timestamp="20210226 16:55:21.031" level="INFO">${LOC_WORKSPACE_CUSTOMER_HISTORY_SEARCH_IPT_SEARCH_FIELD} = xpath://div[@ng-switch='searchField']//md-input-container[contains(@ng-switch-when,'{}')]//input</msg>
+<msg timestamp="20210226 16:55:21.031" level="INFO">${LOC_WORKSPACE_CUSTOMER_HISTORY_SEARCH_IPT_TO_DATE} = xpath://div[@ng-switch='searchField']//md-input-container//input[@aria-label='To']</msg>
+<msg timestamp="20210226 16:55:21.031" level="INFO">${LOC_WORKSPACE_CUSTOMER_HISTORY_SEARCH_NUM_ROWS__PER_PAGE} = xpath://div[@class='md-select-menu-container md-active md-clickable']//md-select-menu//md-content//md-option[@value=100]</msg>
+<msg timestamp="20210226 16:55:21.031" level="INFO">${LOC_WORKSPACE_CUSTOMER_HISTORY_SEARCH_PAGE} = xpath://div[@class='ch-pagination-inner']//div[@class='ch-pagination-block']//md-select[@ng-model='pagination.currentPage']</msg>
+<msg timestamp="20210226 16:55:21.031" level="INFO">${LOC_WORKSPACE_CUSTOMER_HISTORY_SEARCH_PAGE_ICON__SELECT} = xpath://div[@class='ch-pagination-inner']//div[@class='ch-pagination-block']//md-select[@ng-model='pagination.currentPage']//md-select-value//span[@class='md-select-icon']</msg>
+<msg timestamp="20210226 16:55:21.031" level="INFO">${LOC_WORKSPACE_CUSTOMER_HISTORY_SEARCH_RECORDS} = xpath://span[starts-with(text(),'Records')]/../..</msg>
+<msg timestamp="20210226 16:55:21.031" level="INFO">${LOC_WORKSPACE_CUSTOMER_HISTORY_SEARCH_ROWS__PER_PAGE} = xpath://div[@class='ch-pagination-inner']//div[@class='ch-pagination-block']//md-select[@ng-model='pagination.recordsPerPage']</msg>
+<msg timestamp="20210226 16:55:21.031" level="INFO">${LOC_WORKSPACE_CUSTOMER_HISTORY_SEARCH_ROWS__PER_PAGE_ICON__SELECT} = xpath://div[@class='ch-pagination-block']//md-select[@ng-model='pagination.recordsPerPage']//span[@class='md-select-icon']</msg>
+<msg timestamp="20210226 16:55:21.031" level="INFO">${LOC_WORKSPACE_CUSTOMER_HISTORY_SEARCH_SELECT_SEARCH} = xpath://md-select[@aria-label='Select the filter']</msg>
+<msg timestamp="20210226 16:55:21.031" level="INFO">${LOC_WORKSPACE_CUSTOMER_HISTORY_SEARCH_SELECT_SEARCH_BY} = xpath://div[contains(@class,'active')]//md-option[contains(@puppeteer-id,'history-search_search-type-option__byVALUE')]</msg>
+<msg timestamp="20210226 16:55:21.031" level="INFO">${LOC_WORKSPACE_CUSTOMER_HISTORY_VERIFY_CONTENT} = xpath://div[@class='email-body']//div[@id='email--textarea']</msg>
+<msg timestamp="20210226 16:55:21.031" level="INFO">${LOC_WORKSPACE_CUSTOMER_HISTORY_VERIFY_CONTENT_LINE} = xpath://div[@class='text-editor text-editor--readonly text-editor--no-border layout-column flex']//div[@id='email--textarea']//div</msg>
+<msg timestamp="20210226 16:55:21.031" level="INFO">${LOC_WORKSPACE_CUSTOMER_HISTORY_VERIFY_FROM} = xpath://span[@ng-if='detail.from']</msg>
+<msg timestamp="20210226 16:55:21.031" level="INFO">${LOC_WORKSPACE_CUSTOMER_HISTORY_VERIFY_NAME} = xpath://span[@ng-if='detail.name']</msg>
+<msg timestamp="20210226 16:55:21.031" level="INFO">${LOC_WORKSPACE_CUSTOMER_HISTORY_VERIFY_SUBJECT} = xpath://span[@class='email-header-subject flex']</msg>
+<msg timestamp="20210226 16:55:21.041" level="INFO">${LOC_WORKSPACE_CUSTOMER_HISTORY_VERIFY_TO} = xpath://span[@ng-if='detail.to']</msg>
+<msg timestamp="20210226 16:55:21.041" level="INFO">${LOC_WORKSPACE_ERROR_BODY} = xpath://div[@class='error-body']</msg>
+<msg timestamp="20210226 16:55:21.041" level="INFO">${LOC_WORKSPACE_ERROR_HEADER} = xpath://div[@class='error-header']</msg>
+<msg timestamp="20210226 16:55:21.041" level="INFO">${LOC_WORKSPACE_HOME_DROPDOWN_MENU} = xpath://button[@puppeteer-id='agent--dropdown-button']</msg>
+<msg timestamp="20210226 16:55:21.041" level="INFO">${LOC_WORKSPACE_HOME_MENU_HEADER} = xpath://div[@class='menu-header__data']</msg>
+<msg timestamp="20210226 16:55:21.041" level="INFO">${LOC_WORKSPACE_LABEL_SIGNIN} = xpath://div[@class='login-form-container layout-align-center-center layout-row']/h1/span</msg>
+<msg timestamp="20210226 16:55:21.041" level="INFO">${LOC_WORKSPACE_LOGIN_AGENT} = xpath://*[contains(text(), 'Login Agent')]</msg>
+<msg timestamp="20210226 16:55:21.041" level="INFO">${LOC_WORKSPACE_LOGIN_AVATAR} = xpath://img[@class='agent-avatar']</msg>
+<msg timestamp="20210226 16:55:21.041" level="INFO">${LOC_WORKSPACE_LOGIN_BTN_ACTIVATE} = xpath://button[@puppeteer-id='activate--button']</msg>
+<msg timestamp="20210226 16:55:21.041" level="INFO">${LOC_WORKSPACE_LOGIN_BTN_SIGNIN} = login-button</msg>
+<msg timestamp="20210226 16:55:21.041" level="INFO">${LOC_WORKSPACE_LOGIN_BTN_STARTWORK} = xpath://button[@puppeteer-id='start-work--button']</msg>
+<msg timestamp="20210226 16:55:21.041" level="INFO">${LOC_WORKSPACE_LOGIN_IPT_PASSWORD} = xpath://input[@id='password']</msg>
+<msg timestamp="20210226 16:55:21.041" level="INFO">${LOC_WORKSPACE_LOGIN_IPT_USERNAME} = xpath://input[@id='username']</msg>
+<msg timestamp="20210226 16:55:21.041" level="INFO">${LOC_WORKSPACE_LOGIN_LABEL_AGENT} = xpath://h1[@class='md-title']</msg>
+<msg timestamp="20210226 16:55:21.041" level="INFO">${LOC_WORKSPACE_LOGOUT} = xpath://button[contains(@id, 'login-button') or contains(@id, 'ow_activate')]</msg>
+<msg timestamp="20210226 16:55:21.041" level="INFO">${LOC_WORKSPACE_NAVIGATION_BTN_CUSTOMER_SEARCH} = xpath://button[@aria-label='Customer Search']</msg>
+<msg timestamp="20210226 16:55:21.041" level="INFO">${LOC_WORKSPACE_NAVIGATION_BTN_OPEN_CASE_DETAIL_PREVIOUS} = xpath://div[@interaction-id='${WORKCARD_ID}']//div[@ng-if='!searchPanelActive']//tr[4]//button</msg>
+<msg timestamp="20210226 16:55:21.041" level="INFO">${LOC_WORKSPACE_NAVIGATION_CHAT_FROM_AGENT} = xpath://span[@class='chat-body chat-body-agent']//span</msg>
+<msg timestamp="20210226 16:55:21.041" level="INFO">${LOC_WORKSPACE_NAVIGATION_CHAT_FROM_CUSTOMER} = xpath://span[@class='chat-body chat-body-customer']//span</msg>
+<msg timestamp="20210226 16:55:21.041" level="INFO">${LOC_WORKSPACE_NAVIGATION_DATE_CURRENT_CONTACT} = xpath://div[@interaction-id='${WORKCARD_ID}']//div[@ng-if='!searchPanelActive']//tr[2]//td[1]</msg>
+<msg timestamp="20210226 16:55:21.041" level="INFO">${LOC_WORKSPACE_NAVIGATION_DATE_PREVIOUS_CONTACT} = xpath://div[@interaction-id='${WORKCARD_ID}']//div[@ng-if='!searchPanelActive']//tr[4]//td[1]</msg>
+<msg timestamp="20210226 16:55:21.041" level="INFO">${LOC_WORKSPACE_NAVIGATION_HELP_BTN_SEARCH} = xpath://*[@id='tab3']</msg>
+<msg timestamp="20210226 16:55:21.041" level="INFO">${LOC_WORKSPACE_NAVIGATION_HELP_INPUT_SEARCH} = xpath://input[@id='zoom_searchbox']</msg>
+<msg timestamp="20210226 16:55:21.041" level="INFO">${LOC_WORKSPACE_NAVIGATION_HELP_SEARCH_HEADING} = xpath://div[@class='searchheading']</msg>
+<msg timestamp="20210226 16:55:21.041" level="INFO">${LOC_WORKSPACE_NAVIGATION_HELP_TITLE} = xpath://td[@id='doctitle']</msg>
+<msg timestamp="20210226 16:55:21.041" level="INFO">${LOC_WORKSPACE_NAVIGATION_LABEL_WEB_STATISTIC} = xpath://div[contains(text(),'Web Statistic')]</msg>
+<msg timestamp="20210226 16:55:21.041" level="INFO">${LOC_WORKSPACE_NAVIGATION_MENU_BTN_CUSTOMER_SEARCH} = id:ow_open_Customer_Search</msg>
+<msg timestamp="20210226 16:55:21.041" level="INFO">${LOC_WORKSPACE_NAVIGATION_MENU_BTN_HELP} = xpath://button[@aria-label='Help']</msg>
+<msg timestamp="20210226 16:55:21.041" level="INFO">${LOC_WORKSPACE_NAVIGATION_MENU_BTN_SCREENPOP} = id:ow_open_Screenpop</msg>
+<msg timestamp="20210226 16:55:21.041" level="INFO">${LOC_WORKSPACE_NAVIGATION_MENU_BTN_SETTINGS} = xpath://button[@id='ow_open_Settings']</msg>
+<msg timestamp="20210226 16:55:21.041" level="INFO">${LOC_WORKSPACE_NAVIGATION_MENU_CHAT_BUTTON} = id:ow_open_Chat</msg>
+<msg timestamp="20210226 16:55:21.041" level="INFO">${LOC_WORKSPACE_NAVIGATION_MENU_CUSTOMER_DETAILS} = xpath://button[@aria-label='Customer Details']</msg>
+<msg timestamp="20210226 16:55:21.041" level="INFO">${LOC_WORKSPACE_NAVIGATION_MENU_CUSTOMER_JOURNEY} = xpath://button[@id='ow_open_Customer_Journey']</msg>
+<msg timestamp="20210226 16:55:21.041" level="INFO">${LOC_WORKSPACE_NAVIGATION_MENU_EMAIL_BUTTON} = id:ow_open_Email</msg>
+<msg timestamp="20210226 16:55:21.041" level="INFO">${LOC_WORKSPACE_NAVIGATION_MENU_MY_AGENT_BUTTON} = xpath://button[@id='ow_open_My_Agents']</msg>
+<msg timestamp="20210226 16:55:21.041" level="INFO">${LOC_WORKSPACE_NAVIGATION_MENU_PHONEBOOK} = xpath://button[@id='ow_open_Phonebook']</msg>
+<msg timestamp="20210226 16:55:21.041" level="INFO">${LOC_WORKSPACE_NAVIGATION_MENU_SMS_BUTTON} = id:ow_open_SMS</msg>
+<msg timestamp="20210226 16:55:21.041" level="INFO">${LOC_WORKSPACE_NAVIGATION_MENU_WEB_STATISTIC} = xpath://button[@id='ow_open_web_statictis']</msg>
+<msg timestamp="20210226 16:55:21.041" level="INFO">${LOC_WORKSPACE_NAVIGATION_MENU_WELCOME_PAGE_BUTTON} = xpath://div[@class='sidebar__container-top']//button[@id='ow_open_Welcome_Page']</msg>
+<msg timestamp="20210226 16:55:21.041" level="INFO">${LOC_WORKSPACE_NAVIGATION_SETTINGS_EMAIL_SIGNATURE} = xpath://md-tab-item//span[@puppeteer-id='settings-email-signature']</msg>
+<msg timestamp="20210226 16:55:21.041" level="INFO">${LOC_WORKSPACE_NAVIGATION_SETTINGS_EMAIL_SIGNATURE_BTN_SAVE} = xpath://*[@id='tab-content-16']/div/div[2]/progress-button/div/span/button</msg>
+<msg timestamp="20210226 16:55:21.041" level="INFO">${LOC_WORKSPACE_NAVIGATION_SETTINGS_EMAIL_SIGNATURE_TEXT_EDITOR} = xpath://div[@id='email--textarea']</msg>
+<msg timestamp="20210226 16:55:21.041" level="INFO">${LOC_WORKSPACE_NAVIGATION_STATUS_CURRENT_CONTACT} = xpath://div[@interaction-id='${WORKCARD_ID}']//div[@ng-if='!searchPanelActive']//tr[2]//td[2]</msg>
+<msg timestamp="20210226 16:55:21.041" level="INFO">${LOC_WORKSPACE_NAVIGATION_STATUS_PREVIOUS_CONTACT} = xpath://div[@interaction-id='${WORKCARD_ID}']//div[@ng-if='!searchPanelActive']//tr[4]//td[2]</msg>
+<msg timestamp="20210226 16:55:21.041" level="INFO">${LOC_WORKSPACE_NAVIGATION_TRANSCRIPT_PREVIOUS} = xpath://div[@class='chat-transcript']</msg>
+<msg timestamp="20210226 16:55:21.041" level="INFO">${LOC_WORKSPACE_WIDGET_CHAT_MESSAGE_CONTENT_AGENT_LAST_MESSAGE_HAVING_MAIL_TO} = //*[@class='response'][last()]/span[contains(text(), 'mailto')]</msg>
+<msg timestamp="20210226 16:55:21.041" level="INFO">${LOG_FILE} = D:\aacc\log.html</msg>
+<msg timestamp="20210226 16:55:21.041" level="INFO">${LOG_LEVEL} = INFO</msg>
+<msg timestamp="20210226 16:55:21.041" level="INFO">${MESSAGE_EMAIL1} = One two three four five six seven eight nine ten</msg>
+<msg timestamp="20210226 16:55:21.041" level="INFO">${MESSAGE_EMAIL2} = I need to change my password to 123456789</msg>
+<msg timestamp="20210226 16:55:21.041" level="INFO">${MESSAGE_EQUAL_10000} = Here's to the ones that we got Cheers to the wish you were here, but you're not 'Cause the drinks bring back all the memories Of everything we've been through Toast to the ones here today Toast to the ones that we lost on the way 'Cause the drinks bring back all the memories And the memories bring back, memories bring back you There's a time that I remember, when I did not know no pain When I believed in forever, and everything would stay the same Now my heart feel like December when somebody say your name 'Cause I can't reach out to call you, but I know I will one day, yeah Everybody hurts sometimes Everybody hurts someday, ayy ayy But everything gon' be alright Go and raise a glass and say, ayy Here's to the ones that we got Cheers to the wish you were here, but you're not 'Cause the drinks bring back all the memories Of everything we've been through Toast to the ones here today Toast to the ones that we lost on the way 'Cause the drinks bring back all the memories And the memories bring back, memories bring back you Doo doo, doo doo doo dooDoo doo doo doo, doo doo doo doo Doo doo doo doo, doo doo doo Memories bring back, memories bring back you There's a time that I remember when I never felt so lost When I felt all of the hatred was too powerful to stop (ooh, yeah) Now my heart feel like an ember and it's lighting up the dark I'll carry these torches for ya that you know I'll never drop, yeah Everybody hurts sometimes Everybody hurts someday, ayy ayy But everything gon' be alright Go and raise a glass and say, ayy Here's to the ones that we got (oh) Cheers to the wish you were here, but you're not'Cause the drinks bring back all the memories Of everything we've been through (no, no) Toast to the ones here today (ayy) Toast to the ones that we lost on the way 'Cause the drinks bring back all the memories (ayy) And the memories bring back, memories bring back you Doo doo, doo doo doo doo Doo doo doo doo, doo doo doo doo Doo doo doo doo, doo doo doo Memories bring back, memories bring back you Doo doo, doo doo doo doo Doo doo doo doo, doo doo doo doo Doo doo doo doo, doo doo doo (ooh, yeah) Memories bring back, memories bring back you Yeah, yeah, yeah Yeah, yeah, yeah, yeah, yeah, doh, doh Memories bring back, memories bring back you Here's to the ones that we got Cheers to the wish you were here, but you're not 'Cause the drinks bring back all the memories Of everything we've been through Toast to the ones here today Toast to the ones that we lost on the way 'Cause the drinks bring back all the memories And the memories bring back, memories bring back you There's a time that I remember, when I did not know no pain When I believed in forever, and everything would stay the same Now my heart feel like December when somebody say your name 'Cause I can't reach out to call you, but I know I will one day, yeah Everybody hurts sometimes Everybody hurts someday, ayy ayy But everything gon' be alright Go and raise a glass and say, ayy Here's to the ones that we got Cheers to the wish you were here, but you're not 'Cause the drinks bring back all the memories Of everything we've been through Toast to the ones here today Toast to the ones that we lost on the way 'Cause the drinks bring back all the memories And the memories bring back, memories bring back you Doo doo, doo doo doo dooDoo doo doo doo, doo doo doo doo Doo doo doo doo, doo doo doo Memories bring back, memories bring back you There's a time that I remember when I never felt so lost When I felt all of the hatred was too powerful to stop (ooh, yeah) Now my heart feel like an ember and it's lighting up the dark I'll carry these torches for ya that you know I'll never drop, yeah Everybody hurts sometimes Everybody hurts someday, ayy ayy But everything gon' be alright Go and raise a glass and say, ayy Here's to the ones that we got (oh) Cheers to the wish you were here, but you're not'Cause the drinks bring back all the memories Of everything we've been through (no, no) Toast to the ones here today (ayy) Toast to the ones that we lost on the way 'Cause the drinks bring back all the memories (ayy) And the memories bring back, memories bring back you Doo doo, doo doo doo doo Doo doo doo doo, doo doo doo doo Doo doo doo doo, doo doo doo Memories bring back, memories bring back you Doo doo, doo doo doo doo Doo doo doo doo, doo doo doo doo Doo doo doo doo, doo doo doo (ooh, yeah) Memories bring back, memories bring back you Yeah, yeah, yeah Yeah, yeah, yeah, yeah, yeah, doh, doh Memories bring back, memories bring back you Here's to the ones that we got Cheers to the wish you were here, but you're not 'Cause the drinks bring back all the memories Of everything we've been through Toast to the ones here today Toast to the ones that we lost on the way 'Cause the drinks bring back all the memories And the memories bring back, memories bring back you There's a time that I remember, when I did not know no pain When I believed in forever, and everything would stay the same Now my heart feel like December when somebody say your name 'Cause I can't reach out to call you, but I know I will one day, yeah Everybody hurts sometimes Everybody hurts someday, ayy ayy But everything gon' be alright Go and raise a glass and say, ayy Here's to the ones that we got Cheers to the wish you were here, but you're not 'Cause the drinks bring back all the memories Of everything we've been through Toast to the ones here today Toast to the ones that we lost on the way 'Cause the drinks bring back all the memories And the memories bring back, memories bring back you Doo doo, doo doo doo dooDoo doo doo doo, doo doo doo doo Doo doo doo doo, doo doo doo Memories bring back, memories bring back you There's a time that I remember when I never felt so lost When I felt all of the hatred was too powerful to stop (ooh, yeah) Now my heart feel like an ember and it's lighting up the dark I'll carry these torches for ya that you know I'll never drop, yeah Everybody hurts sometimes Everybody hurts someday, ayy ayy But everything gon' be alright Go and raise a glass and say, ayy Here's to the ones that we got (oh) Cheers to the wish you were here, but you're not'Cause the drinks bring back all the memories Of everything we've been through (no, no) Toast to the ones here today (ayy) Toast to the ones that we lost on the way 'Cause the drinks bring back all the memories (ayy) And the memories bring back, memories bring back you Doo doo, doo doo doo doo Doo doo doo doo, doo doo doo doo Doo doo doo doo, doo doo doo Memories bring back, memories bring back you Doo doo, doo doo doo doo Doo doo doo doo, doo doo doo doo Doo doo doo doo, doo doo doo (ooh, yeah) Memories bring back, memories bring back you Yeah, yeah, yeah Yeah, yeah, yeah, yeah, yeah, doh, doh Memories bring back, memories bring back you Here's to the ones that we got Cheers to the wish you were here, but you're not 'Cause the drinks bring back all the memories Of everything we've been through Toast to the ones here today Toast to the ones that we lost on the way 'Cause the drinks bring back all the memories And the memories bring back, memories bring back you There's a time that I remember, when I did not know no pain When I believed in forever, and everything would stay the same Now my heart feel like December when somebody say your name 'Cause I can't reach out to call you, but I know I will one day, yeah Everybody hurts sometimes Everybody hurts someday, ayy ayy But everything gon' be alright Go and raise a glass and say, ayy Here's to the ones that we got Cheers to the wish you were here, but you're not 'Cause the drinks bring back all the memories Of everything we've been through Toast to the ones here today Toast to the ones that we lost on the way 'Cause the drinks bring back all the memories And the memories bring back, memories bring back you Doo doo, doo doo doo dooDoo doo doo doo, doo doo doo doo Doo doo doo doo, doo doo doo Memories bring back, memories bring back you There's a time that I remember when I never felt so lost When I felt all of the hatred was too powerful to stop (ooh, yeah) Now my heart feel like an ember and it's lighting up the dark I'll carry these torches for ya that you know I'll never drop, yeah Everybody hurts sometimes Everybody hurts someday, ayy ayy But everything gon' be alright Go and raise a glass and say, ayy Here's to the ones that we got (oh) Cheers to the wish you were here, but you're not'Cause the drinks bring back all the memories Of everything we've been through (no, no) Toast to the ones here today (ayy) Toast to the ones that we lost on the way 'Cause the drinks bring back all the memories (ayy) And the memories bring back, memories bring back you Doo doo, doo doo doo doo Doo doo doo doo, doo doo doo doo Doo doo doo doo, doo doo doo Memories bring back, memories bring back you Doo doo, doo doo doo doo Doo doo doo doo, doo doo doo doo Doo doo doo doo, doo doo doo (ooh, yeah) Memories bring back, memories bring back you Yeah, yeah, yeah Yeah, yeah, yeah, yeah, yeah, doh, doh Memories bring back, memories bring back you Here's to the ones that we got Cheers to the wish you were here, but you're not 'Cause the drinks bring back all the memories Of everything we've been through Toast to the ones here today Toast to the ones that we lost on the way 'Cause the drinks bring back all the memories And the memories bring back, memories bring back you There's a time that I remember, when I did not know no pain When I believed in forever, and everything would stay the same Now my heart feel like December when somebody say your name 'Cause I can't reach out to call you, but I know I will one day, yeah Everybody hurts sometimes Everybody hurts someday, ayy ayy But everything gon' be alright Go and raise a glass and say, ayy Here's to the ones that we got Cheers to the wish you were here, but you're not 'Cause the drinks bring back all the memories Of everything we've been through Toast to the ones here today Toast.</msg>
+<msg timestamp="20210226 16:55:21.041" level="INFO">${MESSAGE_LESS_THAN_10000} = Here's to the ones that we got Cheers to the wish you were here, but you're not 'Cause the drinks bring back all the memories Of everything we've been through Toast to the ones here today Toast to the ones that we lost on the way 'Cause the drinks bring back all the memories And the memories bring back, memories bring back you There's a time that I remember, when I did not know no pain When I believed in forever, and everything would stay the same Now my heart feel like December when somebody say your name 'Cause I can't reach out to call you, but I know I will one day, yeah Everybody hurts sometimes Everybody hurts someday, ayy ayy But everything gon' be alright Go and raise a glass and say, ayy Here's to the ones that we got Cheers to the wish you were here, but you're not 'Cause the drinks bring back all the memories Of everything we've been through Toast to the ones here today Toast to the ones that we lost on the way 'Cause the drinks bring back all the memories And the memories bring back, memories bring back you Doo doo, doo doo doo dooDoo doo doo doo, doo doo doo doo Doo doo doo doo, doo doo doo Memories bring back, memories bring back you There's a time that I remember when I never felt so lost When I felt all of the hatred was too powerful to stop (ooh, yeah) Now my heart feel like an ember and it's lighting up the dark I'll carry these torches for ya that you know I'll never drop, yeah Everybody hurts sometimes Everybody hurts someday, ayy ayy But everything gon' be alright Go and raise a glass and say, ayy Here's to the ones that we got (oh) Cheers to the wish you were here, but you're not'Cause the drinks bring back all the memories Of everything we've been through (no, no) Toast to the ones here today (ayy) Toast to the ones that we lost on the way 'Cause the drinks bring back all the memories (ayy) And the memories bring back, memories bring back you Doo doo, doo doo doo doo Doo doo doo doo, doo doo doo doo Doo doo doo doo, doo doo doo Memories bring back, memories bring back you Doo doo, doo doo doo doo Doo doo doo doo, doo doo doo doo Doo doo doo doo, doo doo doo (ooh, yeah) Memories bring back, memories bring back you Yeah, yeah, yeah Yeah, yeah, yeah, yeah, yeah, doh, doh Memories bring back, memories bring back you Here's to the ones that we got Cheers to the wish you were here, but you're not 'Cause the drinks bring back all the memories Of everything we've been through Toast to the ones here today Toast to the ones that we lost on the way 'Cause the drinks bring back all the memories And the memories bring back, memories bring back you There's a time that I remember, when I did not know no pain When I believed in forever, and everything would stay the same Now my heart feel like December when somebody say your name 'Cause I can't reach out to call you, but I know I will one day, yeah Everybody hurts sometimes Everybody hurts someday, ayy ayy But everything gon' be alright Go and raise a glass and say, ayy Here's to the ones that we got Cheers to the wish you were here, but you're not 'Cause the drinks bring back all the memories Of everything we've been through Toast to the ones here today Toast to the ones that we lost on the way 'Cause the drinks bring back all the memories And the memories bring back, memories bring back you Doo doo, doo doo doo dooDoo doo doo doo, doo doo doo doo Doo doo doo doo, doo doo doo Memories bring back, memories bring back you There's a time that I remember when I never felt so lost When I felt all of the hatred was too powerful to stop (ooh, yeah) Now my heart feel like an ember and it's lighting up the dark I'll carry these torches for ya that you know I'll never drop, yeah Everybody hurts sometimes Everybody hurts someday, ayy ayy But everything gon' be alright Go and raise a glass and say, ayy Here's to the ones that we got (oh) Cheers to the wish you were here, but you're not'Cause the drinks bring back all the memories Of everything we've been through (no, no) Toast to the ones here today (ayy) Toast to the ones that we lost on the way 'Cause the drinks bring back all the memories (ayy) And the memories bring back, memories bring back you Doo doo, doo doo doo doo Doo doo doo doo, doo doo doo doo Doo doo doo doo, doo doo doo Memories bring back, memories bring back you Doo doo, doo doo doo doo Doo doo doo doo, doo doo doo doo Doo doo doo doo, doo doo doo (ooh, yeah) Memories bring back, memories bring back you Yeah, yeah, yeah Yeah, yeah, yeah, yeah, yeah, doh, doh Memories bring back, memories bring back you Here's to the ones that we got Cheers to the wish you were here, but you're not 'Cause the drinks bring back all the memories Of everything we've been through Toast to the ones here today Toast to the ones that we lost on the way 'Cause the drinks bring back all the memories And the memories bring back, memories bring back you There's a time that I remember, when I did not know no pain When I believed in forever, and everything would stay the same Now my heart feel like December when somebody say your name 'Cause I can't reach out to call you, but I know I will one day, yeah Everybody hurts sometimes Everybody hurts someday, ayy ayy But everything gon' be alright Go and raise a glass and say, ayy Here's to the ones that we got Cheers to the wish you were here, but you're not 'Cause the drinks bring back all the memories Of everything we've been through Toast to the ones here today Toast to the ones that we lost on the way 'Cause the drinks bring back all the memories And the memories bring back, memories bring back you Doo doo, doo doo doo dooDoo doo doo doo, doo doo doo doo Doo doo doo doo, doo doo doo Memories bring back, memories bring back you There's a time that I remember when I never felt so lost When I felt all of the hatred was too powerful to stop (ooh, yeah) Now my heart feel like an ember and it's lighting up the dark I'll carry these torches for ya that you know I'll never drop, yeah Everybody hurts sometimes Everybody hurts someday, ayy ayy But everything gon' be alright Go and raise a glass and say, ayy Here's to the ones that we got (oh) Cheers to the wish you were here, but you're not'Cause the drinks bring back all the memories Of everything we've been through (no, no) Toast to the ones here today (ayy) Toast to the ones that we lost on the way 'Cause the drinks bring back all the memories (ayy) And the memories bring back, memories bring back you Doo doo, doo doo doo doo Doo doo doo doo, doo doo doo doo Doo doo doo doo, doo doo doo Memories bring back, memories bring back you Doo doo, doo doo doo doo Doo doo doo doo, doo doo doo doo Doo doo doo doo, doo doo doo (ooh, yeah) Memories bring back, memories bring back you Yeah, yeah, yeah Yeah, yeah, yeah, yeah, yeah, doh, doh Memories bring back, memories bring back you Here's to the ones that we got Cheers to the wish you were here, but you're not 'Cause the drinks bring back all the memories Of everything we've been through Toast to the ones here today Toast to the ones that we lost on the way 'Cause the drinks bring back all the memories And the memories bring back, memories bring back you There's a time that I remember, when I did not know no pain When I believed in forever, and everything would stay the same Now my heart feel like December when somebody say your name 'Cause I can't reach out to call you, but I know I will one day, yeah Everybody hurts sometimes Everybody hurts someday, ayy ayy But everything gon' be alright Go and raise a glass and say, ayy Here's to the ones that we got Cheers to the wish you were here, but you're not 'Cause the drinks bring back all the memories Of everything we've been through Toast to the ones here today Toast to the ones that we lost on the way 'Cause the drinks bring back all the memories And the memories bring back, memories bring back you Doo doo, doo doo doo dooDoo doo doo doo, doo doo doo doo Doo doo doo doo, doo doo doo Memories bring back, memories bring back you There's a time that I remember when I never felt so lost When I felt all of the hatred was too powerful to stop (ooh, yeah) Now my heart feel like an ember and it's lighting up the dark I'll carry these torches for ya that you know I'll never drop, yeah Everybody hurts sometimes Everybody hurts someday, ayy ayy But everything gon' be alright Go and raise a glass and say, ayy Here's to the ones that we got (oh) Cheers to the wish you were here, but you're not'Cause the drinks bring back all the memories Of everything we've been through (no, no) Toast to the ones here today (ayy) Toast to the ones that we lost on the way 'Cause the drinks bring back all the memories (ayy) And the memories bring back, memories bring back you Doo doo, doo doo doo doo Doo doo doo doo, doo doo doo doo Doo doo doo doo, doo doo doo Memories bring back, memories bring back you Doo doo, doo doo doo doo Doo doo doo doo, doo doo doo doo Doo doo doo doo, doo doo doo (ooh, yeah) Memories bring back, memories bring back you Yeah, yeah, yeah Yeah, yeah, yeah, yeah, yeah, doh, doh Memories bring back, memories bring back you Here's to the ones that we got Cheers to the wish you were here, but you're not 'Cause the drinks bring back all the memories Of everything we've been through Toast to the ones here today Toast to the ones that we lost on the way 'Cause the drinks bring back all the memories And the memories bring back, memories bring back you There's a time that I remember, when I did not know no pain When I believed in forever, and everything would stay the same Now my heart feel like December when somebody say your name 'Cause I can't reach out to call you, but I know I will one day, yeah Everybody hurts sometimes Everybody hurts someday, ayy ayy But everything gon' be alright Go and raise a glass and say, ayy Here's to the ones that we got Cheers to the wish you were here, but you're not 'Cause the drinks bring back all the memories Of everything we've been through Toast to the ones here today Toast</msg>
+<msg timestamp="20210226 16:55:21.041" level="INFO">${MESSAGE_MORE_THAN_10000} = Here's to the ones that we got Cheers to the wish you were here, but you're not 'Cause the drinks bring back all the memories Of everything we've been through Toast to the ones here today Toast to the ones that we lost on the way 'Cause the drinks bring back all the memories And the memories bring back, memories bring back you There's a time that I remember, when I did not know no pain When I believed in forever, and everything would stay the same Now my heart feel like December when somebody say your name 'Cause I can't reach out to call you, but I know I will one day, yeah Everybody hurts sometimes Everybody hurts someday, ayy ayy But everything gon' be alright Go and raise a glass and say, ayy Here's to the ones that we got Cheers to the wish you were here, but you're not 'Cause the drinks bring back all the memories Of everything we've been through Toast to the ones here today Toast to the ones that we lost on the way 'Cause the drinks bring back all the memories And the memories bring back, memories bring back you Doo doo, doo doo doo dooDoo doo doo doo, doo doo doo doo Doo doo doo doo, doo doo doo Memories bring back, memories bring back you There's a time that I remember when I never felt so lost When I felt all of the hatred was too powerful to stop (ooh, yeah) Now my heart feel like an ember and it's lighting up the dark I'll carry these torches for ya that you know I'll never drop, yeah Everybody hurts sometimes Everybody hurts someday, ayy ayy But everything gon' be alright Go and raise a glass and say, ayy Here's to the ones that we got (oh) Cheers to the wish you were here, but you're not'Cause the drinks bring back all the memories Of everything we've been through (no, no) Toast to the ones here today (ayy) Toast to the ones that we lost on the way 'Cause the drinks bring back all the memories (ayy) And the memories bring back, memories bring back you Doo doo, doo doo doo doo Doo doo doo doo, doo doo doo doo Doo doo doo doo, doo doo doo Memories bring back, memories bring back you Doo doo, doo doo doo doo Doo doo doo doo, doo doo doo doo Doo doo doo doo, doo doo doo (ooh, yeah) Memories bring back, memories bring back you Yeah, yeah, yeah Yeah, yeah, yeah, yeah, yeah, doh, doh Memories bring back, memories bring back you Here's to the ones that we got Cheers to the wish you were here, but you're not 'Cause the drinks bring back all the memories Of everything we've been through Toast to the ones here today Toast to the ones that we lost on the way 'Cause the drinks bring back all the memories And the memories bring back, memories bring back you There's a time that I remember, when I did not know no pain When I believed in forever, and everything would stay the same Now my heart feel like December when somebody say your name 'Cause I can't reach out to call you, but I know I will one day, yeah Everybody hurts sometimes Everybody hurts someday, ayy ayy But everything gon' be alright Go and raise a glass and say, ayy Here's to the ones that we got Cheers to the wish you were here, but you're not 'Cause the drinks bring back all the memories Of everything we've been through Toast to the ones here today Toast to the ones that we lost on the way 'Cause the drinks bring back all the memories And the memories bring back, memories bring back you Doo doo, doo doo doo dooDoo doo doo doo, doo doo doo doo Doo doo doo doo, doo doo doo Memories bring back, memories bring back you There's a time that I remember when I never felt so lost When I felt all of the hatred was too powerful to stop (ooh, yeah) Now my heart feel like an ember and it's lighting up the dark I'll carry these torches for ya that you know I'll never drop, yeah Everybody hurts sometimes Everybody hurts someday, ayy ayy But everything gon' be alright Go and raise a glass and say, ayy Here's to the ones that we got (oh) Cheers to the wish you were here, but you're not'Cause the drinks bring back all the memories Of everything we've been through (no, no) Toast to the ones here today (ayy) Toast to the ones that we lost on the way 'Cause the drinks bring back all the memories (ayy) And the memories bring back, memories bring back you Doo doo, doo doo doo doo Doo doo doo doo, doo doo doo doo Doo doo doo doo, doo doo doo Memories bring back, memories bring back you Doo doo, doo doo doo doo Doo doo doo doo, doo doo doo doo Doo doo doo doo, doo doo doo (ooh, yeah) Memories bring back, memories bring back you Yeah, yeah, yeah Yeah, yeah, yeah, yeah, yeah, doh, doh Memories bring back, memories bring back you Here's to the ones that we got Cheers to the wish you were here, but you're not 'Cause the drinks bring back all the memories Of everything we've been through Toast to the ones here today Toast to the ones that we lost on the way 'Cause the drinks bring back all the memories And the memories bring back, memories bring back you There's a time that I remember, when I did not know no pain When I believed in forever, and everything would stay the same Now my heart feel like December when somebody say your name 'Cause I can't reach out to call you, but I know I will one day, yeah Everybody hurts sometimes Everybody hurts someday, ayy ayy But everything gon' be alright Go and raise a glass and say, ayy Here's to the ones that we got Cheers to the wish you were here, but you're not 'Cause the drinks bring back all the memories Of everything we've been through Toast to the ones here today Toast to the ones that we lost on the way 'Cause the drinks bring back all the memories And the memories bring back, memories bring back you Doo doo, doo doo doo dooDoo doo doo doo, doo doo doo doo Doo doo doo doo, doo doo doo Memories bring back, memories bring back you There's a time that I remember when I never felt so lost When I felt all of the hatred was too powerful to stop (ooh, yeah) Now my heart feel like an ember and it's lighting up the dark I'll carry these torches for ya that you know I'll never drop, yeah Everybody hurts sometimes Everybody hurts someday, ayy ayy But everything gon' be alright Go and raise a glass and say, ayy Here's to the ones that we got (oh) Cheers to the wish you were here, but you're not'Cause the drinks bring back all the memories Of everything we've been through (no, no) Toast to the ones here today (ayy) Toast to the ones that we lost on the way 'Cause the drinks bring back all the memories (ayy) And the memories bring back, memories bring back you Doo doo, doo doo doo doo Doo doo doo doo, doo doo doo doo Doo doo doo doo, doo doo doo Memories bring back, memories bring back you Doo doo, doo doo doo doo Doo doo doo doo, doo doo doo doo Doo doo doo doo, doo doo doo (ooh, yeah) Memories bring back, memories bring back you Yeah, yeah, yeah Yeah, yeah, yeah, yeah, yeah, doh, doh Memories bring back, memories bring back you Here's to the ones that we got Cheers to the wish you were here, but you're not 'Cause the drinks bring back all the memories Of everything we've been through Toast to the ones here today Toast to the ones that we lost on the way 'Cause the drinks bring back all the memories And the memories bring back, memories bring back you There's a time that I remember, when I did not know no pain When I believed in forever, and everything would stay the same Now my heart feel like December when somebody say your name 'Cause I can't reach out to call you, but I know I will one day, yeah Everybody hurts sometimes Everybody hurts someday, ayy ayy But everything gon' be alright Go and raise a glass and say, ayy Here's to the ones that we got Cheers to the wish you were here, but you're not 'Cause the drinks bring back all the memories Of everything we've been through Toast to the ones here today Toast to the ones that we lost on the way 'Cause the drinks bring back all the memories And the memories bring back, memories bring back you Doo doo, doo doo doo dooDoo doo doo doo, doo doo doo doo Doo doo doo doo, doo doo doo Memories bring back, memories bring back you There's a time that I remember when I never felt so lost When I felt all of the hatred was too powerful to stop (ooh, yeah) Now my heart feel like an ember and it's lighting up the dark I'll carry these torches for ya that you know I'll never drop, yeah Everybody hurts sometimes Everybody hurts someday, ayy ayy But everything gon' be alright Go and raise a glass and say, ayy Here's to the ones that we got (oh) Cheers to the wish you were here, but you're not'Cause the drinks bring back all the memories Of everything we've been through (no, no) Toast to the ones here today (ayy) Toast to the ones that we lost on the way 'Cause the drinks bring back all the memories (ayy) And the memories bring back, memories bring back you Doo doo, doo doo doo doo Doo doo doo doo, doo doo doo doo Doo doo doo doo, doo doo doo Memories bring back, memories bring back you Doo doo, doo doo doo doo Doo doo doo doo, doo doo doo doo Doo doo doo doo, doo doo doo (ooh, yeah) Memories bring back, memories bring back you Yeah, yeah, yeah Yeah, yeah, yeah, yeah, yeah, doh, doh Memories bring back, memories bring back you Here's to the ones that we got Cheers to the wish you were here, but you're not 'Cause the drinks bring back all the memories Of everything we've been through Toast to the ones here today Toast to the ones that we lost on the way 'Cause the drinks bring back all the memories And the memories bring back, memories bring back you There's a time that I remember, when I did not know no pain When I believed in forever, and everything would stay the same Now my heart feel like December when somebody say your name 'Cause I can't reach out to call you, but I know I will one day, yeah Everybody hurts sometimes Everybody hurts someday, ayy ayy But everything gon' be alright Go and raise a glass and say, ayy Here's to the ones that we got Cheers to the wish you were here, but you're not 'Cause the drinks bring back all the memories Of everything we've been through Toast to the ones here today Toast...</msg>
+<msg timestamp="20210226 16:55:21.041" level="INFO">${MESSAGE_NOTIFY_TRANSFER} = Agent NAME_AGENT has transferred this contact from skillset SKILLSET_FROM to skillset SKILLSET_TO</msg>
+<msg timestamp="20210226 16:55:21.041" level="INFO">${None} = None</msg>
+<msg timestamp="20210226 16:55:21.041" level="INFO">${NOT_READY_CODE} = ${NRD_CODE}</msg>
+<msg timestamp="20210226 16:55:21.041" level="INFO">${null} = None</msg>
+<msg timestamp="20210226 16:55:21.041" level="INFO">${NUM} = NUMBER</msg>
+<msg timestamp="20210226 16:55:21.041" level="INFO">${ON_HOLD1} = Hi Customer, please wait a moment!</msg>
+<msg timestamp="20210226 16:55:21.041" level="INFO">${ON_HOLD2} = All agents are busy</msg>
+<msg timestamp="20210226 16:55:21.041" level="INFO">${ON_HOLD3} = ==========TMA==========</msg>
+<msg timestamp="20210226 16:55:21.041" level="INFO">${ONE_X_COMMUNICATOR} = C:/Program Files (x86)/Avaya/Avaya one-X Communicator/onexcui.exe</msg>
+<msg timestamp="20210226 16:55:21.041" level="INFO">${ONEX_BLOCK_USER_NAME} = TextBlockUserName</msg>
+<msg timestamp="20210226 16:55:21.051" level="INFO">${ONEX_BTN_DIAL} = ButtonDial</msg>
+<msg timestamp="20210226 16:55:21.051" level="INFO">${ONEX_BTN_DIAL_PAD} = ButtonDialpad</msg>
+<msg timestamp="20210226 16:55:21.051" level="INFO">${ONEX_BTN_HOLD} = ButtonHold</msg>
+<msg timestamp="20210226 16:55:21.051" level="INFO">${ONEX_COMMUNICATOR_MESSAGE_BOX} = MessageBox</msg>
+<msg timestamp="20210226 16:55:21.051" level="INFO">${ONEX_COMMUNICATOR_MESSAGE_BOX_BTN_OK} = ButtonOk</msg>
+<msg timestamp="20210226 16:55:21.051" level="INFO">${ONEX_COMMUNICATOR_TITLE} = Avaya one-X® Communicato</msg>
+<msg timestamp="20210226 16:55:21.051" level="INFO">${ONEX_DIAL_BUTTON_EIGHT} = DialButtonEight</msg>
+<msg timestamp="20210226 16:55:21.051" level="INFO">${ONEX_DIAL_BUTTON_FIVE} = DialButtonFive</msg>
+<msg timestamp="20210226 16:55:21.051" level="INFO">${ONEX_DIAL_BUTTON_FOUR} = DialButtonFour</msg>
+<msg timestamp="20210226 16:55:21.051" level="INFO">${ONEX_DIAL_BUTTON_NINE} = DialButtonNine</msg>
+<msg timestamp="20210226 16:55:21.051" level="INFO">${ONEX_DIAL_BUTTON_ONE} = DialButtonOne</msg>
+<msg timestamp="20210226 16:55:21.051" level="INFO">${ONEX_DIAL_BUTTON_SEVEN} = DialButtonSeven</msg>
+<msg timestamp="20210226 16:55:21.051" level="INFO">${ONEX_DIAL_BUTTON_SIX} = DialButtonSix</msg>
+<msg timestamp="20210226 16:55:21.051" level="INFO">${ONEX_DIAL_BUTTON_THREE} = DialButtonThree</msg>
+<msg timestamp="20210226 16:55:21.051" level="INFO">${ONEX_DIAL_BUTTON_TWO} = DialButtonTwo</msg>
+<msg timestamp="20210226 16:55:21.051" level="INFO">${ONEX_DIAL_BUTTON_ZERO} = DialButtonZero</msg>
+<msg timestamp="20210226 16:55:21.051" level="INFO">${ONEX_EDT_PHONE_NUMBER_OR_NAME_SEARCH} = TextBoxSearch</msg>
+<msg timestamp="20210226 16:55:21.051" level="INFO">${ONEX_LOGIN_BTN_LOGIN} = Login</msg>
+<msg timestamp="20210226 16:55:21.051" level="INFO">${ONEX_LOGIN_EDT_PASSWORD} = PasswordBoxUser</msg>
+<msg timestamp="20210226 16:55:21.051" level="INFO">${ONEX_LOGIN_EDT_STATION} = TextBoxUser</msg>
+<msg timestamp="20210226 16:55:21.051" level="INFO">${ONEX_LOGIN_MENU} = ButtonMenu</msg>
+<msg timestamp="20210226 16:55:21.051" level="INFO">${ONEX_LOGIN_MENU_SETTING} = MenuItemSettingsGeneral</msg>
+<msg timestamp="20210226 16:55:21.051" level="INFO">${ONEX_LOGIN_SETTINGS_BTN_OK} = OKButton</msg>
+<msg timestamp="20210226 16:55:21.051" level="INFO">${ONEX_LOGIN_SETTINGS_TELEPHONY} = ListBoxItemPhone</msg>
+<msg timestamp="20210226 16:55:21.051" level="INFO">${ONEX_LOGIN_SETTINGS_TELEPHONY_H323} = H.323</msg>
+<msg timestamp="20210226 16:55:21.051" level="INFO">${ONEX_LOGIN_SETTINGS_TELEPHONY_SERVER_BTN_ADD} = Add</msg>
+<msg timestamp="20210226 16:55:21.051" level="INFO">${ONEX_LOGIN_SETTINGS_TELEPHONY_SERVER_BTN_OK} = OK</msg>
+<msg timestamp="20210226 16:55:21.051" level="INFO">${ONEX_LOGIN_SETTINGS_TELEPHONY_SERVER_BTN_REMOVE} = Remove</msg>
+<msg timestamp="20210226 16:55:21.051" level="INFO">${ONEX_LOGIN_SETTINGS_TELEPHONY_SERVER_DIALOG} = Dialog</msg>
+<msg timestamp="20210226 16:55:21.051" level="INFO">${ONEX_LOGIN_SETTINGS_TELEPHONY_SERVER_EDT_SERER_URL} = ServerEdit</msg>
+<msg timestamp="20210226 16:55:21.051" level="INFO">${ONEX_LOGIN_SETTINGS_TELEPHONY_SERVER_LIST} = ListBoxControllers</msg>
+<msg timestamp="20210226 16:55:21.051" level="INFO">${ONEX_TOOLTIP_HIDE_DIAL} = Hide Dialpad</msg>
+<msg timestamp="20210226 16:55:21.051" level="INFO">${ONEX_TOOLTIP_SHOW_DIAL} = Show Dialpad</msg>
+<msg timestamp="20210226 16:55:21.051" level="INFO">${os} = &lt;module 'os' from 'D:\\soft\\ideaIC-2020.2.3.win\\SDK\\Python37\\lib\\os.py'&gt;</msg>
+<msg timestamp="20210226 16:55:21.051" level="INFO">${OUTLOOK_APP} = C:/Program Files (x86)/Microsoft Office/Office12/OUTLOOK.EXE</msg>
+<msg timestamp="20210226 16:55:21.051" level="INFO">${OUTPUT_DIR} = D:\aacc</msg>
+<msg timestamp="20210226 16:55:21.051" level="INFO">${OUTPUT_FILE} = D:\aacc\output.xml</msg>
+<msg timestamp="20210226 16:55:21.051" level="INFO">${PHONE_URI} = XXX</msg>
+<msg timestamp="20210226 16:55:21.051" level="INFO">${PHONEBOOK_BTN_CALL_OUT} = xpath://td[7]//button[@aria-label='Click to call']</msg>
+<msg timestamp="20210226 16:55:21.051" level="INFO">${PHONEBOOK_BTN_DELETE_CONTACT} = xpath://button[@aria-label='Delete Contact']</msg>
+<msg timestamp="20210226 16:55:21.051" level="INFO">${PHONEBOOK_BTN_EDIT_CONTACT} = xpath://button[@aria-label='Edit Contact']</msg>
+<msg timestamp="20210226 16:55:21.051" level="INFO">${PHONEBOOK_BTN_END_CALL} = xpath://button[contains(@id, 'ow_Card_End_btn')]</msg>
+<msg timestamp="20210226 16:55:21.051" level="INFO">${PHONEBOOK_BTN_NEW_CONTACT} = xpath://div[@class='mp-buttons-bar']//button[@aria-label='New contact']</msg>
+<msg timestamp="20210226 16:55:21.051" level="INFO">${PHONEBOOK_BTN_SAVE_NEW_CONTACT} = xpath://button[@type='submit']//span[contains(text(),'Save')]</msg>
+<msg timestamp="20210226 16:55:21.051" level="INFO">${PHONEBOOK_BTN_SEARCH} = xpath://div[@class='mp-buttons-bar']//button[@aria-label='Add search criteria']</msg>
+<msg timestamp="20210226 16:55:21.051" level="INFO">${PHONEBOOK_BTN_SETUP_COLUMNS} = xpath://div[@class='mp-buttons-bar']//button[@aria-label='Setup phonebook columns']</msg>
+<msg timestamp="20210226 16:55:21.051" level="INFO">${PHONEBOOK_BTN_TAGGING_CONTACT} = xpath://button[@aria-label='{}']//md-icon[contains(@class,'{}')]</msg>
+<msg timestamp="20210226 16:55:21.051" level="INFO">${PHONEBOOK_CHECK_TAGGING_CONTACT} = xpath://md-checkbox[@aria-label='{}']</msg>
+<msg timestamp="20210226 16:55:21.051" level="INFO">${PHONEBOOK_ENTER_FIELD_LABEL} = xpath://h4[contains(text(),'Enter fields')]</msg>
+<msg timestamp="20210226 16:55:21.051" level="INFO">${PHONEBOOK_FILTER1} = xpath://table[@class='table-search']//tr[@class='border_bottom']//td[1]</msg>
+<msg timestamp="20210226 16:55:21.051" level="INFO">${PHONEBOOK_FILTER1_SELECT} = xpath://table[@class='table-search']//tr[@class='border_bottom']//td[1]//select</msg>
+<msg timestamp="20210226 16:55:21.051" level="INFO">${PHONEBOOK_FILTER2} = xpath://table[@class='table-search']//tr[@class='border_bottom']//td[2]</msg>
+<msg timestamp="20210226 16:55:21.051" level="INFO">${PHONEBOOK_FILTER2_SELECT} = xpath://table[@class='table-search']//tr[@class='border_bottom']//td[2]//select</msg>
+<msg timestamp="20210226 16:55:21.051" level="INFO">${PHONEBOOK_FILTER3} = xpath://table[@class='table-search']//tr[@class='border_bottom']//td[3]//input</msg>
+<msg timestamp="20210226 16:55:21.051" level="INFO">${PHONEBOOK_INPUT_FIELD_CONTACT} = xpath://label[contains(text(),'{}')]/following-sibling::input</msg>
+<msg timestamp="20210226 16:55:21.051" level="INFO">${PHONEBOOK_ROW_PER_PAGE} = xpath://md-select[contains(@aria-label,'Records per page')]//md-select-value</msg>
+<msg timestamp="20210226 16:55:21.051" level="INFO">${PHONEBOOK_SELECT_ROW_PER_PAGE} = xpath://div[contains(@class,'md-active')]//md-option[@value='{}']</msg>
+<msg timestamp="20210226 16:55:21.051" level="INFO">${PHONEBOOK_SORT_COLUMN} = xpath://th[contains(text(),'{}')]</msg>
+<msg timestamp="20210226 16:55:21.051" level="INFO">${PHONEBOOK_TABLE_ROW} = xpath://tbody//tr</msg>
+<msg timestamp="20210226 16:55:21.051" level="INFO">${PHONEBOOK_TABLE_ROW_CONENT} = xpath://tbody//tr//td[{}]</msg>
+<msg timestamp="20210226 16:55:21.051" level="INFO">${PORT} = 5060</msg>
+<msg timestamp="20210226 16:55:21.051" level="INFO">${PREV_TEST_MESSAGE} = </msg>
+<msg timestamp="20210226 16:55:21.051" level="INFO">${PREV_TEST_NAME} = </msg>
+<msg timestamp="20210226 16:55:21.051" level="INFO">${PREV_TEST_STATUS} = </msg>
+<msg timestamp="20210226 16:55:21.051" level="INFO">${PUSH_URL1} = https://google.com</msg>
+<msg timestamp="20210226 16:55:21.051" level="INFO">${PUSH_URL2} = http://100.30.6.98/agentdesktop</msg>
+<msg timestamp="20210226 16:55:21.051" level="INFO">${PUSH_URL3} = https://autosrv98.automation.tma.com</msg>
+<msg timestamp="20210226 16:55:21.051" level="INFO">${REGREX_TIME_WITH_NO_SECOND_12H} = ^([0-9]|0[0-9]|1[0-9]|2[0-3]):[0-5][0-9] (AM|PM)$</msg>
+<msg timestamp="20210226 16:55:21.051" level="INFO">${REGREX_TIME_WITH_NO_SECOND_24H} = ^([0-9]|0[0-9]|1[0-9]|2[0-3]):[0-5][0-9]$</msg>
+<msg timestamp="20210226 16:55:21.051" level="INFO">${REGREX_TIME_WITH_SECOND} = ^([0-9]|0[0-9]|1[0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9]$</msg>
+<msg timestamp="20210226 16:55:21.051" level="INFO">${REGREX_TIME_WITH_SECOND_12H} = ^([0-9]|0[0-9]|1[0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9] (AM|PM)$</msg>
+<msg timestamp="20210226 16:55:21.051" level="INFO">${REPORT_FILE} = D:\aacc\report.html</msg>
+<msg timestamp="20210226 16:55:21.051" level="INFO">${RONA_TIME} = 30</msg>
+<msg timestamp="20210226 16:55:21.051" level="INFO">${RRD_CODE1} = Not_Ready_Default_Reason_Code</msg>
+<msg timestamp="20210226 16:55:21.061" level="INFO">${RRD_CODE10} = ACC7_ForceNRRC_NR_161607</msg>
+<msg timestamp="20210226 16:55:21.061" level="INFO">${RRD_CODE2} = NotRdy_Pull_Mode_Default_Code</msg>
+<msg timestamp="20210226 16:55:21.061" level="INFO">${RRD_CODE3} = CC1026_NRRC</msg>
+<msg timestamp="20210226 16:55:21.061" level="INFO">${RRD_CODE4} = ACC7_ForceNRRC_NR_161601</msg>
+<msg timestamp="20210226 16:55:21.061" level="INFO">${RRD_CODE5} = ACC7_ForceNRRC_NR_161602</msg>
+<msg timestamp="20210226 16:55:21.061" level="INFO">${RRD_CODE6} = ACC7_ForceNRRC_NR_161603</msg>
+<msg timestamp="20210226 16:55:21.061" level="INFO">${RRD_CODE7} = ACC7_ForceNRRC_NR_161604</msg>
+<msg timestamp="20210226 16:55:21.061" level="INFO">${RRD_CODE8} = ACC7_ForceNRRC_NR_161605</msg>
+<msg timestamp="20210226 16:55:21.061" level="INFO">${RRD_CODE9} = ACC7_ForceNRRC_NR_161606</msg>
+<msg timestamp="20210226 16:55:21.061" level="INFO">${SCREENPOP_NAME1} = AAAD</msg>
+<msg timestamp="20210226 16:55:21.061" level="INFO">${SCREENPOP_NAME1_URL} = http://autosrv98/agentdesktop</msg>
+<msg timestamp="20210226 16:55:21.061" level="INFO">${SCREENPOP_NAME2} = Google</msg>
+<msg timestamp="20210226 16:55:21.061" level="INFO">${SERVER_H323} = 100.30.6.150</msg>
+<msg timestamp="20210226 16:55:21.061" level="INFO">${SERVER_SM} = 100.30.6.226</msg>
+<msg timestamp="20210226 16:55:21.061" level="INFO">${SERVICE_NAME_TO_TRANSFER_VAR} = ${SERVICE_NAME_TO_TRANSFER_VALUE}</msg>
+<msg timestamp="20210226 16:55:21.061" level="INFO">${setting_ix} = &lt;function setting_ix at 0x0000000003DF2048&gt;</msg>
+<msg timestamp="20210226 16:55:21.061" level="INFO">${setting_onex} = &lt;function setting_onex at 0x0000000003DC14C8&gt;</msg>
+<msg timestamp="20210226 16:55:21.061" level="INFO">${SKILL_FROM} = SKILLSET_FROM</msg>
+<msg timestamp="20210226 16:55:21.061" level="INFO">${SKILL_TO} = SKILLSET_TO</msg>
+<msg timestamp="20210226 16:55:21.061" level="INFO">${SPACE} =  </msg>
+<msg timestamp="20210226 16:55:21.061" level="INFO">${STATUS_AGENT} = #{STATUS}</msg>
+<msg timestamp="20210226 16:55:21.061" level="INFO">${SUBJECT_EMAIL1} = This is Email from Agent</msg>
+<msg timestamp="20210226 16:55:21.061" level="INFO">${SUBJECT_MAIL1} = THIS IS MAIL FROM OANH_CUSTOMER</msg>
+<msg timestamp="20210226 16:55:21.061" level="INFO">${SUBJECT_MAIL2} = REQUEST CHANGE PASSWORD OF CUSTOMER</msg>
+<msg timestamp="20210226 16:55:21.061" level="INFO">${subprocess} = &lt;module 'subprocess' from 'D:\\soft\\ideaIC-2020.2.3.win\\SDK\\Python37\\lib\\subprocess.py'&gt;</msg>
+<msg timestamp="20210226 16:55:21.061" level="INFO">${SUGGEST_EMAIL_1} = This is auto-suggest oanh1</msg>
+<msg timestamp="20210226 16:55:21.061" level="INFO">${SUGGEST_EMAIL_2} = This is auto-suggest oanh2</msg>
+<msg timestamp="20210226 16:55:21.061" level="INFO">${SUGGEST_EMAIL_3} = This is auto-suggest oanh3</msg>
+<msg timestamp="20210226 16:55:21.061" level="INFO">${SUGGEST_EMAIL_CONTENT_1} = 123 123 123</msg>
+<msg timestamp="20210226 16:55:21.061" level="INFO">${SUGGEST_EMAIL_CONTENT_2} = hi hi hi hi hi</msg>
+<msg timestamp="20210226 16:55:21.061" level="INFO">${SUGGEST_EMAIL_CONTENT_3} = </msg>
+<msg timestamp="20210226 16:55:21.061" level="INFO">${SUITE_DOCUMENTATION} = </msg>
+<msg timestamp="20210226 16:55:21.061" level="INFO">&amp;{SUITE_METADATA} = { }</msg>
+<msg timestamp="20210226 16:55:21.061" level="INFO">${SUITE_NAME} = Huy</msg>
+<msg timestamp="20210226 16:55:21.061" level="INFO">${SUITE_SOURCE} = D:\aacc\test_suites\oanh\huy.robot</msg>
+<msg timestamp="20210226 16:55:21.061" level="INFO">${SUP_FIRSTNAME} = AACC_AUTO_SANITY_SUP</msg>
+<msg timestamp="20210226 16:55:21.061" level="INFO">${SUP_FULLNAME} = AACC_AUTO_SANITY_SUP</msg>
+<msg timestamp="20210226 16:55:21.061" level="INFO">${SUP_ID} = 6500700</msg>
+<msg timestamp="20210226 16:55:21.061" level="INFO">${SUP_LASTNAME} = AACC_AUTO_SANITY_SUP</msg>
+<msg timestamp="20210226 16:55:21.061" level="INFO">${SUP_PASSWORD} = 1_Abc_123</msg>
+<msg timestamp="20210226 16:55:21.061" level="INFO">${SUP_PHONE_NUMBER} = 6500700</msg>
+<msg timestamp="20210226 16:55:21.061" level="INFO">${SUP_SKILLSET_VOICE1} = V_SKILLSET_FOR_SANITY1</msg>
+<msg timestamp="20210226 16:55:21.061" level="INFO">${SUP_USERNAME} = aoc\AACC_AUTO_SANITY_SUP</msg>
+<msg timestamp="20210226 16:55:21.061" level="INFO">${SUP_VOICE_URI} = sip:6500700@aoc.com</msg>
+<msg timestamp="20210226 16:55:21.061" level="INFO">${TEMPDIR} = C:\Users\Administrator\AppData\Local\Temp</msg>
+<msg timestamp="20210226 16:55:21.061" level="INFO">${TEST_DOCUMENTATION} = </msg>
+<msg timestamp="20210226 16:55:21.061" level="INFO">${TEST_NAME} = Test 2</msg>
+<msg timestamp="20210226 16:55:21.061" level="INFO">@{TEST_TAGS} = [ ]</msg>
+<msg timestamp="20210226 16:55:21.061" level="INFO">${time} = &lt;module 'time' (built-in)&gt;</msg>
+<msg timestamp="20210226 16:55:21.061" level="INFO">${TIMEOUT_EXTRA_LONG} = 90</msg>
+<msg timestamp="20210226 16:55:21.061" level="INFO">${TIMEOUT_EXTRA_SHORT} = 2</msg>
+<msg timestamp="20210226 16:55:21.061" level="INFO">${TIMEOUT_LONG} = 60</msg>
+<msg timestamp="20210226 16:55:21.061" level="INFO">${TIMEOUT_MEDIUM} = 30</msg>
+<msg timestamp="20210226 16:55:21.061" level="INFO">${TIMEOUT_SHORT} = 5</msg>
+<msg timestamp="20210226 16:55:21.061" level="INFO">${True} = True</msg>
+<msg timestamp="20210226 16:55:21.061" level="INFO">${uiautomation} = &lt;module 'uiautomation' from 'D:\\soft\\ideaIC-2020.2.3.win\\SDK\\Python37\\lib\\site-packages\\uiautomation\\__init__.py'&gt;</msg>
+<msg timestamp="20210226 16:55:21.061" level="INFO">${unhold_call} = &lt;function unhold_call at 0x0000000003DC1948&gt;</msg>
+<msg timestamp="20210226 16:55:21.061" level="INFO">${VALID_SPECIAL_NAME} = Valid Special Characters Name!@#$%^&amp;().png</msg>
+<msg timestamp="20210226 16:55:21.061" level="INFO">${VALID_SPECIAL_NAME_LINK} = C:\Users\Administrator\Documents\Valid Special Characters Name!@#$%^&amp;().png</msg>
+<msg timestamp="20210226 16:55:21.061" level="INFO">${VALUE_SEARCH_BY} = VALUE</msg>
+<msg timestamp="20210226 16:55:21.061" level="INFO">${verify_attachment} = &lt;function verify_attachment at 0x0000000003E3CF78&gt;</msg>
+<msg timestamp="20210226 16:55:21.061" level="INFO">${verify_content_email} = &lt;function verify_content_email at 0x0000000003E3CCA8&gt;</msg>
+<msg timestamp="20210226 16:55:21.061" level="INFO">${verify_download_attachment} = &lt;function verify_download_attachment at 0x0000000002E8F048&gt;</msg>
+<msg timestamp="20210226 16:55:21.061" level="INFO">${verify_email_receive} = &lt;function verify_email_receive at 0x0000000003E3C318&gt;
