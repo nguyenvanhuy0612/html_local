@@ -1,6 +1,5 @@
 *** Settings ***
 Resource    ../resources/SystemResources.robot
-Library  DebugLibrary
 Library     Selenium2Library
 
 
