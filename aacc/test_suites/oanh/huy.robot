@@ -1,5 +1,5 @@
 *** Settings ***
-Resource    ../resources/SystemResources.robot
+Resource    ../../resources/SystemResources.robot
 Library     Selenium2Library
 
 
